@@ -53,8 +53,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BannerNativeAndroid.cs" />
      <Compile Include="Assets\Scripts\ILoadListener.cs" />
+     <Compile Include="Assets\Scripts\InterstitialNativeAndroid.cs" />
      <Compile Include="Assets\Scripts\PNAd.cs" />
      <Compile Include="Assets\Scripts\PNBanner.cs" />
+     <Compile Include="Assets\Scripts\PNInterstitial.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/erosgarciaponte/PubNativeUnityPlugin/Unity/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
