@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InterstitialNativeAndroid : MonoBehaviour, ILoadListener
+public class InterstitialNative : MonoBehaviour, ILoadListener
 {
 	private PNInterstitial interstitial;
 

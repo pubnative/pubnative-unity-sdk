@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PNBanner : PNAd
 {
-	private const string ANDROID_CLASS = "net.pubnative.unitypnbannerplugin.PNBannerWrapper";
+	private const string ANDROID_CLASS = "net.pubnative.unityplugin.PNBannerWrapper";
 	protected const string POSITION_TOP_METHOD = "getTopPosition";
 	protected const string POSITION_BOTTOM_METHOD = "getBottomPosition";
 
