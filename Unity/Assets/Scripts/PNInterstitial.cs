@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PNInterstitial : PNAd
 {
-	private const string ANDROID_CLASS = "net.pubnative.unitypnbannerplugin.PNInterstitialWrapper";
+	private const string ANDROID_CLASS = "net.pubnative.unityplugin.PNInterstitialWrapper";
 
 	public override string AndroidClassName ()
 	{
