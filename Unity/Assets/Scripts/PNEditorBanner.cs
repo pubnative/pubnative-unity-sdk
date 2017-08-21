@@ -1,20 +1,20 @@
 ﻿using System;
 
-public class PNIOSBanner : PNBanner
+// Dummy class for Editor
+public class PNEditorBanner : PNBanner
 {
 	public override void Load ()
 	{
-		
+
 	}
 
 	public override void Show (Position position)
 	{
-		int positionValue = (int)position;
+		
 	}
 
 	public override void Hide ()
 	{
-		
+
 	}
 }
-
