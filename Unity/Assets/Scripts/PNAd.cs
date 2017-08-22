@@ -25,7 +25,7 @@ public abstract class PNAd : MonoBehaviour
 		this.listener = loadListener;
 	}
 
-	private void OnPNLayoutLoadFinish (string message)
+	protected virtual void OnPNLayoutLoadFinish (string message)
 	{
 		if (this.listener == null) {
 			// Handle no listener set up
@@ -34,7 +34,7 @@ public abstract class PNAd : MonoBehaviour
 		}
 	}
 
-	private void OnPNLayoutLoadFailed (string message)
+	protected virtual void OnPNLayoutLoadFailed (string message)
 	{
 		if (this.listener == null) {
 			// Handle no listener set up
