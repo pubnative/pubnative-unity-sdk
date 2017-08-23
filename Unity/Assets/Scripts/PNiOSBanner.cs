@@ -9,10 +9,18 @@ public class PNIOSBanner : PNBanner
 	public string bannerID;
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public string load(string gameObjectName, string appToken, string placement);
+	extern static public void removeBanner(string bannerID);
+	void onDestroy()
+	{
+		removeBanner(bannerID);
+	}
+
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public void load(string gameObjectName, string appToken, string placement, string bannerID);
 	public override void Load ()
 	{
-		 bannerID = load(this.gameObject.name, appToken, placement);
+		bannerID = this.GetHashCode().ToString();
+		load(this.gameObject.name, appToken, placement, bannerID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
