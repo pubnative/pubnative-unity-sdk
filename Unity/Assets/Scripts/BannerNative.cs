@@ -20,7 +20,20 @@ public class BannerNative : MonoBehaviour, ILoadListener
 	// Use this for initialization
 	void Start ()
 	{
-		banner = this.gameObject.AddComponent<PNBanner> ();
+		#if UNITY_EDITOR
+
+		banner = this.gameObject.AddComponent<PNEditorBanner> ();
+
+		#elif UNITY_ANDROID
+
+		banner = this.gameObject.AddComponent<PNAndroidBanner> ();
+
+		#elif UNITY_IOS
+
+		banner = this.gameObject.AddComponent<PNIOSBanner> ();
+
+		#endif
+
 		banner.appToken = appToken;
 		banner.placement = placement;
 		banner.Listener = this;
