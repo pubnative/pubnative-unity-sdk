@@ -1,5 +1,6 @@
 package net.pubnative.unityplugindemo;
 
+import com.crashlytics.android.Crashlytics;
 import com.unity3d.player.*;
 import android.app.Activity;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import io.fabric.sdk.android.Fabric;
 
 public class UnityPlayerActivity extends Activity
 {
@@ -21,6 +23,7 @@ public class UnityPlayerActivity extends Activity
     {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
 
         getWindow().setFormat(PixelFormat.RGBX_8888); // <--- This makes xperia play happy
 
