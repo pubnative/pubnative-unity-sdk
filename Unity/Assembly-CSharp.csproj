@@ -59,9 +59,6 @@
      <Compile Include="Assets\Scripts\PNInterstitial.cs" />
      <Compile Include="Assets\Scripts\PNiOSBanner.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/erosgarciaponte/PubNativeUnityPlugin/Unity/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

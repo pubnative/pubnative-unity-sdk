@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PNIOSBanner : PNBanner
 {
-	public string bannerID;
+	public string bannerID = "";
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void removeBanner(string bannerID);

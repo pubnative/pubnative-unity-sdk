@@ -15,6 +15,15 @@
     self.bannerPool = nil;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.bannerPool = [NSMutableDictionary dictionary];
+    }
+    return self;
+}
+
 + (PNAdPool *)sharedPool
 {
     static PNAdPool* _pool;

@@ -35,4 +35,14 @@
     }
 }
 
+- (void)layoutTrackImpression:(PNLayout *)layout
+{
+    NSLog(@"Impression tracked");
+}
+
+- (void)layoutTrackClick:(PNLayout *)layout
+{
+    NSLog(@"Click tracked");
+}
+
 @end
