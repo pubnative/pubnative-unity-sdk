@@ -33,8 +33,8 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener
 
 		interstitial.appToken = appToken;
 		interstitial.placement = placement;
-		interstitial.ListenerForLoad = this;
-		interstitial.ListenerForTrack = this;
+		interstitial.LoadListener = this;
+		interstitial.TrackListener = this;
 		_buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
 	}
 

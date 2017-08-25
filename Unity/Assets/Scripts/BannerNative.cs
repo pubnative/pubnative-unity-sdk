@@ -36,8 +36,8 @@ public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 
 		banner.appToken = appToken;
 		banner.placement = placement;
-		banner.ListenerForLoad = this;
-		banner.ListenerForTrack = this;
+		banner.LoadListener = this;
+		banner.TrackListener = this;
 		_buttonLoadBanner.onClick.AddListener (RequestBanner);
 		_buttonHideBanner.onClick.AddListener (HideBanner);
 	}

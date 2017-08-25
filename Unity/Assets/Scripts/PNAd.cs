@@ -12,7 +12,7 @@ public abstract class PNAd : MonoBehaviour
 	protected ILoadListener loadListener;
 	protected ITrackListener trackListener;
 
-	public ILoadListener ListenerForLoad {
+	public ILoadListener LoadListener {
 		get {
 			return this.loadListener;
 		}
@@ -21,23 +21,13 @@ public abstract class PNAd : MonoBehaviour
 		}
 	}
 
-	public ITrackListener ListenerForTrack {
+	public ITrackListener TrackListener {
 		get {
 			return this.trackListener;
 		}
 		set {
 			this.trackListener = value;
 		}
-	}
-
-	public void LoadListener (ILoadListener listenerForLoad)
-	{
-		this.loadListener = listenerForLoad;
-	}
-
-	public void TrackListener (ITrackListener listenerForTrack)
-	{
-		this.trackListener = listenerForTrack;
 	}
 
 	protected virtual void OnPNLayoutLoadFinish (string message)
