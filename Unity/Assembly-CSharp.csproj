@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\BannerNative.cs" />
      <Compile Include="Assets\Scripts\ILoadListener.cs" />
      <Compile Include="Assets\Scripts\ITrackListener.cs" />
+     <Compile Include="Assets\Scripts\IViewListener.cs" />
      <Compile Include="Assets\Scripts\InterstitialNative.cs" />
      <Compile Include="Assets\Scripts\PNAd.cs" />
      <Compile Include="Assets\Scripts\PNAndroidBanner.cs" />

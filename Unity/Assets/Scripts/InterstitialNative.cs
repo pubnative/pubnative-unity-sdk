@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener
+public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, IViewListener
 {
 	private PNInterstitial interstitial;
 
@@ -35,6 +35,7 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener
 		interstitial.placement = placement;
 		interstitial.LoadListener = this;
 		interstitial.TrackListener = this;
+		interstitial.ViewListener = this;
 		_buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
 	}
 
@@ -63,5 +64,15 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener
 	public void ClickTracked ()
 	{
 		// Handle Click
+	}
+
+	public void ViewShown ()
+	{
+		// Handle interstitial show
+	}
+
+	public void ViewHidden ()
+	{
+		// Handle interstitial hide
 	}
 }

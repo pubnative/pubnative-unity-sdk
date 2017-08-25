@@ -18,11 +18,11 @@ public class PNBannerWrapper extends PNAdWrapper {
 
     public void load(String gameObjectName, String appToken, String placementId) {
         setGameObject(gameObjectName);
-        mBanner.setLoadListener(this);
+        mBanner.setTrackListener(this);
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the banner");
         } else {
-            mBanner.load(UnityPlayer.currentActivity, appToken, placementId);
+            mBanner.load(UnityPlayer.currentActivity, appToken, placementId, this);
         }
     }
 
