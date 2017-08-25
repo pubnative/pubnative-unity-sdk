@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BannerNative : MonoBehaviour, ILoadListener
+public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 {
 	private PNBanner banner;
 
@@ -36,7 +36,8 @@ public class BannerNative : MonoBehaviour, ILoadListener
 
 		banner.appToken = appToken;
 		banner.placement = placement;
-		banner.Listener = this;
+		banner.ListenerForLoad = this;
+		banner.ListenerForTrack = this;
 		_buttonLoadBanner.onClick.AddListener (RequestBanner);
 		_buttonHideBanner.onClick.AddListener (HideBanner);
 	}
@@ -61,5 +62,15 @@ public class BannerNative : MonoBehaviour, ILoadListener
 	public void LoadFailed (Exception error)
 	{
 		// Handle error
+	}
+
+	public void ImpressionTracked()
+	{
+		// Handle Impression
+	}
+
+	public void ClickTracked ()
+	{
+		// Handle Click
 	}
 }

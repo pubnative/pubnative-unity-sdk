@@ -37,12 +37,20 @@
 
 - (void)layoutTrackImpression:(PNLayout *)layout
 {
-    NSLog(@"Impression tracked");
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackImpression", [self.bannerID UTF8String]);
+    }
 }
 
 - (void)layoutTrackClick:(PNLayout *)layout
 {
-    NSLog(@"Click tracked");
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackClick", [self.bannerID UTF8String]);
+    }
 }
 
 @end
