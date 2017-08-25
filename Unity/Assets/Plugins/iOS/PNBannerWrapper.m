@@ -32,6 +32,7 @@
 
 - (void)showWithPosition:(NSInteger)position
 {
+    self.banner.trackDelegate = self;
     if (position == [self topPosition]) {
         [self.banner showWithPosition:BANNER_POSITION_TOP];
     } else if (position == [self bottomPosition]) {

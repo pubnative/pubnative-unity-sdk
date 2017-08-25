@@ -19,7 +19,7 @@ public class PNAndroidBanner : PNBanner
 	{
 		layoutWrapper = new AndroidJavaObject (ANDROID_CLASS);
 	}
-		
+
 	public override void Load ()
 	{
 		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement);

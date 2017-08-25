@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PNIOSBanner : PNBanner
 {
-	public string bannerID;
+	public string bannerID = "";
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void removeBanner(string bannerID);
@@ -40,22 +40,22 @@ public class PNIOSBanner : PNBanner
 
 	protected override void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.listener == null) {
+		if (this.loadListener == null) {
 			// Handle no listener set up
 		} else {
 			if (bannerID.Equals(message, StringComparison.Ordinal)) {
-				this.listener.LoadFinished();
+				this.loadListener.LoadFinished();
 			}
 		}
 	}
 
 	protected override void OnPNLayoutLoadFailed (string message)
 	{
-		if (this.listener == null) {
+		if (this.loadListener == null) {
 			// Handle no listener set up
 		} else {
 			if (bannerID.Equals(message, StringComparison.Ordinal)) {
-				this.listener.LoadFailed(new Exception ("Ad failed to load."));
+				this.loadListener.LoadFailed(new Exception ("Ad failed to load."));
 			}
 		}
 	}

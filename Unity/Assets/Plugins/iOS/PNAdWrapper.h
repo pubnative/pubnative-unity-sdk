@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Pubnative/Pubnative.h>
 
-@interface PNAdWrapper : NSObject <PNLayoutLoadDelegate>
+@interface PNAdWrapper : NSObject <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
 
 @property (nonatomic, strong) NSString *objectName;
 @property (nonatomic, strong) NSString *bannerID;
