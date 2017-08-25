@@ -19,15 +19,6 @@ public abstract class PNInterstitial : PNAd
 
 	public abstract void Hide ();
 
-	protected virtual void OnPNLayoutTrackImpression (string message)
-	{
-		if (this.trackListener == null) {
-			// Handle no listener set up
-		} else {
-			this.trackListener.ImpressionTracked ();
-		}
-	}
-
 	protected virtual void OnPNLayoutViewShown (string message)
 	{
 		if (this.viewListener == null) {

@@ -20,7 +20,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:26.+'
-    compile 'net.pubnative:sdk:2.0.4-development.2356'
+    compile 'net.pubnative:sdk:2.0.4-development.2363'
 }
 
 task exportJar(type: Copy) {
