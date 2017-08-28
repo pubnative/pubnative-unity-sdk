@@ -48,19 +48,11 @@ public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.
 
     @Override
     public void onPNLayoutViewShown(PNLayout pnLayout) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", "Interstitial shown");
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", "Interstitial shown");
     }
 
     @Override
     public void onPNLayoutViewHidden(PNLayout pnLayout) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", "Interstitial hidden");
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", "Interstitial hidden");
     }
 }
