@@ -29,7 +29,7 @@ public static class AddEmbeddedFramework
 	            // Enable CodeSignOnCopy for the framework
 	            contents = Regex.Replace(contents,
 	                "(?<=Embed Frameworks)(?:.*)(\\/\\* Pubnative\\.framework \\*\\/)(?=; };)",
-	                m => m.Value.Replace("/* HondaProxy.framework */",
+	                m => m.Value.Replace("/* Pubnative.framework */",
 	                    "/* Pubnative.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }"));
 
 	            File.WriteAllText(projectPath, contents);
