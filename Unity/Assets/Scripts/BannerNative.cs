@@ -54,22 +54,22 @@ public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 		banner.Hide ();
 	}
 
-	public void LoadFinished ()
+	public void OnLoadFinished ()
 	{
 		banner.Show (PNBanner.Position.TOP);
 	}
 
-	public void LoadFailed (Exception error)
+	public void OnLoadFailed (Exception error)
 	{
 		// Handle error
 	}
 
-	public void ImpressionTracked()
+	public void OnImpressionTracked()
 	{
 		// Handle Impression
 	}
 
-	public void ClickTracked ()
+	public void OnClickTracked ()
 	{
 		// Handle Click
 	}
