@@ -6,7 +6,7 @@ import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.sdk.layouts.PNLayout;
 
-public class PNAdWrapper implements PNLayout.LoadListener {
+public class PNAdWrapper implements PNLayout.LoadListener, PNLayout.TrackListener {
     private static final String TAG = PNAdWrapper.class.getSimpleName();
 
     protected String mGameObjectName;
@@ -38,6 +38,24 @@ public class PNAdWrapper implements PNLayout.LoadListener {
             Log.e(TAG, "No GameObject name has been defined.");
         } else {
             UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFailed", e.getMessage());
+        }
+    }
+
+    @Override
+    public void onPNLayoutTrackImpression(PNLayout pnLayout) {
+        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
+            Log.e(TAG, "No GameObject name has been defined.");
+        } else {
+            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackImpression", "Impression tracked");
+        }
+    }
+
+    @Override
+    public void onPNLayoutTrackClick(PNLayout pnLayout) {
+        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
+            Log.e(TAG, "No GameObject name has been defined.");
+        } else {
+            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackClick", "Click tracked");
         }
     }
 }

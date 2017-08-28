@@ -5,8 +5,9 @@ import android.util.Log;
 import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.sdk.layouts.PNLargeLayout;
+import net.pubnative.sdk.layouts.PNLayout;
 
-public class PNInterstitialWrapper extends PNAdWrapper {
+public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.ViewListener {
     private static final String TAG = PNInterstitialWrapper.class.getSimpleName();
 
     protected PNLargeLayout mInterstitial;
@@ -18,11 +19,12 @@ public class PNInterstitialWrapper extends PNAdWrapper {
 
     public void load(String gameObjectName, String appToken, String placementId) {
         setGameObject(gameObjectName);
-        mInterstitial.setLoadListener(this);
+        mInterstitial.setTrackListener(this);
+        mInterstitial.setViewListener(this);
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the interstitial");
         } else {
-            mInterstitial.load(UnityPlayer.currentActivity, appToken, placementId);
+            mInterstitial.load(UnityPlayer.currentActivity, appToken, placementId, this);
         }
     }
 
@@ -42,5 +44,23 @@ public class PNInterstitialWrapper extends PNAdWrapper {
                 mInterstitial.hide();
             }
         });
+    }
+
+    @Override
+    public void onPNLayoutViewShown(PNLayout pnLayout) {
+        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
+            Log.e(TAG, "No GameObject name has been defined.");
+        } else {
+            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", "Interstitial shown");
+        }
+    }
+
+    @Override
+    public void onPNLayoutViewHidden(PNLayout pnLayout) {
+        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
+            Log.e(TAG, "No GameObject name has been defined.");
+        } else {
+            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", "Interstitial hidden");
+        }
     }
 }
