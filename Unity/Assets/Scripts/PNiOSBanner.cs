@@ -40,24 +40,15 @@ public class PNIOSBanner : PNBanner
 
 	protected override void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.loadListener == null) {
-			// Handle no listener set up
-		} else {
-			if (bannerID.Equals(message, StringComparison.Ordinal)) {
-				this.loadListener.LoadFinished();
-			}
+		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFinished();
 		}
 	}
 
 	protected override void OnPNLayoutLoadFailed (string message)
 	{
-		if (this.loadListener == null) {
-			// Handle no listener set up
-		} else {
-			if (bannerID.Equals(message, StringComparison.Ordinal)) {
-				this.loadListener.LoadFailed(new Exception ("Ad failed to load."));
-			}
+		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFailed(new Exception ("Ad failed to load."));
 		}
 	}
-
 }

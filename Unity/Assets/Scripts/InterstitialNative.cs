@@ -46,32 +46,32 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, 
 		}
 	}
 
-	public void LoadFinished ()
+	public void OnLoadFinished ()
 	{
 		interstitial.Show ();
 	}
 
-	public void LoadFailed (Exception error)
+	public void OnLoadFailed (Exception error)
 	{
 		// Handle error
 	}
 
-	public void ImpressionTracked()
+	public void OnImpressionTracked()
 	{
 		// Handle Impression
 	}
 
-	public void ClickTracked ()
+	public void OnClickTracked ()
 	{
 		// Handle Click
 	}
 
-	public void ViewShown ()
+	public void OnShown ()
 	{
 		// Handle interstitial show
 	}
 
-	public void ViewHidden ()
+	public void OnHidden ()
 	{
 		// Handle interstitial hide
 	}

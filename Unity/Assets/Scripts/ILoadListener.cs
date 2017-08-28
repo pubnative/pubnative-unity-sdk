@@ -2,7 +2,7 @@
 
 public interface ILoadListener
 {
-	void LoadFinished ();
+	void OnLoadFinished ();
 
-	void LoadFailed (Exception error);
+	void OnLoadFailed (Exception error);
 }

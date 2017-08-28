@@ -21,19 +21,15 @@ public abstract class PNInterstitial : PNAd
 
 	protected virtual void OnPNLayoutViewShown (string message)
 	{
-		if (this.viewListener == null) {
-			// Handle no listener set up
-		} else {
-			this.viewListener.ViewShown ();
+		if (this.viewListener != null) {
+			this.viewListener.OnShown ();
 		}
 	}
 
 	protected virtual void OnPNLayoutViewHidden (string message)
 	{
-		if (this.viewListener == null) {
-			// Handle no listener set up
-		} else {
-			this.viewListener.ViewHidden ();
+		if (this.viewListener != null) {
+			this.viewListener.OnHidden ();
 		}
 	}
 }
