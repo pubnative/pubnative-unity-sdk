@@ -17,19 +17,7 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, 
 	// Use this for initialization
 	void Start ()
 	{
-		#if UNITY_EDITOR
-
-		interstitial = this.gameObject.AddComponent<PNEditorInterstitial> ();
-
-		#elif UNITY_ANDROID
-
-		interstitial = this.gameObject.AddComponent<PNAndroidInterstitial> ();
-
-		#elif UNITY_IOS
-
-		interstitial = this.gameObject.AddComponent<PNIOSInterstitial> ();
-
-		#endif
+		interstitial = PNInterstitialFactory.createInterstitial (this);
 
 		interstitial.appToken = appToken;
 		interstitial.placement = placement;
