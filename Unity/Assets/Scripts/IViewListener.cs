@@ -2,7 +2,7 @@
 
 public interface IViewListener
 {
-	void ViewShown ();
+	void OnShown ();
 
-	void ViewHidden ();
+	void OnHidden ();
 }

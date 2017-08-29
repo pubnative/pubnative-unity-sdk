@@ -2,7 +2,7 @@ using System;
 
 public interface ITrackListener
 {
-	void ImpressionTracked ();
+	void OnImpressionTracked ();
 
-	void ClickTracked ();
+	void OnClickTracked ();
 }

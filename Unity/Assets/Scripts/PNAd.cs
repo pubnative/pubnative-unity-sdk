@@ -32,37 +32,29 @@ public abstract class PNAd : MonoBehaviour
 
 	protected virtual void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.loadListener == null) {
-			// Handle no listener set up
-		} else {
-			this.loadListener.LoadFinished ();
+		if (this.loadListener != null) {
+			this.loadListener.OnLoadFinished ();
 		}
 	}
 
 	protected virtual void OnPNLayoutLoadFailed (string message)
 	{
-		if (this.loadListener == null) {
-			// Handle no listener set up
-		} else {
-			this.loadListener.LoadFailed (new Exception (message));
+		if (this.loadListener != null) {
+			this.loadListener.OnLoadFailed (new Exception (message));
 		}
 	}
 
 	protected virtual void OnPNLayoutTrackImpression (string message)
 	{
-		if (this.trackListener == null) {
-			// Handle no listener set up
-		} else {
-			this.trackListener.ImpressionTracked ();
+		if (this.trackListener != null) {
+			this.trackListener.OnImpressionTracked ();
 		}
 	}
 
 	protected virtual void OnPNLayoutTrackClick (string message)
 	{
-		if (this.trackListener == null) {
-			// Handle no listener set up
-		} else {
-			this.trackListener.ClickTracked ();
+		if (this.trackListener != null) {
+			this.trackListener.OnClickTracked ();
 		}
 	}
 }

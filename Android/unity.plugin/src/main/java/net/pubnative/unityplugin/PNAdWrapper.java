@@ -25,37 +25,21 @@ public class PNAdWrapper implements PNLayout.LoadListener, PNLayout.TrackListene
 
     @Override
     public void onPNLayoutLoadFinish(PNLayout pnLayout) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFinish", "Ad successfully loaded");
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFinish", "Ad successfully loaded");
     }
 
     @Override
     public void onPNLayoutLoadFail(PNLayout pnLayout, Exception e) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFailed", e.getMessage());
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFailed", e.getMessage());
     }
 
     @Override
     public void onPNLayoutTrackImpression(PNLayout pnLayout) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackImpression", "Impression tracked");
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackImpression", "Impression tracked");
     }
 
     @Override
     public void onPNLayoutTrackClick(PNLayout pnLayout) {
-        if (mGameObjectName == null || mGameObjectName.isEmpty()) {
-            Log.e(TAG, "No GameObject name has been defined.");
-        } else {
-            UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackClick", "Click tracked");
-        }
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackClick", "Click tracked");
     }
 }

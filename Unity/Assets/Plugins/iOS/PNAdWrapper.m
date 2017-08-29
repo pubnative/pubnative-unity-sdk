@@ -19,38 +19,22 @@
 
 - (void)layoutDidFinishLoading:(PNLayout *)layout
 {
-    if (self.objectName == nil || [self.objectName length] == 0) {
-        NSLog(@"No object name has been defined.");
-    } else {
-        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFinish", [self.bannerID UTF8String]);
-    }
+    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFinish", [self.bannerID UTF8String]);
 }
 
 - (void)layout:(PNLayout *)layout didFailLoading:(NSError *)error
 {
-    if (self.objectName == nil || [self.objectName length] == 0) {
-        NSLog(@"No object name has been defined.");
-    } else {
-        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFailed", [self.bannerID UTF8String]);
-    }
+    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFailed", [self.bannerID UTF8String]);
 }
 
 - (void)layoutTrackImpression:(PNLayout *)layout
 {
-    if (self.objectName == nil || [self.objectName length] == 0) {
-        NSLog(@"No object name has been defined.");
-    } else {
-        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackImpression", [self.bannerID UTF8String]);
-    }
+    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackImpression", [self.bannerID UTF8String]);
 }
 
 - (void)layoutTrackClick:(PNLayout *)layout
 {
-    if (self.objectName == nil || [self.objectName length] == 0) {
-        NSLog(@"No object name has been defined.");
-    } else {
-        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackClick", [self.bannerID UTF8String]);
-    }
+    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackClick", [self.bannerID UTF8String]);
 }
 
 @end
