@@ -11,6 +11,7 @@
 @interface PNAdPool : NSObject
 
 @property (nonatomic, strong) NSMutableDictionary *bannerPool;
+@property (nonatomic, strong) NSMutableDictionary *interstitialPool;
 
 + (PNAdPool *)sharedPool;
 

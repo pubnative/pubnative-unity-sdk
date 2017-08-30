@@ -17,25 +17,25 @@ public class PNIOSInterstitial : PNInterstitial
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void load(string gameObjectName, string appToken, string placement, string interstitialID);
+	extern static public void loadInterstitial(string gameObjectName, string appToken, string placement, string interstitialID);
 	public override void Load ()
 	{
 		interstitialID = this.GetHashCode().ToString();
-		load(this.gameObject.name, appToken, placement, interstitialID);
+		loadInterstitial(this.gameObject.name, appToken, placement, interstitialID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void show(string interstitialID);
+	extern static public void showInterstitial(string interstitialID);
 	public override void Show ()
 	{
-		show(interstitialID);
+		showInterstitial(interstitialID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void hide (string interstitialID);
+	extern static public void hideInterstitial (string interstitialID);
 	public override void Hide ()
 	{
-		hide(interstitialID);
+		hideInterstitial(interstitialID);
 	}
 
 	protected override void OnPNLayoutViewShown (string message)
