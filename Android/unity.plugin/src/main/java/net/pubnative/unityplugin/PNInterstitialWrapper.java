@@ -30,25 +30,21 @@ public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.
     }
 
     public void show(String adId) {
-        if (adId.equalsIgnoreCase(mAdId)) {
-            executeDisplayAction(new Runnable() {
-                @Override
-                public void run() {
-                    mInterstitial.show();
-                }
-            });
-        }
+        executeDisplayAction(new Runnable() {
+            @Override
+            public void run() {
+                mInterstitial.show();
+            }
+        });
     }
 
     public void hide(String adId) {
-        if (adId.equalsIgnoreCase(mAdId)) {
-            executeDisplayAction(new Runnable() {
-                @Override
-                public void run() {
-                    mInterstitial.hide();
-                }
-            });
-        }
+        executeDisplayAction(new Runnable() {
+            @Override
+            public void run() {
+                mInterstitial.hide();
+            }
+        });
     }
 
     @Override

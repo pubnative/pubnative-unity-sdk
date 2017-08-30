@@ -28,21 +28,19 @@ public class PNBannerWrapper extends PNAdWrapper {
     }
 
     public void show(String adId, int position) {
-        if (adId.equalsIgnoreCase(mAdId)) {
-            final PNBanner.Position bannerPosition;
-            if (position == getTopPosition()) {
-                bannerPosition = PNBanner.Position.TOP;
-            } else {
-                bannerPosition = PNBanner.Position.BOTTOM;
-            }
-
-            executeDisplayAction(new Runnable() {
-                @Override
-                public void run() {
-                    mBanner.show(bannerPosition);
-                }
-            });
+        final PNBanner.Position bannerPosition;
+        if (position == getTopPosition()) {
+            bannerPosition = PNBanner.Position.TOP;
+        } else {
+            bannerPosition = PNBanner.Position.BOTTOM;
         }
+
+        executeDisplayAction(new Runnable() {
+            @Override
+            public void run() {
+                mBanner.show(bannerPosition);
+            }
+        });
     }
 
     //These two position methods will be called from Unity to determine the display position
@@ -54,14 +52,12 @@ public class PNBannerWrapper extends PNAdWrapper {
         return 2;
     }
 
-    public void hide(String adId) {
-        if (adId.equalsIgnoreCase(mAdId)) {
-            executeDisplayAction(new Runnable() {
-                @Override
-                public void run() {
-                    mBanner.hide();
-                }
-            });
-        }
+    public void hide() {
+        executeDisplayAction(new Runnable() {
+            @Override
+            public void run() {
+                mBanner.hide();
+            }
+        });
     }
 }

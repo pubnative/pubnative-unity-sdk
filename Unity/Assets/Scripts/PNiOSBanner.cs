@@ -35,18 +35,4 @@ public class PNIOSBanner : PNBanner
 	{
 		hide(adID);
 	}
-
-	protected override void OnPNLayoutLoadFinish (string message)
-	{
-		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnLoadFinished();
-		}
-	}
-
-	protected override void OnPNLayoutLoadFailed (string message)
-	{
-		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnLoadFailed(new Exception ("Ad failed to load."));
-		}
-	}
 }
