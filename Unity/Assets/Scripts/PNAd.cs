@@ -9,6 +9,8 @@ public abstract class PNAd : MonoBehaviour
 	public string appToken;
 	public string placement;
 
+	protected string adID = "";
+
 	protected ILoadListener loadListener;
 	protected ITrackListener trackListener;
 
@@ -27,6 +29,15 @@ public abstract class PNAd : MonoBehaviour
 		}
 		set {
 			this.trackListener = value;
+		}
+	}
+
+	public string AdId {
+		get {
+			return this.adID;
+		}
+		set {
+			this.adID = value;
 		}
 	}
 

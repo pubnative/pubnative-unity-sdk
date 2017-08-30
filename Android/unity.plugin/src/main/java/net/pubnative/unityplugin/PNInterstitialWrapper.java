@@ -17,8 +17,9 @@ public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.
         this.mInterstitial = new PNLargeLayout();
     }
 
-    public void load(String gameObjectName, String appToken, String placementId) {
+    public void load(String gameObjectName, String appToken, String placementId, String adId) {
         setGameObject(gameObjectName);
+        setAdId(adId);
         mInterstitial.setTrackListener(this);
         mInterstitial.setViewListener(this);
         if (UnityPlayer.currentActivity == null) {
@@ -28,31 +29,35 @@ public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.
         }
     }
 
-    public void show() {
-        executeDisplayAction(new Runnable() {
-            @Override
-            public void run() {
-                mInterstitial.show();
-            }
-        });
+    public void show(String adId) {
+        if (adId.equalsIgnoreCase(mAdId)) {
+            executeDisplayAction(new Runnable() {
+                @Override
+                public void run() {
+                    mInterstitial.show();
+                }
+            });
+        }
     }
 
-    public void hide() {
-        executeDisplayAction(new Runnable() {
-            @Override
-            public void run() {
-                mInterstitial.hide();
-            }
-        });
+    public void hide(String adId) {
+        if (adId.equalsIgnoreCase(mAdId)) {
+            executeDisplayAction(new Runnable() {
+                @Override
+                public void run() {
+                    mInterstitial.hide();
+                }
+            });
+        }
     }
 
     @Override
     public void onPNLayoutViewShown(PNLayout pnLayout) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", "Interstitial shown");
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", mAdId);
     }
 
     @Override
     public void onPNLayoutViewHidden(PNLayout pnLayout) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", "Interstitial hidden");
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", mAdId);
     }
 }

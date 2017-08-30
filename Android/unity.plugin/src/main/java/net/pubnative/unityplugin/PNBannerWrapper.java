@@ -16,8 +16,9 @@ public class PNBannerWrapper extends PNAdWrapper {
         this.mBanner = new PNBanner();
     }
 
-    public void load(String gameObjectName, String appToken, String placementId) {
+    public void load(String gameObjectName, String appToken, String placementId, String adId) {
         setGameObject(gameObjectName);
+        setAdId(adId);
         mBanner.setTrackListener(this);
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the banner");
@@ -26,20 +27,22 @@ public class PNBannerWrapper extends PNAdWrapper {
         }
     }
 
-    public void show(int position) {
-        final PNBanner.Position bannerPosition;
-        if (position == getTopPosition()) {
-            bannerPosition = PNBanner.Position.TOP;
-        } else {
-            bannerPosition = PNBanner.Position.BOTTOM;
-        }
-
-        executeDisplayAction(new Runnable() {
-            @Override
-            public void run() {
-                mBanner.show(bannerPosition);
+    public void show(String adId, int position) {
+        if (adId.equalsIgnoreCase(mAdId)) {
+            final PNBanner.Position bannerPosition;
+            if (position == getTopPosition()) {
+                bannerPosition = PNBanner.Position.TOP;
+            } else {
+                bannerPosition = PNBanner.Position.BOTTOM;
             }
-        });
+
+            executeDisplayAction(new Runnable() {
+                @Override
+                public void run() {
+                    mBanner.show(bannerPosition);
+                }
+            });
+        }
     }
 
     //These two position methods will be called from Unity to determine the display position
@@ -51,12 +54,14 @@ public class PNBannerWrapper extends PNAdWrapper {
         return 2;
     }
 
-    public void hide() {
-        executeDisplayAction(new Runnable() {
-            @Override
-            public void run() {
-                mBanner.hide();
-            }
-        });
+    public void hide(String adId) {
+        if (adId.equalsIgnoreCase(mAdId)) {
+            executeDisplayAction(new Runnable() {
+                @Override
+                public void run() {
+                    mBanner.hide();
+                }
+            });
+        }
     }
 }

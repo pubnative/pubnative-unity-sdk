@@ -6,21 +6,19 @@ using UnityEngine.UI;
 
 public class PNIOSBanner : PNBanner
 {
-	public string bannerID = "";
-
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void removeBanner(string bannerID);
 	void onDestroy()
 	{
-		removeBanner(bannerID);
+		removeBanner(adID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void load(string gameObjectName, string appToken, string placement, string bannerID);
 	public override void Load ()
 	{
-		bannerID = this.GetHashCode().ToString();
-		load(this.gameObject.name, appToken, placement, bannerID);
+		adID = this.GetHashCode().ToString();
+		load(this.gameObject.name, appToken, placement, adID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
@@ -28,26 +26,26 @@ public class PNIOSBanner : PNBanner
 	public override void Show (Position position)
 	{
 		int positionValue = (int)position;
-		show(bannerID, positionValue);
+		show(adID, positionValue);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
 	extern static public void hide (string bannerID);
 	public override void Hide ()
 	{
-		hide(bannerID);
+		hide(adID);
 	}
 
 	protected override void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.loadListener.OnLoadFinished();
 		}
 	}
 
 	protected override void OnPNLayoutLoadFailed (string message)
 	{
-		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.loadListener.OnLoadFailed(new Exception ("Ad failed to load."));
 		}
 	}
