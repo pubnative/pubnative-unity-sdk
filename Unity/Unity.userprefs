@@ -1,10 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BannerNative.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PNAndroidBanner.cs">
     <Files>
+      <File FileName="Assets/Scripts/PNiOSBanner.cs" Line="20" Column="40" />
       <File FileName="Assets/Scripts/BannerNative.cs" Line="60" Column="16" />
-      <File FileName="Assets/Scripts/PNInterstitialFactory.cs" Line="21" Column="24" />
-      <File FileName="Assets/Scripts/InterstitialNative.cs" Line="37" Column="16" />
+      <File FileName="Assets/Scripts/PNInterstitialFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/InterstitialNative.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PNAd.cs" Line="40" Column="13" />
+      <File FileName="Assets/Scripts/PNIOSInterstitial.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PNAndroidBanner.cs" Line="29" Column="47" />
+      <File FileName="Assets/Scripts/PNAndroidInterstitial.cs" Line="33" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
