@@ -17,23 +17,24 @@ public class PNAndroidBanner : PNBanner
 
 	public PNAndroidBanner ()
 	{
+		adID = this.GetHashCode().ToString();
 		layoutWrapper = new AndroidJavaObject (ANDROID_CLASS);
 	}
 
 	public override void Load ()
 	{
-		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement);
+		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement, adID);
 	}
 
 	public override void Show (Position position)
 	{
 		int positionValue = (int)position;
 
-		layoutWrapper.Call (SHOW_METHOD, positionValue);
+		layoutWrapper.Call (SHOW_METHOD, adID, positionValue);
 	}
 
 	public override void Hide ()
 	{
-		layoutWrapper.Call (HIDE_METHOD);
+		layoutWrapper.Call (HIDE_METHOD, adID);
 	}
 }

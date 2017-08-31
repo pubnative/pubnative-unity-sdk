@@ -16,8 +16,9 @@ public class PNBannerWrapper extends PNAdWrapper {
         this.mBanner = new PNBanner();
     }
 
-    public void load(String gameObjectName, String appToken, String placementId) {
+    public void load(String gameObjectName, String appToken, String placementId, String adId) {
         setGameObject(gameObjectName);
+        setAdId(adId);
         mBanner.setTrackListener(this);
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the banner");
@@ -26,7 +27,7 @@ public class PNBannerWrapper extends PNAdWrapper {
         }
     }
 
-    public void show(int position) {
+    public void show(String adId, int position) {
         final PNBanner.Position bannerPosition;
         if (position == getTopPosition()) {
             bannerPosition = PNBanner.Position.TOP;

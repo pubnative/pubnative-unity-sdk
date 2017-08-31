@@ -9,6 +9,8 @@ public abstract class PNAd : MonoBehaviour
 	public string appToken;
 	public string placement;
 
+	protected string adID = "";
+
 	protected ILoadListener loadListener;
 	protected ITrackListener trackListener;
 
@@ -30,30 +32,39 @@ public abstract class PNAd : MonoBehaviour
 		}
 	}
 
+	public string AdId {
+		get {
+			return this.adID;
+		}
+		set {
+			this.adID = value;
+		}
+	}
+
 	protected virtual void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.loadListener != null) {
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.loadListener.OnLoadFinished ();
 		}
 	}
 
 	protected virtual void OnPNLayoutLoadFailed (string message)
 	{
-		if (this.loadListener != null) {
-			this.loadListener.OnLoadFailed (new Exception (message));
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFailed (new Exception ("Ad failed to load."));
 		}
 	}
 
 	protected virtual void OnPNLayoutTrackImpression (string message)
 	{
-		if (this.trackListener != null) {
+		if (this.trackListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.trackListener.OnImpressionTracked ();
 		}
 	}
 
 	protected virtual void OnPNLayoutTrackClick (string message)
 	{
-		if (this.trackListener != null) {
+		if (this.trackListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.trackListener.OnClickTracked ();
 		}
 	}

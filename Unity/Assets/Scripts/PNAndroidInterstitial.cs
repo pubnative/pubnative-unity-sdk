@@ -14,21 +14,22 @@ public class PNAndroidInterstitial : PNInterstitial
 
 	public PNAndroidInterstitial ()
 	{
+		adID = this.GetHashCode().ToString();
 		layoutWrapper = new AndroidJavaObject (ANDROID_CLASS);
 	}
 
 	public override void Load ()
 	{
-		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement);
+		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement, adID);
 	}
 
 	public override void Show ()
 	{
-		layoutWrapper.Call (SHOW_METHOD);
+		layoutWrapper.Call (SHOW_METHOD, adID);
 	}
 
 	public override void Hide ()
 	{
-		layoutWrapper.Call (HIDE_METHOD);
+		layoutWrapper.Call (HIDE_METHOD, adID);
 	}
 }

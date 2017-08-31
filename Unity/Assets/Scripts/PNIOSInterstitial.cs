@@ -37,18 +37,4 @@ public class PNIOSInterstitial : PNInterstitial
 	{
 		hide(interstitialID);
 	}
-
-	protected override void OnPNLayoutViewShown (string message)
-	{
-		if (this.viewListener != null && interstitialID.Equals(message, StringComparison.Ordinal)) {
-			this.viewListener.OnShown ();
-		}
-	}
-
-	protected override void OnPNLayoutViewHidden (string message)
-	{
-		if (this.viewListener != null && interstitialID.Equals(message, StringComparison.Ordinal)) {
-			this.viewListener.OnHidden ();
-		}
-	}
-	}
+}

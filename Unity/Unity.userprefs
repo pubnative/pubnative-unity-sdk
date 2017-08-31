@@ -1,18 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BannerNative.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PNInterstitial.cs">
     <Files>
-      <File FileName="Assets/Scripts/PNiOSBanner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNAndroidBanner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNAndroidInterstitial.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BannerNative.cs" Line="18" Column="35" />
-      <File FileName="Assets/Scripts/PNIOSInterstitial.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNBanner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNInterstitial.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNAd.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/InterstitialNative.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNEditorBanner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PNEditorInterstitial.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BannerNative.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PNiOSBanner.cs" Line="37" Column="3" />
+      <File FileName="Assets/Scripts/PNAd.cs" Line="54" Column="71" />
+      <File FileName="Assets/Scripts/PNIOSInterstitial.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/PNAndroidBanner.cs" Line="29" Column="47" />
+      <File FileName="Assets/Scripts/PNAndroidInterstitial.cs" Line="33" Column="42" />
+      <File FileName="Assets/Scripts/PNInterstitial.cs" Line="8" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
