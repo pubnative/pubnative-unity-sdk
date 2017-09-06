@@ -392,6 +392,10 @@
 		<data>
 		iANHKxE5znvpav8czNbjAtzFmWs=
 		</data>
+		<key>Headers/UIApplication+TopViewController.h</key>
+		<data>
+		XZydi7OwGhr0gGDXa2eXqp5ABU0=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		pawSeftN2/JcTzgSuGlbnFPwisA=
@@ -402,103 +406,103 @@
 		</data>
 		<key>PNAPIAssetGroup1.nib</key>
 		<data>
-		PWx3rWQVQhV9x25SLFx47P+CuIo=
+		/y5F6kSMbjW6V1cqYeH5ZeZXuxU=
 		</data>
 		<key>PNAPIAssetGroup10.nib</key>
 		<data>
-		kZ+S/Idn+pY/7x6FK6p0tTxYMJw=
+		+laoXwqEf+h+yVLDA3vTukhyyTY=
 		</data>
 		<key>PNAPIAssetGroup11.nib</key>
 		<data>
-		Vxz1Ho6G5SHLQ2EwnxKE5mm+zoM=
+		XlsXBILZrjmdIwxPWWx3SxU/sUk=
 		</data>
 		<key>PNAPIAssetGroup12.nib</key>
 		<data>
-		PhAmxUcM+Ym87cjLfkq1pngxlI0=
+		SVSlGNnCP5G1kFiyq27SZJxO5R8=
 		</data>
 		<key>PNAPIAssetGroup13.nib</key>
 		<data>
-		mftXR8HdJEyvM1PJToGn38tariE=
+		rhBVHqfynqj3K8bFwQJYRmUNKIc=
 		</data>
 		<key>PNAPIAssetGroup14.nib</key>
 		<data>
-		RFzU9kXvm3/oc3xcQ2sNxNpfd5o=
+		GccUOFR3AzZES2D44fQwBTle2i0=
 		</data>
 		<key>PNAPIAssetGroup14Landscape.nib</key>
 		<data>
-		f1Qe5jveCQnIKAhTZRd/UwGB0vE=
+		wOc40TAKhbkxsLHQ+d3R9Uuk8o8=
 		</data>
 		<key>PNAPIAssetGroup15.nib</key>
 		<data>
-		cS/YW9/bjK6EPrGUM/I5g8kHm9o=
+		Td5IPKpofx6JEXyUClrClzGC9uE=
 		</data>
 		<key>PNAPIAssetGroup16.nib</key>
 		<data>
-		e0pNuagSOEZnR7DRQqOvsab60TI=
+		ebtBvOOK7jnFbeX03KfFpeIQRik=
 		</data>
 		<key>PNAPIAssetGroup16Landscape.nib</key>
 		<data>
-		vz/JFV00E0sv0NeXvGNewd26rDk=
+		brkZb5HjBCB3R2CNKg0UfuJgb6s=
 		</data>
 		<key>PNAPIAssetGroup17.nib</key>
 		<data>
-		UxstwDifqh3Uzjd0/PArP7lfAPA=
+		sIKzjKK3cKs7ZGylQTgBGAY3h1U=
 		</data>
 		<key>PNAPIAssetGroup17Landscape.nib</key>
 		<data>
-		iJZi49q0abPUl0VVOUUAwXdewgU=
+		YpT/4qtzPuJ9yUPUoR/7e/WaQLE=
 		</data>
 		<key>PNAPIAssetGroup18.nib</key>
 		<data>
-		sbre6IzYkV6B7QJmxpbaqEWD/Tw=
+		OhCtIgsgL4kveRvGb0AMYznaOdM=
 		</data>
 		<key>PNAPIAssetGroup19.nib</key>
 		<data>
-		GA6tqahqW4uUGrkIrZDyqBXDOG8=
+		XxKCsq1ZgCUf1aHJSTEnuk640Vo=
 		</data>
 		<key>PNAPIAssetGroup19Landscape.nib</key>
 		<data>
-		qbbjf03/ZfskcWfM0S1XiowFm5w=
+		Y/QO5fRdDYgoMzMFxFwbpM/UJQo=
 		</data>
 		<key>PNAPIAssetGroup2.nib</key>
 		<data>
-		PNh1Fr6MAUWeFetsVSiUGMiseIs=
+		Eqe5w8gYOkmaFWl7kZF7fzmV2rM=
 		</data>
 		<key>PNAPIAssetGroup20.nib</key>
 		<data>
-		VtmTnpI33HI+MCS0TnTlGSAi/KI=
+		ZCI/rxp3HpSEiGUMHG4hbKadP8s=
 		</data>
 		<key>PNAPIAssetGroup20Landscape.nib</key>
 		<data>
-		GtzvysKjikrdJNzn9LtASut+KNE=
+		nZfwKgoX02g3SXItgFMlXMj8f1I=
 		</data>
 		<key>PNAPIAssetGroup3.nib</key>
 		<data>
-		hXwv6j1pZST9MNMWoHKgs2CfTcA=
+		DbbKmBv1B4AR/exRpI9YXYI9kso=
 		</data>
 		<key>PNAPIAssetGroup4.nib</key>
 		<data>
-		lWfh5CAdiI3gXCEZ9QpMdHmvMK0=
+		sQFzWdU/qWpWBVu5YDLo5GDEv+k=
 		</data>
 		<key>PNAPIAssetGroup5.nib</key>
 		<data>
-		SopWOKQH1r+M31xSfhhqactnf30=
+		Hh9Pg0LhkXo/eN6gokTgZBsWkbU=
 		</data>
 		<key>PNAPIAssetGroup6.nib</key>
 		<data>
-		Ecs6QW+9Rb0v2CxERUo6nBsChrM=
+		9JTfphyYZmDstv05yEne11KN834=
 		</data>
 		<key>PNAPIAssetGroup7.nib</key>
 		<data>
-		QsL08ZAUVWcQW5SUS2JBfrAS+Ak=
+		AykK8mM8g4BoGK14Jl6krKdr+zg=
 		</data>
 		<key>PNAPIAssetGroup8.nib</key>
 		<data>
-		t12U49NBsm4FddBNDCEyLYDGCxU=
+		w5uYdYpsL0QUx9nN4YT2gwb+UVE=
 		</data>
 		<key>PNAPIAssetGroup9.nib</key>
 		<data>
-		nIgfwzE79GJ4m04CWms08gITzZU=
+		g+AQonQXqYhNYzKaImkIp+/C7H8=
 		</data>
 		<key>PNCloseIcon.png</key>
 		<data>
@@ -518,11 +522,11 @@
 		</data>
 		<key>PNLargeLayoutContainerViewController.nib</key>
 		<data>
-		8qTY+lrzvcscI/oJmHXev1NDQQA=
+		40g/sJCwL2DE8am1N7C5RfHf4nw=
 		</data>
 		<key>PNMediumLayoutContainerViewController.nib</key>
 		<data>
-		ftgESBbxqqve52Z0cKAI4Gs1Jlo=
+		OTiVcCSJ074gkgSWGzD724a19II=
 		</data>
 		<key>PNPlay.png</key>
 		<data>
@@ -534,11 +538,11 @@
 		</data>
 		<key>PNSmallLayoutContainerViewController.nib</key>
 		<data>
-		nwqgrzH71Mdglmaixqag4o+kp3g=
+		xiwOY7XvCPW3JcSIL7UBBm5TQZw=
 		</data>
 		<key>PNVASTPlayerViewController.nib</key>
 		<data>
-		N1C76gRwORoYp/Z2frwr/Ad4afQ=
+		xjfao2UOuxAPfVc53QvkxCjLFu4=
 		</data>
 		<key>PnFullScreen.png</key>
 		<data>
@@ -1634,6 +1638,17 @@
 			sjjWZefPm8l3hco+zaSd4aPMu6O3O3QveTQBb8lOzoc=
 			</data>
 		</dict>
+		<key>Headers/UIApplication+TopViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XZydi7OwGhr0gGDXa2eXqp5ABU0=
+			</data>
+			<key>hash2</key>
+			<data>
+			voeWHwRAjzLBsfJVPjn6ddhi+eRWgsENXORnLUOqWoc=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -1649,275 +1664,275 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PWx3rWQVQhV9x25SLFx47P+CuIo=
+			/y5F6kSMbjW6V1cqYeH5ZeZXuxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			WnS5YhUIEjEjR2CEvVt8oQnvWhxwZDcLqqoORCJCRvk=
+			H+tNqnDgTSKu1FWO7Ulj9mTg1v899MzrA/ABpu6U64o=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup10.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kZ+S/Idn+pY/7x6FK6p0tTxYMJw=
+			+laoXwqEf+h+yVLDA3vTukhyyTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			57NO0K3tb0AlQEeqgCv4GMo2dbBnAJECxDOWcjk0NZw=
+			DVd/0oHHBZ6lbzSI7vyDKLIr7rrRnrihT1u9y1tUgqo=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup11.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vxz1Ho6G5SHLQ2EwnxKE5mm+zoM=
+			XlsXBILZrjmdIwxPWWx3SxU/sUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z5MUaSRqovsMrpO6pPSE92PhyPtqYOEw82fzjN2fGdM=
+			5eTlPsWgckxdaT4FsMiv6jkMMD7iy+lfi21XJxTLnfM=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup12.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PhAmxUcM+Ym87cjLfkq1pngxlI0=
+			SVSlGNnCP5G1kFiyq27SZJxO5R8=
 			</data>
 			<key>hash2</key>
 			<data>
-			a1wuQtfuaJL6ccZCaPVB72j2GOBptllG86I9uAdLxX4=
+			iRSB5wQII6Fb1eBNrfogNLsnVYhhb+WuxSsCqRuOFwU=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup13.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mftXR8HdJEyvM1PJToGn38tariE=
+			rhBVHqfynqj3K8bFwQJYRmUNKIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hRHQ2tZuFgzGUEP8pUDciqke9TDvVjZRZqZrzbW1DYY=
+			BIDjR7fOG1ytazhGaHei9UcFxew5yJIT7t+TOgXo1dI=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup14.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RFzU9kXvm3/oc3xcQ2sNxNpfd5o=
+			GccUOFR3AzZES2D44fQwBTle2i0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OsxuP9zh7Pg/laMkFe4emd1qQoobtFfv3fsNLMAYJjs=
+			Fb6DAWH2RTyF9SYcsmul09BzTj3VO1x1lyRzG0PUCz0=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup14Landscape.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f1Qe5jveCQnIKAhTZRd/UwGB0vE=
+			wOc40TAKhbkxsLHQ+d3R9Uuk8o8=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNYudEHtWcNNu/X2tSZTK9MiKKoQIoIr63rUWcC7SAU=
+			hQTn5W/jO1iNctF20+eaXmLHzAKTtvLgSUfTVbkvpxs=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup15.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cS/YW9/bjK6EPrGUM/I5g8kHm9o=
+			Td5IPKpofx6JEXyUClrClzGC9uE=
 			</data>
 			<key>hash2</key>
 			<data>
-			aBKFFLs1eutbtiJupqhVN9igGolsAimAbg/GIG+1l2M=
+			hAmu+wMn+gPReudFIhczIR9MnK+6B+gLdaL8sNDocTs=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup16.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e0pNuagSOEZnR7DRQqOvsab60TI=
+			ebtBvOOK7jnFbeX03KfFpeIQRik=
 			</data>
 			<key>hash2</key>
 			<data>
-			KytA4R74VCDy/N8TF5nSZnyG543GO4qjk0lJQnO2ctE=
+			2jh6+L3CQGKQgb4cH9wv2xTi+RMpDUqbRJhNyD9TgSw=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup16Landscape.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vz/JFV00E0sv0NeXvGNewd26rDk=
+			brkZb5HjBCB3R2CNKg0UfuJgb6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			/1ky/shBVwuGNwcYU+yBjXII7zFG95XpS5fAqjjha28=
+			LkyYkUsJ8DATAqZGC/2N0jlZUlbU5/RQIi6btT12SlI=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup17.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UxstwDifqh3Uzjd0/PArP7lfAPA=
+			sIKzjKK3cKs7ZGylQTgBGAY3h1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			tysa0l1Nle1rbexP0BdLuhU3tS/1B4uy3/TEv17BgXk=
+			oqRCnyxPHd7VG9Rx1k91wrKoDYKKYmoUQblDKPpVHSw=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup17Landscape.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iJZi49q0abPUl0VVOUUAwXdewgU=
+			YpT/4qtzPuJ9yUPUoR/7e/WaQLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TWi+dfbHKr0Hn3d4qzdQpSKuhbnHXcpcuGnby2rkTAU=
+			9AZUpNHTSfZfDCV0HjNb7gmGVvxFJTZrCM1AYyH+4rs=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup18.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sbre6IzYkV6B7QJmxpbaqEWD/Tw=
+			OhCtIgsgL4kveRvGb0AMYznaOdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FCfaRZsnG9A8L35czFWwICHc4BDO8/KdRYKD1S7+NDw=
+			w76eUd/l8nXDDEeq1nNA3V6dHPOqKaiG8uMpTBhXGOY=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup19.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GA6tqahqW4uUGrkIrZDyqBXDOG8=
+			XxKCsq1ZgCUf1aHJSTEnuk640Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xVYL/HWaW/QCNYD3/NksslCakocPIFL6BKB4dC9bhJ0=
+			jj8csu2OIGRnym9yCdX/iCy+r1ra1a04BqIr8WAU4jg=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup19Landscape.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qbbjf03/ZfskcWfM0S1XiowFm5w=
+			Y/QO5fRdDYgoMzMFxFwbpM/UJQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			1RcuWLxtKDtVM4BxNwt0vRevFr/3wJbY+hhUwuQ6oY0=
+			hwCm7VgGYpPSM+UY07gtahbZK0CCzbwTQL8OAesaro0=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup2.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PNh1Fr6MAUWeFetsVSiUGMiseIs=
+			Eqe5w8gYOkmaFWl7kZF7fzmV2rM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAfeIwBnvuPtbElgHfP67i/FeAomQeZnGCtkJcMsXMU=
+			uLOAm+HgGZ9fLTwjvpop5kdLoghe6AfWKiuAUC0Ntb8=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup20.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VtmTnpI33HI+MCS0TnTlGSAi/KI=
+			ZCI/rxp3HpSEiGUMHG4hbKadP8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			AIF3oemQh4/TJTgdTZdf1NFpZ5yAXH2GgLCOdA3qSdU=
+			iJnBwyrDSjGZOqQIlAn0YP8XKdMM2J1+0mEWSAwAFyo=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup20Landscape.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GtzvysKjikrdJNzn9LtASut+KNE=
+			nZfwKgoX02g3SXItgFMlXMj8f1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			J63Wqv7J5809dYOfyvA5QJyqBCxahu/PZ/t1eddEk0k=
+			KbR4ZSN2mOT26CVATfKv7xEWyjwhLKK2X7ByMk+Smuk=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hXwv6j1pZST9MNMWoHKgs2CfTcA=
+			DbbKmBv1B4AR/exRpI9YXYI9kso=
 			</data>
 			<key>hash2</key>
 			<data>
-			o07YgQTRq40yMbuv8dSN7C/QxINQZXyA1Ohaar2S0GA=
+			fq0c/sfJOhM4a5DPFhXO7jFVGJS+n5V5zhwF8lYYcwg=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup4.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lWfh5CAdiI3gXCEZ9QpMdHmvMK0=
+			sQFzWdU/qWpWBVu5YDLo5GDEv+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			UaRdcFrfnTJ6TWoYaIUHi3vFOhaKLcCExRBR66qPx/I=
+			Vs9Yo5AeCTwkOgLhSbLhDrj0cmhNXXygEnKtey4hSS8=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SopWOKQH1r+M31xSfhhqactnf30=
+			Hh9Pg0LhkXo/eN6gokTgZBsWkbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			5drCB0c9MyelQTiU0sadLnEQRZLag68ZBT5Vwa8P8VQ=
+			jd5N4dPAyWuI0ltB73GG6SFrMliKiW9MshQ//wBKeaQ=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup6.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ecs6QW+9Rb0v2CxERUo6nBsChrM=
+			9JTfphyYZmDstv05yEne11KN834=
 			</data>
 			<key>hash2</key>
 			<data>
-			q59o/i5BVmg0k6l3HrrKnUrb4iAcqFfHX7YWY03AaP0=
+			j5qpG+xI02x0loXkTouosCBRUWBeK6WNz8IjLe5dVfY=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup7.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QsL08ZAUVWcQW5SUS2JBfrAS+Ak=
+			AykK8mM8g4BoGK14Jl6krKdr+zg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dkfZumiecjwWMXd8GO6s4AxmSB11YbLgTmJDQQZC4wg=
+			YYHa9Sau0539b0xzfCYxS4OldOrZUYfcWeas4ZzD2U8=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup8.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t12U49NBsm4FddBNDCEyLYDGCxU=
+			w5uYdYpsL0QUx9nN4YT2gwb+UVE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FnEvrYgDyJsFT7KHLbFPDZbci6X8Wc6yPaFUKkEZIZ8=
+			iIrgYVnIdeiE5KNeFuWGB7+v+Nzyax93isO+jL7euik=
 			</data>
 		</dict>
 		<key>PNAPIAssetGroup9.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nIgfwzE79GJ4m04CWms08gITzZU=
+			g+AQonQXqYhNYzKaImkIp+/C7H8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Rnkm874PGUUleb7MuFtzI5/mj5dIXRan55uEgNLQFI=
+			6qkU/joDtzKHMRq1Vny240sj2LOu5H/tjqtkg/BEhWk=
 			</data>
 		</dict>
 		<key>PNCloseIcon.png</key>
@@ -1968,22 +1983,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8qTY+lrzvcscI/oJmHXev1NDQQA=
+			40g/sJCwL2DE8am1N7C5RfHf4nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			gwBhTvVxsj57kepvkcs18P2AkyLDmHvk1II6c2vnHvg=
+			xtD/tW/FLTdS0dnBeqXRJMb0MsWsLTsCBwkc3ILbM3Y=
 			</data>
 		</dict>
 		<key>PNMediumLayoutContainerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ftgESBbxqqve52Z0cKAI4Gs1Jlo=
+			OTiVcCSJ074gkgSWGzD724a19II=
 			</data>
 			<key>hash2</key>
 			<data>
-			5EebIJQTbklF4HBWWe5q7byw2nuDxN2ZneURBkBbfZg=
+			Fon5MjU3rAPPReq4cqWmPYx4AGd6xmBQAuOFtKsvqho=
 			</data>
 		</dict>
 		<key>PNPlay.png</key>
@@ -2012,22 +2027,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nwqgrzH71Mdglmaixqag4o+kp3g=
+			xiwOY7XvCPW3JcSIL7UBBm5TQZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			h9Ki3LdKZc9VilMwwpvqL/3WvtkfunpeP5aavmi6YJA=
+			gZWJd3skwekqISOtOQWr9iIiwbaFYCrVtyD9VJ5PUo4=
 			</data>
 		</dict>
 		<key>PNVASTPlayerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N1C76gRwORoYp/Z2frwr/Ad4afQ=
+			xjfao2UOuxAPfVc53QvkxCjLFu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uVK3ljxtRwblz682pQ+h1k9onvPZ/jAz0Vf9ubewM98=
+			AzFgB67Fx9+5JSSqwwGPrmB8XSO7mFOHV8S1ApEb4/U=
 			</data>
 		</dict>
 		<key>PnFullScreen.png</key>
