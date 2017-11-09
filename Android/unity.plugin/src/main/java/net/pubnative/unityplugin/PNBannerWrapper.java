@@ -54,7 +54,7 @@ public class PNBannerWrapper extends PNAdWrapper {
         return 2;
     }
 
-    public void hide() {
+    public void hide(String adId) {
         executeDisplayAction(new Runnable() {
             @Override
             public void run() {
