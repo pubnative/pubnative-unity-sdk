@@ -1,1 +1,1 @@
-include ':unity.plugin', ':demo'
+include ':unity.plugin'

@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.unity3d.player.UnityPlayer;
 
+import net.pubnative.sdk.core.Pubnative;
 import net.pubnative.sdk.layouts.PNLargeLayout;
 import net.pubnative.sdk.layouts.PNLayout;
 
@@ -25,6 +26,7 @@ public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the interstitial");
         } else {
+            Pubnative.init(UnityPlayer.currentActivity, appToken);
             mInterstitial.load(UnityPlayer.currentActivity, appToken, placementId, this);
         }
     }
