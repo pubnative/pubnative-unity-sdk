@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.unity3d.player.UnityPlayer;
 
+import net.pubnative.sdk.core.Pubnative;
 import net.pubnative.sdk.layouts.PNBanner;
 
 public class PNBannerWrapper extends PNAdWrapper {
@@ -23,6 +24,7 @@ public class PNBannerWrapper extends PNAdWrapper {
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the banner");
         } else {
+            Pubnative.init(UnityPlayer.currentActivity, appToken);
             mBanner.load(UnityPlayer.currentActivity, appToken, placementId, this);
         }
     }
@@ -52,7 +54,7 @@ public class PNBannerWrapper extends PNAdWrapper {
         return 2;
     }
 
-    public void hide() {
+    public void hide(String adId) {
         executeDisplayAction(new Runnable() {
             @Override
             public void run() {
