@@ -14,27 +14,43 @@
 - (void)dealloc
 {
     self.objectName = nil;
-    self.bannerID = nil;
+    self.adID = nil;
 }
 
 - (void)layoutDidFinishLoading:(PNLayout *)layout
 {
-    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFinish", [self.bannerID UTF8String]);
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFinish", [self.adID UTF8String]);
+    }
 }
 
 - (void)layout:(PNLayout *)layout didFailLoading:(NSError *)error
 {
-    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFailed", [self.bannerID UTF8String]);
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutLoadFailed", [self.adID UTF8String]);
+    }
 }
 
 - (void)layoutTrackImpression:(PNLayout *)layout
 {
-    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackImpression", [self.bannerID UTF8String]);
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackImpression", [self.adID UTF8String]);
+    }
 }
 
 - (void)layoutTrackClick:(PNLayout *)layout
 {
-    UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackClick", [self.bannerID UTF8String]);
+    if (self.objectName == nil || [self.objectName length] == 0) {
+        NSLog(@"No object name has been defined.");
+    } else {
+        UnitySendMessage([self.objectName UTF8String], "OnPNLayoutTrackClick", [self.adID UTF8String]);
+    }
 }
 
 @end

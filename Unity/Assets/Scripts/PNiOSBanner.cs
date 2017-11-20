@@ -14,25 +14,39 @@ public class PNIOSBanner : PNBanner
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void load(string gameObjectName, string appToken, string placement, string bannerID);
+	extern static public void loadBanner(string gameObjectName, string appToken, string placement, string bannerID);
 	public override void Load ()
 	{
-		adID = this.GetHashCode().ToString();
-		load(this.gameObject.name, appToken, placement, adID);
+		bannerID = this.GetHashCode().ToString();
+		loadBanner(this.gameObject.name, appToken, placement, bannerID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void show(string bannerID, int positon);
+	extern static public void showBanner(string bannerID, int positon);
 	public override void Show (Position position)
 	{
 		int positionValue = (int)position;
-		show(adID, positionValue);
+		showBanner(bannerID, positionValue);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void hide (string bannerID);
+	extern static public void hideBanner (string bannerID);
 	public override void Hide ()
 	{
-		hide(adID);
+		hideBanner(bannerID);
+	}
+
+	protected override void OnPNLayoutLoadFinish (string message)
+	{
+		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFinished();
+		}
+	}
+
+	protected override void OnPNLayoutLoadFailed (string message)
+	{
+		if (this.loadListener != null && bannerID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFailed(new Exception ("Ad failed to load."));
+		}
 	}
 }

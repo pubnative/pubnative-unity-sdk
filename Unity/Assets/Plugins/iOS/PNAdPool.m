@@ -13,6 +13,7 @@
 - (void)dealloc
 {
     self.bannerPool = nil;
+    self.interstitialPool = nil;
 }
 
 - (instancetype)init
@@ -20,6 +21,7 @@
     self = [super init];
     if (self) {
         self.bannerPool = [NSMutableDictionary dictionary];
+        self.interstitialPool = [NSMutableDictionary dictionary];
     }
     return self;
 }
