@@ -21,14 +21,14 @@ public abstract class PNInterstitial : PNAd
 
 	protected virtual void OnPNLayoutViewShown (string message)
 	{
-		if (this.viewListener != null) {
+		if (this.viewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.viewListener.OnShown ();
 		}
 	}
 
 	protected virtual void OnPNLayoutViewHidden (string message)
 	{
-		if (this.viewListener != null) {
+		if (this.viewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
 			this.viewListener.OnHidden ();
 		}
 	}

@@ -10,6 +10,7 @@ public class PNAdWrapper implements PNLayout.LoadListener, PNLayout.TrackListene
     private static final String TAG = PNAdWrapper.class.getSimpleName();
 
     protected String mGameObjectName;
+    protected String mAdId;
 
     protected void executeDisplayAction(Runnable runnable) {
         if (UnityPlayer.currentActivity == null) {
@@ -23,23 +24,27 @@ public class PNAdWrapper implements PNLayout.LoadListener, PNLayout.TrackListene
         this.mGameObjectName = gameObjectName;
     }
 
+    protected void setAdId(String adId) {
+        this.mAdId = adId;
+    }
+
     @Override
     public void onPNLayoutLoadFinish(PNLayout pnLayout) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFinish", "Ad successfully loaded");
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFinish", mAdId);
     }
 
     @Override
     public void onPNLayoutLoadFail(PNLayout pnLayout, Exception e) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFailed", e.getMessage());
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutLoadFailed", mAdId);
     }
 
     @Override
     public void onPNLayoutTrackImpression(PNLayout pnLayout) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackImpression", "Impression tracked");
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackImpression", mAdId);
     }
 
     @Override
     public void onPNLayoutTrackClick(PNLayout pnLayout) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackClick", "Click tracked");
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutTrackClick", mAdId);
     }
 }
