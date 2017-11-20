@@ -8,6 +8,7 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, 
 {
 	private PNInterstitial interstitial;
 
+	private bool isLoading;
 	public string appToken;
 	public string placement;
 
@@ -29,18 +30,22 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, 
 
 	private void RequestInterstitial ()
 	{
-		if (interstitial != null) {
-			interstitial.Load();
+			if (interstitial != null && !isLoading) {
+				isLoading = true;
+				interstitial.Load();
+			}
 		}
-	}
+
 
 	public void OnLoadFinished ()
 	{
+		isLoading = false;
 		interstitial.Show ();
 	}
 
 	public void OnLoadFailed (Exception error)
 	{
+		isLoading = false;
 		// Handle error
 	}
 

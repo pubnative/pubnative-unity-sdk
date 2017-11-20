@@ -12,6 +12,6 @@
 @interface PNAdWrapper : NSObject <PNLayoutLoadDelegate, PNLayoutTrackDelegate>
 
 @property (nonatomic, strong) NSString *objectName;
-@property (nonatomic, strong) NSString *bannerID;
+@property (nonatomic, strong) NSString *adID;
 
 @end

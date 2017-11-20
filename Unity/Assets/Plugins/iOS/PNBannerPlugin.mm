@@ -36,8 +36,8 @@ static PNBannerPlugin *_sharedInstance;
                 withBannerID:(NSString *)bannerID
 {
     PNBannerWrapper* bannerWrapper = [[PNBannerWrapper alloc] init];
-    bannerWrapper.bannerID = bannerID;
-    [[PNAdPool sharedPool].bannerPool setObject:bannerWrapper forKey:bannerWrapper.bannerID];
+    bannerWrapper.adID = bannerID;
+    [[PNAdPool sharedPool].bannerPool setObject:bannerWrapper forKey:bannerWrapper.adID];
     [bannerWrapper loadWithObject:objectName withAppToken:appToken withPlacement:placement];
 }
 
@@ -68,7 +68,7 @@ static PNBannerPlugin *_sharedInstance;
 #ifdef __cplusplus
 extern "C"
 {
-    void load(const char* obj, const char* appToken, const char* placement, const char* bannerID)
+    void loadBanner(const char* obj, const char* appToken, const char* placement, const char* bannerID)
     {
         [PNBannerPlugin loadBannerWithObject:[NSString stringWithUTF8String:obj]
                                 withAppToken:[NSString stringWithUTF8String:appToken]
@@ -76,13 +76,13 @@ extern "C"
                                 withBannerID:[NSString stringWithUTF8String:bannerID]];
     }
     
-     void show(const char* bannerID, int positon)
+     void showBanner(const char* bannerID, int positon)
     {
         [PNBannerPlugin showBannerWithID:[NSString stringWithUTF8String:bannerID]
                             withPosition:(NSInteger)positon];
     }
     
-    void hide(const char* bannerID)
+    void hideBanner(const char* bannerID)
     {
         [PNBannerPlugin hideBannerWithID:[NSString stringWithUTF8String:bannerID]];
     }

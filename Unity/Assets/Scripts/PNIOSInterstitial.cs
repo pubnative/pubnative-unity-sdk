@@ -6,35 +6,32 @@ using UnityEngine.UI;
 
 public class PNIOSInterstitial : PNInterstitial
 {
-
-	public string interstitialID = "";
-
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void removeInterstitial(string interstitialID);
+	extern static public void removeInterstitial(string adID);
 	void onDestroy()
 	{
-		removeInterstitial(interstitialID);
+		removeInterstitial(adID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void load(string gameObjectName, string appToken, string placement, string interstitialID);
+	extern static public void loadInterstitial(string gameObjectName, string appToken, string placement, string adID);
 	public override void Load ()
 	{
-		interstitialID = this.GetHashCode().ToString();
-		load(this.gameObject.name, appToken, placement, interstitialID);
+		adID = this.GetHashCode().ToString();
+		loadInterstitial(this.gameObject.name, appToken, placement, adID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void show(string interstitialID);
+	extern static public void showInterstitial(string adID);
 	public override void Show ()
 	{
-		show(interstitialID);
+		showInterstitial(adID);
 	}
 
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public void hide (string interstitialID);
+	extern static public void hideInterstitial (string adID);
 	public override void Hide ()
 	{
-		hide(interstitialID);
+		hideInterstitial(adID);
 	}
 }
