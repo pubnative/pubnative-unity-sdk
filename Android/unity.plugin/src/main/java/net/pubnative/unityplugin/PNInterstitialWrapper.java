@@ -4,9 +4,11 @@ import android.util.Log;
 
 import com.unity3d.player.UnityPlayer;
 
+import net.pubnative.sdk.core.Pubnative;
 import net.pubnative.sdk.layouts.PNLargeLayout;
+import net.pubnative.sdk.layouts.PNLayout;
 
-public class PNInterstitialWrapper extends PNAdWrapper {
+public class PNInterstitialWrapper extends PNAdWrapper implements PNLargeLayout.ViewListener {
     private static final String TAG = PNInterstitialWrapper.class.getSimpleName();
 
     protected PNLargeLayout mInterstitial;
@@ -16,17 +18,20 @@ public class PNInterstitialWrapper extends PNAdWrapper {
         this.mInterstitial = new PNLargeLayout();
     }
 
-    public void load(String gameObjectName, String appToken, String placementId) {
+    public void load(String gameObjectName, String appToken, String placementId, String adId) {
         setGameObject(gameObjectName);
-        mInterstitial.setLoadListener(this);
+        setAdId(adId);
+        mInterstitial.setTrackListener(this);
+        mInterstitial.setViewListener(this);
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the interstitial");
         } else {
-            mInterstitial.load(UnityPlayer.currentActivity, appToken, placementId);
+            Pubnative.init(UnityPlayer.currentActivity, appToken);
+            mInterstitial.load(UnityPlayer.currentActivity, appToken, placementId, this);
         }
     }
 
-    public void show() {
+    public void show(String adId) {
         executeDisplayAction(new Runnable() {
             @Override
             public void run() {
@@ -35,12 +40,22 @@ public class PNInterstitialWrapper extends PNAdWrapper {
         });
     }
 
-    public void hide() {
+    public void hide(String adId) {
         executeDisplayAction(new Runnable() {
             @Override
             public void run() {
                 mInterstitial.hide();
             }
         });
+    }
+
+    @Override
+    public void onPNLayoutViewShown(PNLayout pnLayout) {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewShown", mAdId);
+    }
+
+    @Override
+    public void onPNLayoutViewHidden(PNLayout pnLayout) {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnPNLayoutViewHidden", mAdId);
     }
 }

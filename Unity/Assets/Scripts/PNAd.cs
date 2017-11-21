@@ -6,54 +6,66 @@ using UnityEngine.UI;
 
 public abstract class PNAd : MonoBehaviour
 {
-	protected const string LOAD_METHOD = "load";
-	protected const string HIDE_METHOD = "hide";
-	protected const string SHOW_METHOD = "show";
-
 	public string appToken;
 	public string placement;
 
-	protected ILoadListener listener;
+	protected string adID = "";
 
-	public ILoadListener Listener {
+	protected ILoadListener loadListener;
+	protected ITrackListener trackListener;
+
+	public ILoadListener LoadListener {
 		get {
-			return this.listener;
+			return this.loadListener;
 		}
-		set
-		{
-			this.listener = value;
-		}
-	}
-
-	protected AndroidJavaObject layoutWrapper;
-
-	public PNAd ()
-	{
-		layoutWrapper = new AndroidJavaObject (AndroidClassName ());
-	}
-
-	public abstract string AndroidClassName ();
-
-	public void LoadListener (ILoadListener loadListener)
-	{
-		this.listener = loadListener;
-	}
-		
-	private void OnPNLayoutLoadFinish (string message)
-	{
-		if (this.listener == null) {
-			// Handle no listener set up
-		} else {
-			this.listener.LoadFinished ();
+		set {
+			this.loadListener = value;
 		}
 	}
 
-	private void OnPNLayoutLoadFailed (string message)
+	public ITrackListener TrackListener {
+		get {
+			return this.trackListener;
+		}
+		set {
+			this.trackListener = value;
+		}
+	}
+
+	public string AdId {
+		get {
+			return this.adID;
+		}
+		set {
+			this.adID = value;
+		}
+	}
+
+	protected virtual void OnPNLayoutLoadFinish (string message)
 	{
-		if (this.listener == null) {
-			// Handle no listener set up
-		} else {
-			this.listener.LoadFailed (new Exception (message));
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFinished ();
+		}
+	}
+
+	protected virtual void OnPNLayoutLoadFailed (string message)
+	{
+		if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.loadListener.OnLoadFailed (new Exception ("Ad failed to load."));
+		}
+	}
+
+	protected virtual void OnPNLayoutTrackImpression (string message)
+	{
+		if (this.trackListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.trackListener.OnImpressionTracked ();
+		}
+	}
+
+	protected virtual void OnPNLayoutTrackClick (string message)
+	{
+		if (this.trackListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.trackListener.OnClickTracked ();
 		}
 	}
 }

@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
+{
+	private PNBanner banner;
+
+	public string appToken;
+	public string placement;
+
+	[SerializeField]
+	private Button _buttonLoadBanner;
+
+	[SerializeField]
+	private Button _buttonHideBanner;
+
+	// Use this for initialization
+	void Start ()
+	{
+		banner = PNBannerFactory.createBanner (this);
+
+		banner.appToken = appToken;
+		banner.placement = placement;
+		banner.LoadListener = this;
+		banner.TrackListener = this;
+		_buttonLoadBanner.onClick.AddListener (RequestBanner);
+		_buttonHideBanner.onClick.AddListener (HideBanner);
+	}
+
+	private void RequestBanner ()
+	{
+		if (banner != null) {
+			banner.Load ();
+		}
+	}
+
+	private void HideBanner ()
+	{
+		banner.Hide ();
+	}
+
+	public void OnLoadFinished ()
+	{
+		banner.Show (PNBanner.Position.TOP);
+	}
+
+	public void OnLoadFailed (Exception error)
+	{
+		// Handle error
+	}
+
+	public void OnImpressionTracked()
+	{
+		// Handle Impression
+	}
+
+	public void OnClickTracked ()
+	{
+		// Handle Click
+	}
+}
