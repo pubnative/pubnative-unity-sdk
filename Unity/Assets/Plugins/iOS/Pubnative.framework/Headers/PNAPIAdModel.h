@@ -52,6 +52,7 @@
 @property (nonatomic, readonly) NSString    *bannerUrl;
 @property (nonatomic, readonly) NSString    *standardBannerUrl;
 @property (nonatomic, readonly) NSString    *htmlUrl;
+@property (nonatomic, readonly) NSString    *htmlData;
 @property (nonatomic, readonly) NSString    *clickUrl;
 @property (nonatomic, readonly) NSString    *vast;
 @property (nonatomic, readonly) NSNumber    *rating;
