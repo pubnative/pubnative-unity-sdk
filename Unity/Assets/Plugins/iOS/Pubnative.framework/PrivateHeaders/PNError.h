@@ -12,7 +12,8 @@ typedef enum : NSUInteger {
     PNError_adapter_timeout,
     PNError_adapter_illegalArguments,
     PNError_adapter_noFill,
-    PNError_layout_invalidParameters
+    PNError_layout_invalidParameters,
+    PNError_mraid_loadFail
 } PNErrorCode;
 
 
