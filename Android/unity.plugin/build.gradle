@@ -21,6 +21,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'net.pubnative:sdk:2.0.6-development.2489'
+    implementation 'net.pubnative:hybid.sdk:2.3.3'
 }
 
 task exportJar(type: Copy) {
