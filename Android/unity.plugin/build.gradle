@@ -19,7 +19,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'net.pubnative:sdk:2.0.6-development.2489'
     implementation 'net.pubnative:hybid.sdk:2.3.3'
 }
@@ -28,11 +27,11 @@ task exportJar(type: Copy) {
     from('build/intermediates/bundles/debug/classes.jar')
     include('classes.jar')
     into('release/')
-    rename('classes.jar', 'UnityPNPlugin.jar')
+    rename('classes.jar', 'UnityHyBidPlugin.jar')
 }
 
 task deleteOldJar(type: Delete) {
-    delete 'release/UnityPNPlugin.jar'
+    delete 'release/UnityHyBidPlugin.jar'
 }
 
 exportJar.dependsOn(deleteOldJar, build)
