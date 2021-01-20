@@ -2,10 +2,11 @@
 buildscript {
 	repositories {
 		jcenter()
+		google()
 	}
 
 	dependencies {
-		classpath 'com.android.tools.build:gradle:2.1.0'
+		classpath 'com.android.tools.build:gradle:4.0.2'
 	}
 }
 
@@ -20,16 +21,16 @@ allprojects {
 apply plugin: 'com.android.application'
 
 dependencies {
-	compile fileTree(dir: 'libs', include: ['*.jar'])
-	compile 'net.pubnative:sdk:2.0.6-development.2489'
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'net.pubnative:sdk:2.0.6-development.2489'
 }
 
 android {
-	compileSdkVersion 26
-	buildToolsVersion '26.0.2'
+	compileSdkVersion 30
 
 	defaultConfig {
-		targetSdkVersion 26
+		targetSdkVersion 30
+		minSdkVersion 19
 		applicationId 'net.pubnative.unityplugindemo'
 	}
 
