@@ -11,8 +11,6 @@ public abstract class HybidAd : MonoBehaviour
 
 	protected string adID = "";
 
-    protected int position = 0;
-
     public IHybidAdLoadListener loadListener {
 		get {
 			return this.loadListener;
@@ -48,7 +46,7 @@ public abstract class HybidAd : MonoBehaviour
 		}
 	}
 
-    public string position {
+    public int position {
 		get {
 			return this.position;
 		}
@@ -102,8 +100,6 @@ public interface IHybidAdLoadListener
     void onAdImpression();
 
     void onAdLoadFailed(Exception error);
-
-    void onAdImpression();
 
     void onAdClick();
 }

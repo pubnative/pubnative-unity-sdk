@@ -110,3 +110,19 @@ Received Import Request.
 Start importing Assets/Scripts/HybidAdView/HybidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b258988211d03036fdb329c5ba41442') in 0.001838 seconds
   Import took 0.003789 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 616.655918 seconds.
+  path: Assets/Scripts/HybidAdView/HybidAdViewFactory.cs
+  artifactKey: Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HybidAdView/HybidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a778f9eb5e9b320c2c6c60a500f7b8') in 0.002298 seconds
+  Import took 0.004127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.010234 seconds.
+  path: Assets/Scripts/HybidAdView/HybidAdViewFactory.cs
+  artifactKey: Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HybidAdView/HybidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d2f885e2432c625a7977849d2643e1') in 0.001472 seconds
+  Import took 0.003287 seconds .
+

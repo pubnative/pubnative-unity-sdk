@@ -1,10 +1,13 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
 
 public class HybidAdViewFactory
 {
-
-    public static HyBidInterstitialAd createHybidAdView(MonoBehaviour parent) 
+    public static HybidAdView createHybidAdView(MonoBehaviour parent) 
 	{
 		HybidAdView hybidAdView;
 

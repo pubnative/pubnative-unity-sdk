@@ -8,5 +8,5 @@ public abstract class HybidAdView : HybidAd {
 
     public abstract void Load ();
 
-	public abstract void Show (Position position);
+	public abstract void show (Position position);
 }
