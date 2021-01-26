@@ -11,24 +11,17 @@ public class HybidAndroidAdViewWrapper extends HybidAdWrapper {
     private static final String TAG = HybidAndroidAdViewWrapper.class.getSimpleName();
 
     protected HyBidAdView hyBidAdView;
+    private HyBidAdView.Position bannerPosition;
 
     public HybidAndroidAdViewWrapper() {
         super();
         this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId, int position) {
+    public void load(String gameObjectName, String appToken, String placementId, String adId) {
 
         setGameObject(gameObjectName);
         setAdId(adId);
-
-        final HyBidAdView.Position bannerPosition;
-
-        if (position == getTopPosition()) {
-            bannerPosition = HyBidAdView.Position.TOP;
-        } else {
-            bannerPosition = HyBidAdView.Position.BOTTOM;
-        }
 
         if (hyBidAdView != null) {
             hyBidAdView.destroy();
@@ -40,20 +33,33 @@ public class HybidAndroidAdViewWrapper extends HybidAdWrapper {
             Log.e(TAG, "No active context found to load the banner");
         } else {
             Pubnative.init(UnityPlayer.currentActivity, appToken);
-            hyBidAdView.load(placementId, bannerPosition, (HyBidAdView.Listener) UnityPlayer.currentActivity);
+            hyBidAdView.load(placementId, (HyBidAdView.Listener) UnityPlayer.currentActivity);
         }
     }
 
-    private int getTopPosition() {
-        return 1;
-    }
+    public void show(int position) {
 
-    public void show() {
+        if (position == getTopPosition()) {
+            bannerPosition = HyBidAdView.Position.TOP;
+        } else {
+            bannerPosition = HyBidAdView.Position.BOTTOM;
+        }
+
+        hyBidAdView.setPosition(bannerPosition);
+
         executeDisplayAction(new Runnable() {
             @Override
             public void run() {
                 hyBidAdView.show();
             }
         });
+    }
+
+    private int getTopPosition() {
+        return 1;
+    }
+
+    private int getBottomPosition() {
+        return 2;
     }
 }
