@@ -2,6 +2,6 @@ using System;
 
 public enum Position
 {
-		TOP = 1,
-		BOTTOM = 2
+	TOP = 1,
+	BOTTOM = 2
 }

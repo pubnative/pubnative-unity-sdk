@@ -23,5 +23,5 @@ public class HybidAdViewFactory
 		#endif
 
 		return hybidAdView;
-		}
+	}
 }

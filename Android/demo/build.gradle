@@ -22,8 +22,8 @@ apply plugin: 'com.android.application'
 
 dependencies {
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
-	implementation 'net.pubnative:sdk:2.0.6-development.2489'
-//	implementation 'net.pubnative:hybid.sdk:2.3.4-development.4238'
+//	implementation 'net.pubnative:sdk:2.0.6-development.2489'
+	implementation 'net.pubnative:hybid.sdk:2.3.4-development.4238'
 }
 
 android {
