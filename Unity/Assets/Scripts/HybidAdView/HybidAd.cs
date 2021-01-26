@@ -13,11 +13,7 @@ public abstract class HybidAd : MonoBehaviour
 
     protected int position = 0;
 
-    IHybidAdLoadListener loadListener;
-    IAuctionListener auctionListener;
-    IRequestManagerListener requestManagerListener;
-
-    public IHybidAdLoadListener LoadListener {
+    public IHybidAdLoadListener loadListener {
 		get {
 			return this.loadListener;
 		}
@@ -25,7 +21,6 @@ public abstract class HybidAd : MonoBehaviour
 			this.loadListener = value;
 		}
 	}
-
     public IAuctionListener auctionListener {
 		get {
 			return this.auctionListener;
