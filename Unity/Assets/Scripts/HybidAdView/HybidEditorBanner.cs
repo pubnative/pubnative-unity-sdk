@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HybidIOSAdView : HybidAdView
+public class HybidEditorBanner : HybidBanner
 {
-    public override void Load ()
+    public override void load()
     {
         
     }

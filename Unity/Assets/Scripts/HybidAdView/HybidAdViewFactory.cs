@@ -7,21 +7,21 @@ using UnityEngine.UI;
 
 public class HybidAdViewFactory
 {
-    public static HybidAdView createHybidAdView(MonoBehaviour parent) 
+    public static HybidBanner createHybidAdView(MonoBehaviour parent) 
 	{
-		HybidAdView hybidAdView;
+		HybidBanner hybidAdView;
 
 		#if UNITY_EDITOR
 
-		hybidAdView = parent.gameObject.AddComponent<HybidEditorAdView> ();
+		hybidAdView = parent.gameObject.AddComponent<HybidEditorBanner> ();
 
 		#elif UNITY_ANDROID
 
-		hybidAdView = parent.gameObject.AddComponent<HybidAndroidAdView> ();
+		hybidAdView = parent.gameObject.AddComponent<HybidAndroidBanner> ();
 
 		#elif UNITY_IOS
 
-		hybidAdView = parent.gameObject.AddComponent<HyBidIOSInterstitialAd> ();
+		hybidAdView = parent.gameObject.AddComponent<HybidIOSBanner> ();
 
 		#endif
 
