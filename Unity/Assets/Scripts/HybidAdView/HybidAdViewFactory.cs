@@ -5,26 +5,26 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class HybidAdViewFactory
+public class HyBidAdViewFactory
 {
-    public static HybidBanner createHybidAdView(MonoBehaviour parent) 
+    public static HyBidBanner createHyBidAdView(MonoBehaviour parent) 
 	{
-		HybidBanner hybidAdView;
+		HyBidBanner banner;
 
 		#if UNITY_EDITOR
 
-		hybidAdView = parent.gameObject.AddComponent<HybidEditorBanner> ();
+		banner = parent.gameObject.AddComponent<HyBidEditorBanner> ();
 
 		#elif UNITY_ANDROID
 
-		hybidAdView = parent.gameObject.AddComponent<HybidAndroidBanner> ();
+		banner = parent.gameObject.AddComponent<HyBidAndroidBanner> ();
 
 		#elif UNITY_IOS
 
-		hybidAdView = parent.gameObject.AddComponent<HybidIOSBanner> ();
+		banner = parent.gameObject.AddComponent<HyBidIOSBanner> ();
 
 		#endif
 
-		return hybidAdView;
+		return banner;
 	}
 }

@@ -4,9 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class HybidBanner : HybidAdView {
+public abstract class HyBidBanner : HyBidAdView {
 
-    public abstract void load();
-
-	public abstract void show(Position position);
+    public abstract void load(int position);
 }

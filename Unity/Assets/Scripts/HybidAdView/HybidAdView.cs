@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class HybidAdView : MonoBehaviour
+public abstract class HyBidAdView : MonoBehaviour
 {
     public string appToken;
 	public string placement;
 
 	protected string adID = "";
 
-    public IHybidAdLoadListener loadListener {
+    public IHyBidAdLoadListener loadListener {
 		get {
 			return this.loadListener;
 		}
@@ -20,38 +20,38 @@ public abstract class HybidAdView : MonoBehaviour
 		}
 	}
 
-    public virtual void onHybidAdLoaded(string message){
+    public virtual void OnHyBidAdLoaded(string message){
         if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.onAdLoaded();
+			this.loadListener.OnHyBidAdLoaded();
 		}
     }
 
-	public virtual void onHybidAdImpression(string message){
+	public virtual void OnHyBidAdImpression(string message){
         if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.onAdImpression();
+			 this.loadListener.OnHyBidAdImpression();
 		}
     }
 
-	public virtual void onHybidAdClicked(string message){
+	public virtual void OnHyBidAdClicked(string message){
         if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.onAdClick();
+			 this.loadListener.OnHyBidAdClick();
 		}
     }
 
-	public virtual void onHybidAdError(string message){
+	public virtual void OnHyBidAdError(string message){
         if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.onAdLoadFailed(new Exception("Failed to load Ad"));
+			this.loadListener.OnHyBidAdLoadFailed(new Exception("Failed to load Ad"));
 		}
     }
 }
 
-public interface IHybidAdLoadListener
+public interface IHyBidAdLoadListener
 {
-    void onAdLoaded();
+    void OnHyBidAdLoaded();
 
-    void onAdImpression();
+    void OnHyBidAdImpression();
 
-	void onAdClick();
+	void OnHyBidAdClick();
 
-    void onAdLoadFailed(Exception error);
+    void OnHyBidAdLoadFailed(Exception error);
 }
