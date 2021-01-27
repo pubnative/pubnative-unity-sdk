@@ -13,7 +13,7 @@ import net.pubnative.lite.sdk.views.HyBidAdView;
 
 import java.util.PriorityQueue;
 
-public class HybidAdWrapper implements HyBidAdView.Listener {
+public class HyBidAdWrapper implements HyBidAdView.Listener {
 
     private static final String TAG = PNAdWrapper.class.getSimpleName();
 
@@ -38,21 +38,21 @@ public class HybidAdWrapper implements HyBidAdView.Listener {
 
     @Override
     public void onAdLoaded() {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "onHybidAdLoaded", mAdId);
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHybidAdLoaded", mAdId);
     }
 
     @Override
     public void onAdLoadFailed(Throwable throwable) {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "onHybidAdError", mAdId);
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHybidAdError", mAdId);
     }
 
     @Override
     public void onAdImpression() {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "onHybidAdImpression", mAdId);
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHybidAdImpression", mAdId);
     }
 
     @Override
     public void onAdClick() {
-        UnityPlayer.UnitySendMessage(mGameObjectName, "onHybidAdClicked", mAdId);
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHybidAdClicked", mAdId);
     }
 }
