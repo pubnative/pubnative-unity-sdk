@@ -1,4 +1,4 @@
-#import "PNInterstitialWrapper.h"
+#import "HyBidInterstitialWrapper.h"
 #import "PNAdPool.h"
 
 @interface PNInterstitialPlugin : NSObject
@@ -34,26 +34,17 @@ static PNInterstitialPlugin *_sharedInstance;
                      withPlacement:(NSString *)placement
                 withInterstitialID:(NSString *)interstitialID
 {
-    PNInterstitialWrapper* interstitialWrapper = [[PNInterstitialWrapper alloc] init];
-    interstitialWrapper.adID = interstitialID;
-    [[PNAdPool sharedPool].interstitialPool setObject:interstitialWrapper forKey:interstitialWrapper.adID];
-    [interstitialWrapper loadWithObject:objectName withAppToken:appToken withPlacement:placement];
+    [[HyBidInterstitialWrapper sharedInstance] loadWithObject:objectName withAppToken:appToken withPlacement:placement withAdId:interstitialID];
 }
 
 + (void)showInterstitialWithID:(NSString *)interstitialID
 {
-    PNInterstitialWrapper* interstitialWrapper = [[PNAdPool sharedPool].interstitialPool objectForKey:interstitialID];
-    if (interstitialWrapper) {
-        [interstitialWrapper show];
-    }
+    [[HyBidInterstitialWrapper sharedInstance] show];
 }
 
 + (void)hideInterstitialWithID:(NSString *)interstitialID
 {
-    PNInterstitialWrapper* interstitialWrapper = [[PNAdPool sharedPool].interstitialPool objectForKey:interstitialID];
-    if (interstitialWrapper) {
-        [interstitialWrapper hide];
-    }
+    [[HyBidInterstitialWrapper sharedInstance] hide];
 }
 
 + (void)removeInterstitialFromPoolWithID:(NSString *)interstitialID
