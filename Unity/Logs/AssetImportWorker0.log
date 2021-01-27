@@ -194,3 +194,58 @@ System memory in use after: 113.8 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1594.
 Total: 1.371028 ms (FindLiveObjects: 0.155527 ms CreateObjectMapping: 0.039258 ms MarkObjects: 1.160418 ms  DeleteObjects: 0.015000 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1164 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.368607 ms (FindLiveObjects: 0.162576 ms CreateObjectMapping: 0.038441 ms MarkObjects: 1.151795 ms  DeleteObjects: 0.014801 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2148.824984 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(b6df14b679034455d859ed1710474de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(b6df14b679034455d859ed1710474de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54965b55bae0a2bb9acceb91dbee2920') in 1.644097 seconds
+  Import took 1.647027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.358854 seconds.
+  path: Assets/Scripts/HyBidAdView/HyBidAdView.cs
+  artifactKey: Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdView/HyBidAdView.cs using Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175c8e0ef31a0125434ed11510590f9') in 0.006679 seconds
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039879 seconds.
+  path: Assets/Scripts/HyBidAdView/HyBidAdView.cs
+  artifactKey: Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdView/HyBidAdView.cs using Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175c8e0ef31a0125434ed11510590f9') in 0.002398 seconds
+  Import took 0.004694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.053528 seconds.
+  path: Assets/Scripts/HyBidAdView/HyBidAdViewFactory.cs
+  artifactKey: Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdView/HyBidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b5c15021d73ddc2755e914dfffd718') in 0.001577 seconds
+  Import took 0.003894 seconds .
+
