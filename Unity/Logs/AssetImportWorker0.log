@@ -151,3 +151,30 @@ System memory in use after: 116.9 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1584.
 Total: 1.439032 ms (FindLiveObjects: 0.187520 ms CreateObjectMapping: 0.034857 ms MarkObjects: 1.202230 ms  DeleteObjects: 0.013537 ms)
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.722784 ms (FindLiveObjects: 0.193158 ms CreateObjectMapping: 0.041995 ms MarkObjects: 1.469358 ms  DeleteObjects: 0.016780 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1853.694605 seconds.
+  path: Assets/Plugins/iOS/HyBidRewardedWrapper.h
+  artifactKey: Guid(9c3929f6733c84cd99900adbdd9282b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/HyBidRewardedWrapper.h using Guid(9c3929f6733c84cd99900adbdd9282b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aaea38ab7aada47d068b3db8866c58') in 1.871169 seconds
+  Import took 1.881381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.390538 seconds.
+  path: Assets/Plugins/iOS/HyBidRewardedWrapper.m
+  artifactKey: Guid(3ef16f8193a4e47b4977c95ac65cd2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/HyBidRewardedWrapper.m using Guid(3ef16f8193a4e47b4977c95ac65cd2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1f4300426be811d39a6371ac578053') in 1.827259 seconds
+  Import took 1.828953 seconds .
+

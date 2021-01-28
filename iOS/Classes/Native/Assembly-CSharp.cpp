@@ -214,6 +214,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisHyBidIOSRewarded
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPNIOSBanner_tDB1B0D5ED5318FD28AEF4F2B0F985295BF092377_m248F7173D591EABF9BEA3262ED49EAC3E3A9D6B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPNIOSInterstitial_tBDE892947D26479A6067815ACF9436B3CFF51F29_m662172E7981B01A4D30FB4ACDAD3C43C071ABA8A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1675,14 +1676,20 @@ struct  InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA  : public M
 public:
 	// HyBidInterstitialAd InterstitialNative::interstitial
 	HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * ___interstitial_4;
-	// System.Boolean InterstitialNative::isLoading
-	bool ___isLoading_5;
+	// HyBidRewardedAd InterstitialNative::rewarded
+	HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * ___rewarded_5;
+	// System.Boolean InterstitialNative::isInterstitialLoading
+	bool ___isInterstitialLoading_6;
+	// System.Boolean InterstitialNative::isRewardedLoading
+	bool ___isRewardedLoading_7;
 	// System.String InterstitialNative::appToken
-	String_t* ___appToken_6;
+	String_t* ___appToken_8;
 	// System.String InterstitialNative::placement
-	String_t* ___placement_7;
+	String_t* ___placement_9;
 	// UnityEngine.UI.Button InterstitialNative::_buttonLoadInterstitial
-	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadInterstitial_8;
+	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadInterstitial_10;
+	// UnityEngine.UI.Button InterstitialNative::_buttonLoadRewarded
+	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadRewarded_11;
 
 public:
 	inline static int32_t get_offset_of_interstitial_4() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___interstitial_4)); }
@@ -1694,39 +1701,65 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___interstitial_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_isLoading_5() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isLoading_5)); }
-	inline bool get_isLoading_5() const { return ___isLoading_5; }
-	inline bool* get_address_of_isLoading_5() { return &___isLoading_5; }
-	inline void set_isLoading_5(bool value)
+	inline static int32_t get_offset_of_rewarded_5() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___rewarded_5)); }
+	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * get_rewarded_5() const { return ___rewarded_5; }
+	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 ** get_address_of_rewarded_5() { return &___rewarded_5; }
+	inline void set_rewarded_5(HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * value)
 	{
-		___isLoading_5 = value;
+		___rewarded_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___rewarded_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_appToken_6() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___appToken_6)); }
-	inline String_t* get_appToken_6() const { return ___appToken_6; }
-	inline String_t** get_address_of_appToken_6() { return &___appToken_6; }
-	inline void set_appToken_6(String_t* value)
+	inline static int32_t get_offset_of_isInterstitialLoading_6() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isInterstitialLoading_6)); }
+	inline bool get_isInterstitialLoading_6() const { return ___isInterstitialLoading_6; }
+	inline bool* get_address_of_isInterstitialLoading_6() { return &___isInterstitialLoading_6; }
+	inline void set_isInterstitialLoading_6(bool value)
 	{
-		___appToken_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___appToken_6), (void*)value);
+		___isInterstitialLoading_6 = value;
 	}
 
-	inline static int32_t get_offset_of_placement_7() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___placement_7)); }
-	inline String_t* get_placement_7() const { return ___placement_7; }
-	inline String_t** get_address_of_placement_7() { return &___placement_7; }
-	inline void set_placement_7(String_t* value)
+	inline static int32_t get_offset_of_isRewardedLoading_7() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isRewardedLoading_7)); }
+	inline bool get_isRewardedLoading_7() const { return ___isRewardedLoading_7; }
+	inline bool* get_address_of_isRewardedLoading_7() { return &___isRewardedLoading_7; }
+	inline void set_isRewardedLoading_7(bool value)
 	{
-		___placement_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___placement_7), (void*)value);
+		___isRewardedLoading_7 = value;
 	}
 
-	inline static int32_t get_offset_of__buttonLoadInterstitial_8() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadInterstitial_8)); }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadInterstitial_8() const { return ____buttonLoadInterstitial_8; }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadInterstitial_8() { return &____buttonLoadInterstitial_8; }
-	inline void set__buttonLoadInterstitial_8(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
+	inline static int32_t get_offset_of_appToken_8() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___appToken_8)); }
+	inline String_t* get_appToken_8() const { return ___appToken_8; }
+	inline String_t** get_address_of_appToken_8() { return &___appToken_8; }
+	inline void set_appToken_8(String_t* value)
 	{
-		____buttonLoadInterstitial_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadInterstitial_8), (void*)value);
+		___appToken_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___appToken_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_placement_9() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___placement_9)); }
+	inline String_t* get_placement_9() const { return ___placement_9; }
+	inline String_t** get_address_of_placement_9() { return &___placement_9; }
+	inline void set_placement_9(String_t* value)
+	{
+		___placement_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___placement_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__buttonLoadInterstitial_10() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadInterstitial_10)); }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadInterstitial_10() const { return ____buttonLoadInterstitial_10; }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadInterstitial_10() { return &____buttonLoadInterstitial_10; }
+	inline void set__buttonLoadInterstitial_10(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
+	{
+		____buttonLoadInterstitial_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadInterstitial_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__buttonLoadRewarded_11() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadRewarded_11)); }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadRewarded_11() const { return ____buttonLoadRewarded_11; }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadRewarded_11() { return &____buttonLoadRewarded_11; }
+	inline void set__buttonLoadRewarded_11(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
+	{
+		____buttonLoadRewarded_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadRewarded_11), (void*)value);
 	}
 };
 
@@ -3698,6 +3731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3708,12 +3742,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		__this->set_interstitial_4(L_0);
 		// interstitial.appToken = appToken;
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_1 = __this->get_interstitial_4();
-		String_t* L_2 = __this->get_appToken_6();
+		String_t* L_2 = __this->get_appToken_8();
 		NullCheck(L_1);
 		L_1->set_appToken_4(L_2);
 		// interstitial.placement = placement;
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_3 = __this->get_interstitial_4();
-		String_t* L_4 = __this->get_placement_7();
+		String_t* L_4 = __this->get_placement_9();
 		NullCheck(L_3);
 		L_3->set_placement_5(L_4);
 		// interstitial.InterstitialListener = this;
@@ -3721,7 +3755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		NullCheck(L_5);
 		HyBidInterstitialAd_set_InterstitialListener_mF73D41C8F5EB979CDA9A7E4E7A4A58AFE82AC462_inline(L_5, __this, /*hidden argument*/NULL);
 		// _buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
-		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = __this->get__buttonLoadInterstitial_8();
+		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = __this->get__buttonLoadInterstitial_10();
 		NullCheck(L_6);
 		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_7;
 		L_7 = Button_get_onClick_m28BD8C670676D4E2B292B5A7F59387D4BF61F8F4_inline(L_6, /*hidden argument*/NULL);
@@ -3729,6 +3763,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		UnityAction__ctor_m48C04C4C0F46918CF216A2410A4E58D31B6362BA(L_8, __this, (intptr_t)((intptr_t)InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var), /*hidden argument*/NULL);
 		NullCheck(L_7);
 		UnityEvent_AddListener_m0ACFF0706176ECCB20E0BC2542D07396616F436D(L_7, L_8, /*hidden argument*/NULL);
+		// _buttonLoadRewarded.onClick.AddListener (RequestRewarded);
+		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_9 = __this->get__buttonLoadRewarded_11();
+		NullCheck(L_9);
+		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_10;
+		L_10 = Button_get_onClick_m28BD8C670676D4E2B292B5A7F59387D4BF61F8F4_inline(L_9, /*hidden argument*/NULL);
+		UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 * L_11 = (UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 *)il2cpp_codegen_object_new(UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m48C04C4C0F46918CF216A2410A4E58D31B6362BA(L_11, __this, (intptr_t)((intptr_t)InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var), /*hidden argument*/NULL);
+		NullCheck(L_10);
+		UnityEvent_AddListener_m0ACFF0706176ECCB20E0BC2542D07396616F436D(L_10, L_11, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -3743,7 +3786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestInterstitial_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// if (interstitial != null && !isLoading) {
+		// if (interstitial != null && !isInterstitialLoading) {
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_0 = __this->get_interstitial_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3754,15 +3797,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestInterstitial_m
 		}
 	}
 	{
-		bool L_2 = __this->get_isLoading_5();
+		bool L_2 = __this->get_isInterstitialLoading_6();
 		if (L_2)
 		{
 			goto IL_0028;
 		}
 	}
 	{
-		// isLoading = true;
-		__this->set_isLoading_5((bool)1);
+		// isInterstitialLoading = true;
+		__this->set_isInterstitialLoading_6((bool)1);
 		// interstitial.Load();
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_3 = __this->get_interstitial_4();
 		NullCheck(L_3);
@@ -3775,12 +3818,54 @@ IL_0028:
 		return;
 	}
 }
+// System.Void InterstitialNative::RequestRewarded()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (rewarded != null && !isRewardedLoading) {
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		bool L_2 = __this->get_isRewardedLoading_7();
+		if (L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// isRewardedLoading = true;
+		__this->set_isRewardedLoading_7((bool)1);
+		// rewarded.Load();
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_3 = __this->get_rewarded_5();
+		NullCheck(L_3);
+		VirtActionInvoker0::Invoke(4 /* System.Void HyBidRewardedAd::Load() */, L_3);
+	}
+
+IL_0028:
+	{
+		// }
+		return;
+	}
+}
 // System.Void InterstitialNative::OnInterstitialLoaded()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialLoaded_mB7BC744B6B0242950FA641AF010048227CCD1B51 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
 {
 	{
-		// isLoading = false;
-		__this->set_isLoading_5((bool)0);
+		// isInterstitialLoading = false;
+		__this->set_isInterstitialLoading_6((bool)0);
 		// interstitial.Show ();
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_0 = __this->get_interstitial_4();
 		NullCheck(L_0);
@@ -3793,8 +3878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialLoaded_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialLoadFailed_mB929D95FF1789BC6C309B4A6F8AD026B3BE9AD54 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, Exception_t * ___error0, const RuntimeMethod* method)
 {
 	{
-		// isLoading = false;
-		__this->set_isLoading_5((bool)0);
+		// isInterstitialLoading = false;
+		__this->set_isInterstitialLoading_6((bool)0);
 		// }
 		return;
 	}
@@ -3817,6 +3902,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialClick_m
 }
 // System.Void InterstitialNative::OnInterstitialDismissed()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialDismissed_m9A89BF21E1F8B42659383D7F07B6E66EEE59425C (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::OnRewardedLoaded()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedLoaded_m220A4F76EC52DAD0605FAEFEE99BAC87F20F63B7 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	{
+		// isRewardedLoading = false;
+		__this->set_isRewardedLoading_7((bool)0);
+		// rewarded.Show ();
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_5();
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(5 /* System.Void HyBidRewardedAd::Show() */, L_0);
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::OnRewardedLoadFailed(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedLoadFailed_mC172EE5B22F522A294AA3BAF59511FA6BE535DDD (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, Exception_t * ___error0, const RuntimeMethod* method)
+{
+	{
+		// isInterstitialLoading = false;
+		__this->set_isInterstitialLoading_6((bool)0);
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::OnRewardedOpened()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedOpened_mDB2F7041BA10BB10981D65D75667CAA0D4175BEC (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::OnRewardedClick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedClick_mAC3279A90070C4125A041FE62E6F91AB68325AEC (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::OnRewardedClosed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedClosed_mDDFF2F75A76D0AE2E9405277BA0831D83253BE09 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void InterstitialNative::onReward()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_onReward_mB814ECB7F88C98A913228B292BA48F34F0825B1C (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
 {
 	{
 		// }
