@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSMutableDictionary *bannerPool;
 @property (nonatomic, strong) NSMutableDictionary *interstitialPool;
+@property (nonatomic, strong) NSMutableDictionary *rewardedPool;
 
 + (PNAdPool *)sharedPool;
 

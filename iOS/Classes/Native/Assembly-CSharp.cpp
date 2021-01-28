@@ -169,6 +169,8 @@ struct PNInterstitial_tEB114C9F6B62CDFF64C2D8129FF845D61BE58311;
 struct PNInterstitialFactory_t1B8444A4A68C437738F190BD7E81708589AD0189;
 // UnityEngine.Events.PersistentCallGroup
 struct PersistentCallGroup_t9A1D83DA2BA3118C103FA87D93CE92557A956FDC;
+// RewardedNative
+struct RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
 // UnityEngine.UI.Selectable
@@ -214,7 +216,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisHyBidIOSRewarded
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPNIOSBanner_tDB1B0D5ED5318FD28AEF4F2B0F985295BF092377_m248F7173D591EABF9BEA3262ED49EAC3E3A9D6B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisPNIOSInterstitial_tBDE892947D26479A6067815ACF9436B3CFF51F29_m662172E7981B01A4D30FB4ACDAD3C43C071ABA8A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1676,20 +1678,14 @@ struct  InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA  : public M
 public:
 	// HyBidInterstitialAd InterstitialNative::interstitial
 	HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * ___interstitial_4;
-	// HyBidRewardedAd InterstitialNative::rewarded
-	HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * ___rewarded_5;
 	// System.Boolean InterstitialNative::isInterstitialLoading
-	bool ___isInterstitialLoading_6;
-	// System.Boolean InterstitialNative::isRewardedLoading
-	bool ___isRewardedLoading_7;
+	bool ___isInterstitialLoading_5;
 	// System.String InterstitialNative::appToken
-	String_t* ___appToken_8;
+	String_t* ___appToken_6;
 	// System.String InterstitialNative::placement
-	String_t* ___placement_9;
+	String_t* ___placement_7;
 	// UnityEngine.UI.Button InterstitialNative::_buttonLoadInterstitial
-	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadInterstitial_10;
-	// UnityEngine.UI.Button InterstitialNative::_buttonLoadRewarded
-	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadRewarded_11;
+	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadInterstitial_8;
 
 public:
 	inline static int32_t get_offset_of_interstitial_4() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___interstitial_4)); }
@@ -1701,65 +1697,39 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___interstitial_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_rewarded_5() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___rewarded_5)); }
-	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * get_rewarded_5() const { return ___rewarded_5; }
-	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 ** get_address_of_rewarded_5() { return &___rewarded_5; }
-	inline void set_rewarded_5(HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * value)
+	inline static int32_t get_offset_of_isInterstitialLoading_5() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isInterstitialLoading_5)); }
+	inline bool get_isInterstitialLoading_5() const { return ___isInterstitialLoading_5; }
+	inline bool* get_address_of_isInterstitialLoading_5() { return &___isInterstitialLoading_5; }
+	inline void set_isInterstitialLoading_5(bool value)
 	{
-		___rewarded_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___rewarded_5), (void*)value);
+		___isInterstitialLoading_5 = value;
 	}
 
-	inline static int32_t get_offset_of_isInterstitialLoading_6() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isInterstitialLoading_6)); }
-	inline bool get_isInterstitialLoading_6() const { return ___isInterstitialLoading_6; }
-	inline bool* get_address_of_isInterstitialLoading_6() { return &___isInterstitialLoading_6; }
-	inline void set_isInterstitialLoading_6(bool value)
+	inline static int32_t get_offset_of_appToken_6() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___appToken_6)); }
+	inline String_t* get_appToken_6() const { return ___appToken_6; }
+	inline String_t** get_address_of_appToken_6() { return &___appToken_6; }
+	inline void set_appToken_6(String_t* value)
 	{
-		___isInterstitialLoading_6 = value;
+		___appToken_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___appToken_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_isRewardedLoading_7() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___isRewardedLoading_7)); }
-	inline bool get_isRewardedLoading_7() const { return ___isRewardedLoading_7; }
-	inline bool* get_address_of_isRewardedLoading_7() { return &___isRewardedLoading_7; }
-	inline void set_isRewardedLoading_7(bool value)
+	inline static int32_t get_offset_of_placement_7() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___placement_7)); }
+	inline String_t* get_placement_7() const { return ___placement_7; }
+	inline String_t** get_address_of_placement_7() { return &___placement_7; }
+	inline void set_placement_7(String_t* value)
 	{
-		___isRewardedLoading_7 = value;
+		___placement_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___placement_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_appToken_8() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___appToken_8)); }
-	inline String_t* get_appToken_8() const { return ___appToken_8; }
-	inline String_t** get_address_of_appToken_8() { return &___appToken_8; }
-	inline void set_appToken_8(String_t* value)
+	inline static int32_t get_offset_of__buttonLoadInterstitial_8() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadInterstitial_8)); }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadInterstitial_8() const { return ____buttonLoadInterstitial_8; }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadInterstitial_8() { return &____buttonLoadInterstitial_8; }
+	inline void set__buttonLoadInterstitial_8(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
 	{
-		___appToken_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___appToken_8), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_placement_9() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ___placement_9)); }
-	inline String_t* get_placement_9() const { return ___placement_9; }
-	inline String_t** get_address_of_placement_9() { return &___placement_9; }
-	inline void set_placement_9(String_t* value)
-	{
-		___placement_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___placement_9), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__buttonLoadInterstitial_10() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadInterstitial_10)); }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadInterstitial_10() const { return ____buttonLoadInterstitial_10; }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadInterstitial_10() { return &____buttonLoadInterstitial_10; }
-	inline void set__buttonLoadInterstitial_10(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
-	{
-		____buttonLoadInterstitial_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadInterstitial_10), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__buttonLoadRewarded_11() { return static_cast<int32_t>(offsetof(InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA, ____buttonLoadRewarded_11)); }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadRewarded_11() const { return ____buttonLoadRewarded_11; }
-	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadRewarded_11() { return &____buttonLoadRewarded_11; }
-	inline void set__buttonLoadRewarded_11(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
-	{
-		____buttonLoadRewarded_11 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadRewarded_11), (void*)value);
+		____buttonLoadInterstitial_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadInterstitial_8), (void*)value);
 	}
 };
 
@@ -1823,6 +1793,68 @@ public:
 	{
 		___trackListener_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___trackListener_8), (void*)value);
+	}
+};
+
+
+// RewardedNative
+struct  RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// HyBidRewardedAd RewardedNative::rewarded
+	HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * ___rewarded_4;
+	// System.Boolean RewardedNative::isRewardedLoading
+	bool ___isRewardedLoading_5;
+	// System.String RewardedNative::appToken
+	String_t* ___appToken_6;
+	// System.String RewardedNative::placement
+	String_t* ___placement_7;
+	// UnityEngine.UI.Button RewardedNative::_buttonLoadRewarded
+	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ____buttonLoadRewarded_8;
+
+public:
+	inline static int32_t get_offset_of_rewarded_4() { return static_cast<int32_t>(offsetof(RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2, ___rewarded_4)); }
+	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * get_rewarded_4() const { return ___rewarded_4; }
+	inline HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 ** get_address_of_rewarded_4() { return &___rewarded_4; }
+	inline void set_rewarded_4(HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * value)
+	{
+		___rewarded_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___rewarded_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_isRewardedLoading_5() { return static_cast<int32_t>(offsetof(RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2, ___isRewardedLoading_5)); }
+	inline bool get_isRewardedLoading_5() const { return ___isRewardedLoading_5; }
+	inline bool* get_address_of_isRewardedLoading_5() { return &___isRewardedLoading_5; }
+	inline void set_isRewardedLoading_5(bool value)
+	{
+		___isRewardedLoading_5 = value;
+	}
+
+	inline static int32_t get_offset_of_appToken_6() { return static_cast<int32_t>(offsetof(RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2, ___appToken_6)); }
+	inline String_t* get_appToken_6() const { return ___appToken_6; }
+	inline String_t** get_address_of_appToken_6() { return &___appToken_6; }
+	inline void set_appToken_6(String_t* value)
+	{
+		___appToken_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___appToken_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_placement_7() { return static_cast<int32_t>(offsetof(RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2, ___placement_7)); }
+	inline String_t* get_placement_7() const { return ___placement_7; }
+	inline String_t** get_address_of_placement_7() { return &___placement_7; }
+	inline void set_placement_7(String_t* value)
+	{
+		___placement_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___placement_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__buttonLoadRewarded_8() { return static_cast<int32_t>(offsetof(RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2, ____buttonLoadRewarded_8)); }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * get__buttonLoadRewarded_8() const { return ____buttonLoadRewarded_8; }
+	inline Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D ** get_address_of__buttonLoadRewarded_8() { return &____buttonLoadRewarded_8; }
+	inline void set__buttonLoadRewarded_8(Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * value)
+	{
+		____buttonLoadRewarded_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____buttonLoadRewarded_8), (void*)value);
 	}
 };
 
@@ -2316,6 +2348,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSInterstitialAd_loadInterstitial_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSInterstitialAd_showInterstitial_m321E37A245E86F9B64A0FA075A68CCCA83E0BF9A (String_t* ___adID0, const RuntimeMethod* method);
 // System.Void HyBidIOSInterstitialAd::hideInterstitial(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSInterstitialAd_hideInterstitial_m483E48CD960681C8A25E94ED5AB03112273E72E8 (String_t* ___adID0, const RuntimeMethod* method);
+// System.Void HyBidIOSRewardedAd::loadRewarded(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_loadRewarded_mE14AB6C4DE6D84A3CC5DD3DE0B22CD71C735A76A (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, const RuntimeMethod* method);
+// System.Void HyBidIOSRewardedAd::showRewarded(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_showRewarded_mD86347CF6B9B005DD7383EBB587AAE388630EEB1 (String_t* ___adID0, const RuntimeMethod* method);
+// System.Void HyBidIOSRewardedAd::hideRewarded(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_hideRewarded_m3EFCA6ABC6B6FCD3F7D276F7CF797A7D7BE934B1 (String_t* ___adID0, const RuntimeMethod* method);
 // System.Boolean System.String::Equals(System.String,System.StringComparison)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m62F0586691097AA2EE48F1596A130170BCFBF7F6 (String_t* __this, String_t* ___value0, int32_t ___comparisonType1, const RuntimeMethod* method);
 // System.Void System.Exception::.ctor(System.String)
@@ -2368,9 +2406,16 @@ inline PNIOSInterstitial_tBDE892947D26479A6067815ACF9436B3CFF51F29 * GameObject_
 {
 	return ((  PNIOSInterstitial_tBDE892947D26479A6067815ACF9436B3CFF51F29 * (*) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mBDBD6EC58A4409E35E4C5D08757C36E4938256B1_gshared)(__this, method);
 }
+// HyBidRewardedAd HyBidRewardedAdFactory::createRewardedAd(UnityEngine.MonoBehaviour)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * HyBidRewardedAdFactory_createRewardedAd_m52A3FCBFADF1A84E9B38DBA403A77B27DB10ED61 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * ___parent0, const RuntimeMethod* method);
+// System.Void HyBidRewardedAd::set_RewardedListener(IRewardedListener)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HyBidRewardedAd_set_RewardedListener_m4873FBF54D19D69C5ABBEBB487DD1B4AACF31065_inline (HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
 IL2CPP_EXTERN_C void DEFAULT_CALL loadInterstitial(char*, char*, char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL showInterstitial(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL hideInterstitial(char*);
+IL2CPP_EXTERN_C void DEFAULT_CALL loadRewarded(char*, char*, char*, char*);
+IL2CPP_EXTERN_C void DEFAULT_CALL showRewarded(char*);
+IL2CPP_EXTERN_C void DEFAULT_CALL hideRewarded(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL removeBanner(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL loadBanner(char*, char*, char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL showBanner(char*, int32_t);
@@ -3021,26 +3066,117 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSInterstitialAd__ctor_m76ED610AFB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void HyBidIOSRewardedAd::loadRewarded(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_loadRewarded_mE14AB6C4DE6D84A3CC5DD3DE0B22CD71C735A76A (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
+
+	// Marshaling of parameter '___gameObjectName0' to native representation
+	char* ____gameObjectName0_marshaled = NULL;
+	____gameObjectName0_marshaled = il2cpp_codegen_marshal_string(___gameObjectName0);
+
+	// Marshaling of parameter '___appToken1' to native representation
+	char* ____appToken1_marshaled = NULL;
+	____appToken1_marshaled = il2cpp_codegen_marshal_string(___appToken1);
+
+	// Marshaling of parameter '___placement2' to native representation
+	char* ____placement2_marshaled = NULL;
+	____placement2_marshaled = il2cpp_codegen_marshal_string(___placement2);
+
+	// Marshaling of parameter '___adID3' to native representation
+	char* ____adID3_marshaled = NULL;
+	____adID3_marshaled = il2cpp_codegen_marshal_string(___adID3);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(loadRewarded)(____gameObjectName0_marshaled, ____appToken1_marshaled, ____placement2_marshaled, ____adID3_marshaled);
+
+	// Marshaling cleanup of parameter '___gameObjectName0' native representation
+	il2cpp_codegen_marshal_free(____gameObjectName0_marshaled);
+	____gameObjectName0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___appToken1' native representation
+	il2cpp_codegen_marshal_free(____appToken1_marshaled);
+	____appToken1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___placement2' native representation
+	il2cpp_codegen_marshal_free(____placement2_marshaled);
+	____placement2_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___adID3' native representation
+	il2cpp_codegen_marshal_free(____adID3_marshaled);
+	____adID3_marshaled = NULL;
+
+}
 // System.Void HyBidIOSRewardedAd::Load()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_Load_m454896199B046BC60D9FA037D31F6DC7D0C84874 (HyBidIOSRewardedAd_tA2E8A360AE95606ED560834E094772816EE0B9BC * __this, const RuntimeMethod* method)
 {
 	{
+		// loadRewarded(this.gameObject.name, appToken, placement, adID);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0;
+		L_0 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_0, /*hidden argument*/NULL);
+		String_t* L_2 = ((HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 *)__this)->get_appToken_4();
+		String_t* L_3 = ((HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 *)__this)->get_placement_5();
+		String_t* L_4 = ((HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 *)__this)->get_adID_6();
+		HyBidIOSRewardedAd_loadRewarded_mE14AB6C4DE6D84A3CC5DD3DE0B22CD71C735A76A(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		// }
 		return;
 	}
+}
+// System.Void HyBidIOSRewardedAd::showRewarded(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_showRewarded_mD86347CF6B9B005DD7383EBB587AAE388630EEB1 (String_t* ___adID0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___adID0' to native representation
+	char* ____adID0_marshaled = NULL;
+	____adID0_marshaled = il2cpp_codegen_marshal_string(___adID0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(showRewarded)(____adID0_marshaled);
+
+	// Marshaling cleanup of parameter '___adID0' native representation
+	il2cpp_codegen_marshal_free(____adID0_marshaled);
+	____adID0_marshaled = NULL;
+
 }
 // System.Void HyBidIOSRewardedAd::Show()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_Show_mE52E6587714C102AD133502EEC44FC4230DA1331 (HyBidIOSRewardedAd_tA2E8A360AE95606ED560834E094772816EE0B9BC * __this, const RuntimeMethod* method)
 {
 	{
+		// showRewarded(adID);
+		String_t* L_0 = ((HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 *)__this)->get_adID_6();
+		HyBidIOSRewardedAd_showRewarded_mD86347CF6B9B005DD7383EBB587AAE388630EEB1(L_0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
+}
+// System.Void HyBidIOSRewardedAd::hideRewarded(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_hideRewarded_m3EFCA6ABC6B6FCD3F7D276F7CF797A7D7BE934B1 (String_t* ___adID0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___adID0' to native representation
+	char* ____adID0_marshaled = NULL;
+	____adID0_marshaled = il2cpp_codegen_marshal_string(___adID0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(hideRewarded)(____adID0_marshaled);
+
+	// Marshaling cleanup of parameter '___adID0' native representation
+	il2cpp_codegen_marshal_free(____adID0_marshaled);
+	____adID0_marshaled = NULL;
+
 }
 // System.Void HyBidIOSRewardedAd::Hide()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSRewardedAd_Hide_mE6081490C495DD050CFF68C445C27A23F0E35903 (HyBidIOSRewardedAd_tA2E8A360AE95606ED560834E094772816EE0B9BC * __this, const RuntimeMethod* method)
 {
 	{
+		// hideRewarded(adID);
+		String_t* L_0 = ((HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 *)__this)->get_adID_6();
+		HyBidIOSRewardedAd_hideRewarded_m3EFCA6ABC6B6FCD3F7D276F7CF797A7D7BE934B1(L_0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -3731,7 +3867,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3742,12 +3877,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		__this->set_interstitial_4(L_0);
 		// interstitial.appToken = appToken;
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_1 = __this->get_interstitial_4();
-		String_t* L_2 = __this->get_appToken_8();
+		String_t* L_2 = __this->get_appToken_6();
 		NullCheck(L_1);
 		L_1->set_appToken_4(L_2);
 		// interstitial.placement = placement;
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_3 = __this->get_interstitial_4();
-		String_t* L_4 = __this->get_placement_9();
+		String_t* L_4 = __this->get_placement_7();
 		NullCheck(L_3);
 		L_3->set_placement_5(L_4);
 		// interstitial.InterstitialListener = this;
@@ -3755,7 +3890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		NullCheck(L_5);
 		HyBidInterstitialAd_set_InterstitialListener_mF73D41C8F5EB979CDA9A7E4E7A4A58AFE82AC462_inline(L_5, __this, /*hidden argument*/NULL);
 		// _buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
-		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = __this->get__buttonLoadInterstitial_10();
+		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = __this->get__buttonLoadInterstitial_8();
 		NullCheck(L_6);
 		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_7;
 		L_7 = Button_get_onClick_m28BD8C670676D4E2B292B5A7F59387D4BF61F8F4_inline(L_6, /*hidden argument*/NULL);
@@ -3763,15 +3898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_Start_m82F9458C381CB5
 		UnityAction__ctor_m48C04C4C0F46918CF216A2410A4E58D31B6362BA(L_8, __this, (intptr_t)((intptr_t)InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8_RuntimeMethod_var), /*hidden argument*/NULL);
 		NullCheck(L_7);
 		UnityEvent_AddListener_m0ACFF0706176ECCB20E0BC2542D07396616F436D(L_7, L_8, /*hidden argument*/NULL);
-		// _buttonLoadRewarded.onClick.AddListener (RequestRewarded);
-		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_9 = __this->get__buttonLoadRewarded_11();
-		NullCheck(L_9);
-		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_10;
-		L_10 = Button_get_onClick_m28BD8C670676D4E2B292B5A7F59387D4BF61F8F4_inline(L_9, /*hidden argument*/NULL);
-		UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 * L_11 = (UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 *)il2cpp_codegen_object_new(UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
-		UnityAction__ctor_m48C04C4C0F46918CF216A2410A4E58D31B6362BA(L_11, __this, (intptr_t)((intptr_t)InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F_RuntimeMethod_var), /*hidden argument*/NULL);
-		NullCheck(L_10);
-		UnityEvent_AddListener_m0ACFF0706176ECCB20E0BC2542D07396616F436D(L_10, L_11, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -3797,7 +3923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestInterstitial_m
 		}
 	}
 	{
-		bool L_2 = __this->get_isInterstitialLoading_6();
+		bool L_2 = __this->get_isInterstitialLoading_5();
 		if (L_2)
 		{
 			goto IL_0028;
@@ -3805,53 +3931,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestInterstitial_m
 	}
 	{
 		// isInterstitialLoading = true;
-		__this->set_isInterstitialLoading_6((bool)1);
+		__this->set_isInterstitialLoading_5((bool)1);
 		// interstitial.Load();
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_3 = __this->get_interstitial_4();
 		NullCheck(L_3);
 		VirtActionInvoker0::Invoke(4 /* System.Void HyBidInterstitialAd::Load() */, L_3);
-	}
-
-IL_0028:
-	{
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::RequestRewarded()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_RequestRewarded_m773C0CC292585C5BC0D40D5DB1FD384076887B2F (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (rewarded != null && !isRewardedLoading) {
-		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		bool L_2 = __this->get_isRewardedLoading_7();
-		if (L_2)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// isRewardedLoading = true;
-		__this->set_isRewardedLoading_7((bool)1);
-		// rewarded.Load();
-		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_3 = __this->get_rewarded_5();
-		NullCheck(L_3);
-		VirtActionInvoker0::Invoke(4 /* System.Void HyBidRewardedAd::Load() */, L_3);
 	}
 
 IL_0028:
@@ -3865,7 +3949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialLoaded_
 {
 	{
 		// isInterstitialLoading = false;
-		__this->set_isInterstitialLoading_6((bool)0);
+		__this->set_isInterstitialLoading_5((bool)0);
 		// interstitial.Show ();
 		HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * L_0 = __this->get_interstitial_4();
 		NullCheck(L_0);
@@ -3879,7 +3963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialLoadFai
 {
 	{
 		// isInterstitialLoading = false;
-		__this->set_isInterstitialLoading_6((bool)0);
+		__this->set_isInterstitialLoading_5((bool)0);
 		// }
 		return;
 	}
@@ -3902,62 +3986,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialClick_m
 }
 // System.Void InterstitialNative::OnInterstitialDismissed()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnInterstitialDismissed_m9A89BF21E1F8B42659383D7F07B6E66EEE59425C (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::OnRewardedLoaded()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedLoaded_m220A4F76EC52DAD0605FAEFEE99BAC87F20F63B7 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	{
-		// isRewardedLoading = false;
-		__this->set_isRewardedLoading_7((bool)0);
-		// rewarded.Show ();
-		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_5();
-		NullCheck(L_0);
-		VirtActionInvoker0::Invoke(5 /* System.Void HyBidRewardedAd::Show() */, L_0);
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::OnRewardedLoadFailed(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedLoadFailed_mC172EE5B22F522A294AA3BAF59511FA6BE535DDD (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, Exception_t * ___error0, const RuntimeMethod* method)
-{
-	{
-		// isInterstitialLoading = false;
-		__this->set_isInterstitialLoading_6((bool)0);
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::OnRewardedOpened()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedOpened_mDB2F7041BA10BB10981D65D75667CAA0D4175BEC (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::OnRewardedClick()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedClick_mAC3279A90070C4125A041FE62E6F91AB68325AEC (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::OnRewardedClosed()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_OnRewardedClosed_mDDFF2F75A76D0AE2E9405277BA0831D83253BE09 (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void InterstitialNative::onReward()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialNative_onReward_mB814ECB7F88C98A913228B292BA48F34F0825B1C (InterstitialNative_t54C310E47A038F66566EA5EDDB9F5BFC78DE4EBA * __this, const RuntimeMethod* method)
 {
 	{
 		// }
@@ -5141,6 +5169,162 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PNInterstitialFactory__ctor_m21AFE90CE70
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void RewardedNative::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_Start_m54A42772597B81822B9556E25E4178A837CD8EF5 (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// rewarded = HyBidRewardedAdFactory.createRewardedAd (this);
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0;
+		L_0 = HyBidRewardedAdFactory_createRewardedAd_m52A3FCBFADF1A84E9B38DBA403A77B27DB10ED61(__this, /*hidden argument*/NULL);
+		__this->set_rewarded_4(L_0);
+		// rewarded.appToken = appToken;
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_1 = __this->get_rewarded_4();
+		String_t* L_2 = __this->get_appToken_6();
+		NullCheck(L_1);
+		L_1->set_appToken_4(L_2);
+		// rewarded.placement = placement;
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_3 = __this->get_rewarded_4();
+		String_t* L_4 = __this->get_placement_7();
+		NullCheck(L_3);
+		L_3->set_placement_5(L_4);
+		// rewarded.RewardedListener = this;
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_5 = __this->get_rewarded_4();
+		NullCheck(L_5);
+		HyBidRewardedAd_set_RewardedListener_m4873FBF54D19D69C5ABBEBB487DD1B4AACF31065_inline(L_5, __this, /*hidden argument*/NULL);
+		// _buttonLoadRewarded.onClick.AddListener (RequestRewarded);
+		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = __this->get__buttonLoadRewarded_8();
+		NullCheck(L_6);
+		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_7;
+		L_7 = Button_get_onClick_m28BD8C670676D4E2B292B5A7F59387D4BF61F8F4_inline(L_6, /*hidden argument*/NULL);
+		UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 * L_8 = (UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099 *)il2cpp_codegen_object_new(UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m48C04C4C0F46918CF216A2410A4E58D31B6362BA(L_8, __this, (intptr_t)((intptr_t)RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781_RuntimeMethod_var), /*hidden argument*/NULL);
+		NullCheck(L_7);
+		UnityEvent_AddListener_m0ACFF0706176ECCB20E0BC2542D07396616F436D(L_7, L_8, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::RequestRewarded()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781 (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (rewarded != null && !isRewardedLoading) {
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		bool L_2 = __this->get_isRewardedLoading_5();
+		if (L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// isRewardedLoading = true;
+		__this->set_isRewardedLoading_5((bool)1);
+		// rewarded.Load();
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_3 = __this->get_rewarded_4();
+		NullCheck(L_3);
+		VirtActionInvoker0::Invoke(4 /* System.Void HyBidRewardedAd::Load() */, L_3);
+	}
+
+IL_0028:
+	{
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::OnRewardedLoaded()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_OnRewardedLoaded_m05149B1614EF5A30234EFDCD457F2D7D2630FCB1 (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		// isRewardedLoading = false;
+		__this->set_isRewardedLoading_5((bool)0);
+		// rewarded.Show ();
+		HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * L_0 = __this->get_rewarded_4();
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(5 /* System.Void HyBidRewardedAd::Show() */, L_0);
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::OnRewardedLoadFailed(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_OnRewardedLoadFailed_m125643970F835519697DF41EF56CD8AAAADCB77D (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, Exception_t * ___error0, const RuntimeMethod* method)
+{
+	{
+		// isRewardedLoading = false;
+		__this->set_isRewardedLoading_5((bool)0);
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::OnRewardedOpened()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_OnRewardedOpened_m9853D57B3DB60838A2FEB3A70C57337260DFFE1E (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::OnRewardedClick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_OnRewardedClick_m0762052928B37B1A613B7C623F767A2116E26A9A (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::OnRewardedClosed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_OnRewardedClosed_m0EE5F92EB64DA19FED9BFF61155E5B89EACC3B04 (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::onReward()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative_onReward_mDCB2F8D0C1B766598370EB1D74FD9670DE98B424 (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RewardedNative::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedNative__ctor_mC9C196C11F031597AFB0344048F87F82942EC27A (RewardedNative_t7CC9F22FB9BFECE7D100C0C9BDCC8D992574F2D2 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -5178,6 +5362,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HyBidInterstitialAd_set_Inte
 		// this.interstitialListener = value;
 		RuntimeObject* L_0 = ___value0;
 		__this->set_interstitialListener_7(L_0);
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HyBidRewardedAd_set_RewardedListener_m4873FBF54D19D69C5ABBEBB487DD1B4AACF31065_inline (HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * __this, RuntimeObject* ___value0, const RuntimeMethod* method)
+{
+	{
+		// this.rewardedListener = value;
+		RuntimeObject* L_0 = ___value0;
+		__this->set_rewardedListener_7(L_0);
 		// }
 		return;
 	}

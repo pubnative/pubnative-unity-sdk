@@ -39,6 +39,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BannerNative" preserve="nothing"/>
 		<type fullname="InterstitialNative" preserve="nothing"/>
+		<type fullname="RewardedNative" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
