@@ -70,36 +70,6 @@ System memory in use after: 108.2 MB.
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1573.
 Total: 2.749910 ms (FindLiveObjects: 0.456905 ms CreateObjectMapping: 0.141725 ms MarkObjects: 2.089576 ms  DeleteObjects: 0.059337 ms)
 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/PNEditorBanner.cs
-  artifactKey: Guid(24ca2ce7f05b140809b5539b31721166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNEditorBanner.cs using Guid(24ca2ce7f05b140809b5539b31721166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f7b0b332ea9c23006603262bc4f8ce') in 0.898348 seconds
-  Import took 0.903228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Scripts/PNIOSInterstitial.cs
-  artifactKey: Guid(ea75454dc5cd64de2ae8a0f598e286e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNIOSInterstitial.cs using Guid(ea75454dc5cd64de2ae8a0f598e286e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fdf5fb2c76a57225f334c25fde7467') in 0.005012 seconds
-  Import took 0.008185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Scripts/PNInterstitial.cs
-  artifactKey: Guid(231db949df15240c2ab14b28d3b2fded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNInterstitial.cs using Guid(231db949df15240c2ab14b28d3b2fded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29772984ea1745c51949b0111035ac4c') in 0.004235 seconds
-  Import took 0.008031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Scripts/PNEditorInterstitial.cs
-  artifactKey: Guid(55e9c78e1125f42a2b541827bd9e2ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNEditorInterstitial.cs using Guid(55e9c78e1125f42a2b541827bd9e2ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef582379fc4f0ffc189bf4cd0846512') in 0.005809 seconds
-  Import took 0.010577 seconds .
 
 ========================================================================
 Received Prepare
