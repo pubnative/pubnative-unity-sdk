@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.unity3d.player.UnityPlayer;
 
+import net.pubnative.lite.sdk.HyBid;
 import net.pubnative.lite.sdk.views.HyBidAdView;
 import net.pubnative.sdk.core.Pubnative;
 
@@ -58,7 +59,7 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the banner");
         } else {
-            Pubnative.init(UnityPlayer.currentActivity, appToken);
+            HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication());
             hyBidAdView.load(placementId, bannerPosition, (HyBidAdView.Listener) UnityPlayer.currentActivity);
         }
     }
