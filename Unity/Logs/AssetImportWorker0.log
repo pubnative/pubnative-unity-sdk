@@ -71,23 +71,6 @@ System memory in use after: 112.1 MB.
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 1580.
 Total: 2.111046 ms (FindLiveObjects: 0.202712 ms CreateObjectMapping: 0.061056 ms MarkObjects: 1.777727 ms  DeleteObjects: 0.068243 ms)
 
-========================================================================
-Received Import Request.
-  path: Assets/Plugins/iOS/HyBid.xcframework
-  artifactKey: Guid(1e85ce7ca5438482dbd3d3a943cc7d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/iOS/HyBid.xcframework using Guid(1e85ce7ca5438482dbd3d3a943cc7d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345e43742f2163ad6bc095132ecd608') in 0.004702 seconds
-  Import took 0.008283 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.3 MB.
-System memory in use after: 89.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1580.
-Total: 1.408231 ms (FindLiveObjects: 0.154505 ms CreateObjectMapping: 0.035405 ms MarkObjects: 1.203819 ms  DeleteObjects: 0.013723 ms)
 
 ========================================================================
 Received Import Request.

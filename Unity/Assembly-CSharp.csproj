@@ -47,12 +47,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Position.cs" />
      <Compile Include="Assets\Scripts\HyBidAndroidRewardedAd.cs" />
      <Compile Include="Assets\Scripts\PNAndroidInterstitial.cs" />
+     <Compile Include="Assets\Scripts\HyBidEditorBanner.cs" />
      <Compile Include="Assets\Scripts\InterstitialNative.cs" />
+     <Compile Include="Assets\Scripts\HyBidIOSBanner.cs" />
      <Compile Include="Assets\Scripts\HyBidRewardedAd.cs" />
      <Compile Include="Assets\Scripts\PNBanner.cs" />
      <Compile Include="Assets\Scripts\ILoadListener.cs" />
+     <Compile Include="Assets\Scripts\HyBidAdView.cs" />
      <Compile Include="Assets\Scripts\HyBidRewardedAdFactory.cs" />
      <Compile Include="Assets\Scripts\HyBidAndroidInterstialAd.cs" />
      <Compile Include="Assets\Scripts\IInterstitialListener.cs" />
@@ -65,8 +69,11 @@
      <Compile Include="Assets\Scripts\PNEditorInterstitial.cs" />
      <Compile Include="Assets\Scripts\PNAd.cs" />
      <Compile Include="Assets\Scripts\PNInterstitialFactory.cs" />
+     <Compile Include="Assets\Scripts\HyBidAndroidBanner.cs" />
      <Compile Include="Assets\Scripts\HyBidEditorInterstitialAd.cs" />
      <Compile Include="Assets\Scripts\PNIOSInterstitial.cs" />
+     <Compile Include="Assets\Scripts\HyBidBanner.cs" />
+     <Compile Include="Assets\Scripts\HyBidAdViewFactory.cs" />
      <Compile Include="Assets\Scripts\HyBidInterstitialAdFactory.cs" />
      <Compile Include="Assets\Scripts\IAdViewListener.cs" />
      <Compile Include="Assets\Scripts\PNAndroidBanner.cs" />
