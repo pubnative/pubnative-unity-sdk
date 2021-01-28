@@ -7,11 +7,30 @@ import com.unity3d.player.UnityPlayer;
 import net.pubnative.lite.sdk.views.HyBidAdView;
 import net.pubnative.sdk.core.Pubnative;
 
-public class HyBidAdViewWrapper extends HyBidAdWrapper {
+public class HyBidAdViewWrapper implements HyBidAdView.Listener {
 
     private static final String TAG = HyBidAdViewWrapper.class.getSimpleName();
 
     protected HyBidAdView hyBidAdView;
+
+    protected String mGameObjectName;
+    protected String mAdId;
+
+    protected void executeDisplayAction(Runnable runnable) {
+        if (UnityPlayer.currentActivity == null) {
+            Log.e(TAG, "No active context found to show the ad");
+        } else {
+            UnityPlayer.currentActivity.runOnUiThread(runnable);
+        }
+    }
+
+    protected void setGameObject(String gameObjectName) {
+        this.mGameObjectName = gameObjectName;
+    }
+
+    protected void setAdId(String adId) {
+        this.mAdId = adId;
+    }
 
     public HyBidAdViewWrapper() {
         super();
@@ -50,5 +69,25 @@ public class HyBidAdViewWrapper extends HyBidAdWrapper {
 
     private int getBottomPosition() {
         return 2;
+    }
+
+    @Override
+    public void onAdLoaded() {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHyBidAdLoaded", mAdId);
+    }
+
+    @Override
+    public void onAdLoadFailed(Throwable throwable) {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHyBidAdError", mAdId);
+    }
+
+    @Override
+    public void onAdImpression() {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHyBidAdImpression", mAdId);
+    }
+
+    @Override
+    public void onAdClick() {
+        UnityPlayer.UnitySendMessage(mGameObjectName, "OnHyBidAdClicked", mAdId);
     }
 }
