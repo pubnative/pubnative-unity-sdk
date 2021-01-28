@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, IViewListener
+public class InterstitialNative : MonoBehaviour, IInterstitialListener
 {
-	private PNInterstitial interstitial;
+	private HyBidInterstitialAd interstitial;
 
 	private bool isLoading;
 	public string appToken;
@@ -18,54 +18,48 @@ public class InterstitialNative : MonoBehaviour, ILoadListener, ITrackListener, 
 	// Use this for initialization
 	void Start ()
 	{
-		interstitial = PNInterstitialFactory.createInterstitial (this);
+		interstitial = HyBidInterstitialAdFactory.createInterstitialAd (this);
 
 		interstitial.appToken = appToken;
 		interstitial.placement = placement;
-		interstitial.LoadListener = this;
-		interstitial.TrackListener = this;
-		interstitial.ViewListener = this;
+		interstitial.InterstitialListener = this;
 		_buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
 	}
 
 	private void RequestInterstitial ()
 	{
-			if (interstitial != null && !isLoading) {
-				isLoading = true;
-				interstitial.Load();
-			}
+		if (interstitial != null && !isLoading) {
+			isLoading = true;
+			interstitial.Load();
 		}
+	}
 
 
-	public void OnLoadFinished ()
+	public void OnInterstitialLoaded ()
 	{
 		isLoading = false;
 		interstitial.Show ();
 	}
 
-	public void OnLoadFailed (Exception error)
+	public void OnInterstitialLoadFailed (Exception error)
 	{
 		isLoading = false;
 		// Handle error
 	}
 
-	public void OnImpressionTracked()
+	public void OnInterstitialImpression ()
 	{
 		// Handle Impression
 	}
 
-	public void OnClickTracked ()
+	public void OnInterstitialClick ()
 	{
-		// Handle Click
+		// Handle click
 	}
 
-	public void OnShown ()
+	public void OnInterstitialDismissed ()
 	{
-		// Handle interstitial show
+		// Handle dismissed
 	}
-
-	public void OnHidden ()
-	{
-		// Handle interstitial hide
-	}
+	
 }
