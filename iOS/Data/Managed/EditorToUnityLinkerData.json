@@ -410,6 +410,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RewardedNative",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",

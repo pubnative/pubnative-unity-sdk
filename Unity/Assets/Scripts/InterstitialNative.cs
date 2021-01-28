@@ -8,7 +8,8 @@ public class InterstitialNative : MonoBehaviour, IInterstitialListener
 {
 	private HyBidInterstitialAd interstitial;
 
-	private bool isLoading;
+	private bool isInterstitialLoading;
+
 	public string appToken;
 	public string placement;
 
@@ -28,22 +29,22 @@ public class InterstitialNative : MonoBehaviour, IInterstitialListener
 
 	private void RequestInterstitial ()
 	{
-		if (interstitial != null && !isLoading) {
-			isLoading = true;
+		if (interstitial != null && !isInterstitialLoading) {
+			isInterstitialLoading = true;
 			interstitial.Load();
 		}
 	}
 
-
+	// Interstitial Listeners
 	public void OnInterstitialLoaded ()
 	{
-		isLoading = false;
+		isInterstitialLoading = false;
 		interstitial.Show ();
 	}
 
 	public void OnInterstitialLoadFailed (Exception error)
 	{
-		isLoading = false;
+		isInterstitialLoading = false;
 		// Handle error
 	}
 

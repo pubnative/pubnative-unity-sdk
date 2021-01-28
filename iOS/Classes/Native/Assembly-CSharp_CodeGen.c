@@ -74,224 +74,248 @@ extern void HyBidIOSInterstitialAd_hideInterstitial_m483E48CD960681C8A25E94ED5AB
 extern void HyBidIOSInterstitialAd_Hide_m33F536304438E79DDF2BD00F5B11A8855482563F (void);
 // 0x0000001F System.Void HyBidIOSInterstitialAd::.ctor()
 extern void HyBidIOSInterstitialAd__ctor_m76ED610AFB8DFB86CA19A5C1BBC5E7A5C9D1CC78 (void);
-// 0x00000020 System.Void HyBidIOSRewardedAd::Load()
+// 0x00000020 System.Void HyBidIOSRewardedAd::loadRewarded(System.String,System.String,System.String,System.String)
+extern void HyBidIOSRewardedAd_loadRewarded_mE14AB6C4DE6D84A3CC5DD3DE0B22CD71C735A76A (void);
+// 0x00000021 System.Void HyBidIOSRewardedAd::Load()
 extern void HyBidIOSRewardedAd_Load_m454896199B046BC60D9FA037D31F6DC7D0C84874 (void);
-// 0x00000021 System.Void HyBidIOSRewardedAd::Show()
+// 0x00000022 System.Void HyBidIOSRewardedAd::showRewarded(System.String)
+extern void HyBidIOSRewardedAd_showRewarded_mD86347CF6B9B005DD7383EBB587AAE388630EEB1 (void);
+// 0x00000023 System.Void HyBidIOSRewardedAd::Show()
 extern void HyBidIOSRewardedAd_Show_mE52E6587714C102AD133502EEC44FC4230DA1331 (void);
-// 0x00000022 System.Void HyBidIOSRewardedAd::Hide()
+// 0x00000024 System.Void HyBidIOSRewardedAd::hideRewarded(System.String)
+extern void HyBidIOSRewardedAd_hideRewarded_m3EFCA6ABC6B6FCD3F7D276F7CF797A7D7BE934B1 (void);
+// 0x00000025 System.Void HyBidIOSRewardedAd::Hide()
 extern void HyBidIOSRewardedAd_Hide_mE6081490C495DD050CFF68C445C27A23F0E35903 (void);
-// 0x00000023 System.Void HyBidIOSRewardedAd::.ctor()
+// 0x00000026 System.Void HyBidIOSRewardedAd::.ctor()
 extern void HyBidIOSRewardedAd__ctor_mDCA5F66A7BF07EAB2106706C4BE8FD99B9F97701 (void);
-// 0x00000024 IInterstitialListener HyBidInterstitialAd::get_InterstitialListener()
+// 0x00000027 IInterstitialListener HyBidInterstitialAd::get_InterstitialListener()
 extern void HyBidInterstitialAd_get_InterstitialListener_mB1691CEC7FAB121B4CD4C021489AADBBC1F01649 (void);
-// 0x00000025 System.Void HyBidInterstitialAd::set_InterstitialListener(IInterstitialListener)
+// 0x00000028 System.Void HyBidInterstitialAd::set_InterstitialListener(IInterstitialListener)
 extern void HyBidInterstitialAd_set_InterstitialListener_mF73D41C8F5EB979CDA9A7E4E7A4A58AFE82AC462 (void);
-// 0x00000026 System.String HyBidInterstitialAd::get_AdId()
+// 0x00000029 System.String HyBidInterstitialAd::get_AdId()
 extern void HyBidInterstitialAd_get_AdId_m0679B2699DBF8BD447CB1A489783E010C4E14B83 (void);
-// 0x00000027 System.Void HyBidInterstitialAd::set_AdId(System.String)
+// 0x0000002A System.Void HyBidInterstitialAd::set_AdId(System.String)
 extern void HyBidInterstitialAd_set_AdId_m4D09B05E11C7800CDEE6394CA6FC41856DF5D180 (void);
-// 0x00000028 System.Void HyBidInterstitialAd::Load()
-// 0x00000029 System.Void HyBidInterstitialAd::Show()
-// 0x0000002A System.Void HyBidInterstitialAd::Hide()
-// 0x0000002B System.Void HyBidInterstitialAd::OnHyBidInterstitialLoaded(System.String)
+// 0x0000002B System.Void HyBidInterstitialAd::Load()
+// 0x0000002C System.Void HyBidInterstitialAd::Show()
+// 0x0000002D System.Void HyBidInterstitialAd::Hide()
+// 0x0000002E System.Void HyBidInterstitialAd::OnHyBidInterstitialLoaded(System.String)
 extern void HyBidInterstitialAd_OnHyBidInterstitialLoaded_m36C18E10C10F7BACA6BE3B62953AFF232AECD763 (void);
-// 0x0000002C System.Void HyBidInterstitialAd::OnHyBidInterstitialLoadFailed(System.String)
+// 0x0000002F System.Void HyBidInterstitialAd::OnHyBidInterstitialLoadFailed(System.String)
 extern void HyBidInterstitialAd_OnHyBidInterstitialLoadFailed_mAE4D7D0BCEF97154187BF6A39A444101D4AA6E0C (void);
-// 0x0000002D System.Void HyBidInterstitialAd::OnHyBidInterstitialImpression(System.String)
+// 0x00000030 System.Void HyBidInterstitialAd::OnHyBidInterstitialImpression(System.String)
 extern void HyBidInterstitialAd_OnHyBidInterstitialImpression_mCEEF2F3EFA48DE67129A2C7C2B163204CA1835C8 (void);
-// 0x0000002E System.Void HyBidInterstitialAd::OnHyBidInterstitialClick(System.String)
+// 0x00000031 System.Void HyBidInterstitialAd::OnHyBidInterstitialClick(System.String)
 extern void HyBidInterstitialAd_OnHyBidInterstitialClick_m59CD7C48476BBE23D80C6EC529DBE40FECDF3B94 (void);
-// 0x0000002F System.Void HyBidInterstitialAd::OnHyBidInterstitialDismissed(System.String)
+// 0x00000032 System.Void HyBidInterstitialAd::OnHyBidInterstitialDismissed(System.String)
 extern void HyBidInterstitialAd_OnHyBidInterstitialDismissed_m1304D00D0DB1318481B3D19B5771A45224695AB9 (void);
-// 0x00000030 System.Void HyBidInterstitialAd::.ctor()
+// 0x00000033 System.Void HyBidInterstitialAd::.ctor()
 extern void HyBidInterstitialAd__ctor_mEE176E32CF3493072B39DFA5AD211486378D75BC (void);
-// 0x00000031 HyBidInterstitialAd HyBidInterstitialAdFactory::createInterstitialAd(UnityEngine.MonoBehaviour)
+// 0x00000034 HyBidInterstitialAd HyBidInterstitialAdFactory::createInterstitialAd(UnityEngine.MonoBehaviour)
 extern void HyBidInterstitialAdFactory_createInterstitialAd_m9FE7A2D49C5AEE7B9C219EB6F235A1BC40F5B5D0 (void);
-// 0x00000032 System.Void HyBidInterstitialAdFactory::.ctor()
+// 0x00000035 System.Void HyBidInterstitialAdFactory::.ctor()
 extern void HyBidInterstitialAdFactory__ctor_m3CAB54911F682F3332538D1644F932406721B364 (void);
-// 0x00000033 IRewardedListener HyBidRewardedAd::get_RewardedListener()
+// 0x00000036 IRewardedListener HyBidRewardedAd::get_RewardedListener()
 extern void HyBidRewardedAd_get_RewardedListener_m5BFBC9F6CC5958BBB286D2CE05AE2FB6F9E19FD1 (void);
-// 0x00000034 System.Void HyBidRewardedAd::set_RewardedListener(IRewardedListener)
+// 0x00000037 System.Void HyBidRewardedAd::set_RewardedListener(IRewardedListener)
 extern void HyBidRewardedAd_set_RewardedListener_m4873FBF54D19D69C5ABBEBB487DD1B4AACF31065 (void);
-// 0x00000035 System.String HyBidRewardedAd::get_AdId()
+// 0x00000038 System.String HyBidRewardedAd::get_AdId()
 extern void HyBidRewardedAd_get_AdId_m9FE5CC7AE6BBFCA8175FEFE5DAE6EE1703ED3080 (void);
-// 0x00000036 System.Void HyBidRewardedAd::set_AdId(System.String)
+// 0x00000039 System.Void HyBidRewardedAd::set_AdId(System.String)
 extern void HyBidRewardedAd_set_AdId_m01C174BD9E1B90AE96726D2976E48BB7AE5F21FD (void);
-// 0x00000037 System.Void HyBidRewardedAd::Load()
-// 0x00000038 System.Void HyBidRewardedAd::Show()
-// 0x00000039 System.Void HyBidRewardedAd::Hide()
-// 0x0000003A System.Void HyBidRewardedAd::OnHyBidRewardedLoaded(System.String)
+// 0x0000003A System.Void HyBidRewardedAd::Load()
+// 0x0000003B System.Void HyBidRewardedAd::Show()
+// 0x0000003C System.Void HyBidRewardedAd::Hide()
+// 0x0000003D System.Void HyBidRewardedAd::OnHyBidRewardedLoaded(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedLoaded_m56E2516008CF43C9B540E88583AD1D569B65092E (void);
-// 0x0000003B System.Void HyBidRewardedAd::OnHyBidRewardedLoadFailed(System.String)
+// 0x0000003E System.Void HyBidRewardedAd::OnHyBidRewardedLoadFailed(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedLoadFailed_mB41F5AC91AA2F285D0016EE03E97DF9939D0BA20 (void);
-// 0x0000003C System.Void HyBidRewardedAd::OnHyBidRewardedOpened(System.String)
+// 0x0000003F System.Void HyBidRewardedAd::OnHyBidRewardedOpened(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedOpened_m7041E42ABBDAA9BE538F4014CF54B10AC37964D2 (void);
-// 0x0000003D System.Void HyBidRewardedAd::OnHyBidRewardedClick(System.String)
+// 0x00000040 System.Void HyBidRewardedAd::OnHyBidRewardedClick(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedClick_m40C61527A8617B982FBD96370FC8E514C846CFAF (void);
-// 0x0000003E System.Void HyBidRewardedAd::OnHyBidRewardedClosed(System.String)
+// 0x00000041 System.Void HyBidRewardedAd::OnHyBidRewardedClosed(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedClosed_m8699246F043AEC1EAF6C386808E10B590995F789 (void);
-// 0x0000003F System.Void HyBidRewardedAd::OnHyBidRewardedReward(System.String)
+// 0x00000042 System.Void HyBidRewardedAd::OnHyBidRewardedReward(System.String)
 extern void HyBidRewardedAd_OnHyBidRewardedReward_mC734BD20CFCFB002D7202491A95E297379148CCF (void);
-// 0x00000040 System.Void HyBidRewardedAd::.ctor()
+// 0x00000043 System.Void HyBidRewardedAd::.ctor()
 extern void HyBidRewardedAd__ctor_m6BD189CCA5AAB0B25CF5857B8DC314C2671A548B (void);
-// 0x00000041 HyBidRewardedAd HyBidRewardedAdFactory::createRewardedAd(UnityEngine.MonoBehaviour)
+// 0x00000044 HyBidRewardedAd HyBidRewardedAdFactory::createRewardedAd(UnityEngine.MonoBehaviour)
 extern void HyBidRewardedAdFactory_createRewardedAd_m52A3FCBFADF1A84E9B38DBA403A77B27DB10ED61 (void);
-// 0x00000042 System.Void HyBidRewardedAdFactory::.ctor()
+// 0x00000045 System.Void HyBidRewardedAdFactory::.ctor()
 extern void HyBidRewardedAdFactory__ctor_m9F89954A35DE56AA84AC34D0E07BA018ACC54F8E (void);
-// 0x00000043 System.Void IAdViewListener::OnAdLoaded()
-// 0x00000044 System.Void IAdViewListener::OnAdLoadFailed(System.Exception)
-// 0x00000045 System.Void IAdViewListener::OnAdImpression()
-// 0x00000046 System.Void IAdViewListener::OnAdClick()
-// 0x00000047 System.Void IInterstitialListener::OnInterstitialLoaded()
-// 0x00000048 System.Void IInterstitialListener::OnInterstitialLoadFailed(System.Exception)
-// 0x00000049 System.Void IInterstitialListener::OnInterstitialImpression()
-// 0x0000004A System.Void IInterstitialListener::OnInterstitialClick()
-// 0x0000004B System.Void IInterstitialListener::OnInterstitialDismissed()
-// 0x0000004C System.Void ILoadListener::OnLoadFinished()
-// 0x0000004D System.Void ILoadListener::OnLoadFailed(System.Exception)
-// 0x0000004E System.Void IRewardedListener::OnRewardedLoaded()
-// 0x0000004F System.Void IRewardedListener::OnRewardedLoadFailed(System.Exception)
-// 0x00000050 System.Void IRewardedListener::OnRewardedClick()
-// 0x00000051 System.Void IRewardedListener::OnRewardedOpened()
-// 0x00000052 System.Void IRewardedListener::OnRewardedClosed()
-// 0x00000053 System.Void IRewardedListener::onReward()
-// 0x00000054 System.Void ITrackListener::OnImpressionTracked()
-// 0x00000055 System.Void ITrackListener::OnClickTracked()
-// 0x00000056 System.Void IViewListener::OnShown()
-// 0x00000057 System.Void IViewListener::OnHidden()
-// 0x00000058 System.Void InterstitialNative::Start()
+// 0x00000046 System.Void IAdViewListener::OnAdLoaded()
+// 0x00000047 System.Void IAdViewListener::OnAdLoadFailed(System.Exception)
+// 0x00000048 System.Void IAdViewListener::OnAdImpression()
+// 0x00000049 System.Void IAdViewListener::OnAdClick()
+// 0x0000004A System.Void IInterstitialListener::OnInterstitialLoaded()
+// 0x0000004B System.Void IInterstitialListener::OnInterstitialLoadFailed(System.Exception)
+// 0x0000004C System.Void IInterstitialListener::OnInterstitialImpression()
+// 0x0000004D System.Void IInterstitialListener::OnInterstitialClick()
+// 0x0000004E System.Void IInterstitialListener::OnInterstitialDismissed()
+// 0x0000004F System.Void ILoadListener::OnLoadFinished()
+// 0x00000050 System.Void ILoadListener::OnLoadFailed(System.Exception)
+// 0x00000051 System.Void IRewardedListener::OnRewardedLoaded()
+// 0x00000052 System.Void IRewardedListener::OnRewardedLoadFailed(System.Exception)
+// 0x00000053 System.Void IRewardedListener::OnRewardedClick()
+// 0x00000054 System.Void IRewardedListener::OnRewardedOpened()
+// 0x00000055 System.Void IRewardedListener::OnRewardedClosed()
+// 0x00000056 System.Void IRewardedListener::onReward()
+// 0x00000057 System.Void ITrackListener::OnImpressionTracked()
+// 0x00000058 System.Void ITrackListener::OnClickTracked()
+// 0x00000059 System.Void IViewListener::OnShown()
+// 0x0000005A System.Void IViewListener::OnHidden()
+// 0x0000005B System.Void InterstitialNative::Start()
 extern void InterstitialNative_Start_m82F9458C381CB530B6B0B8B0D933A0A44B4991C1 (void);
-// 0x00000059 System.Void InterstitialNative::RequestInterstitial()
+// 0x0000005C System.Void InterstitialNative::RequestInterstitial()
 extern void InterstitialNative_RequestInterstitial_m1BB1D6B8F6500B02D7D704CF075EDDF151D9AAC8 (void);
-// 0x0000005A System.Void InterstitialNative::OnInterstitialLoaded()
+// 0x0000005D System.Void InterstitialNative::OnInterstitialLoaded()
 extern void InterstitialNative_OnInterstitialLoaded_mB7BC744B6B0242950FA641AF010048227CCD1B51 (void);
-// 0x0000005B System.Void InterstitialNative::OnInterstitialLoadFailed(System.Exception)
+// 0x0000005E System.Void InterstitialNative::OnInterstitialLoadFailed(System.Exception)
 extern void InterstitialNative_OnInterstitialLoadFailed_mB929D95FF1789BC6C309B4A6F8AD026B3BE9AD54 (void);
-// 0x0000005C System.Void InterstitialNative::OnInterstitialImpression()
+// 0x0000005F System.Void InterstitialNative::OnInterstitialImpression()
 extern void InterstitialNative_OnInterstitialImpression_mBA0FEA6CA33AA9B9AAEFC0C02B916CEC7B5964C3 (void);
-// 0x0000005D System.Void InterstitialNative::OnInterstitialClick()
+// 0x00000060 System.Void InterstitialNative::OnInterstitialClick()
 extern void InterstitialNative_OnInterstitialClick_mF1B5A8C1D7E92DB187BDA3EA45F787500DF3E25A (void);
-// 0x0000005E System.Void InterstitialNative::OnInterstitialDismissed()
+// 0x00000061 System.Void InterstitialNative::OnInterstitialDismissed()
 extern void InterstitialNative_OnInterstitialDismissed_m9A89BF21E1F8B42659383D7F07B6E66EEE59425C (void);
-// 0x0000005F System.Void InterstitialNative::.ctor()
+// 0x00000062 System.Void InterstitialNative::.ctor()
 extern void InterstitialNative__ctor_m4275970D57BE83940802070F3884EBDF8AA7D618 (void);
-// 0x00000060 ILoadListener PNAd::get_LoadListener()
+// 0x00000063 ILoadListener PNAd::get_LoadListener()
 extern void PNAd_get_LoadListener_mE50DE04D66E3902A18252F2F26E66A08D8DBC802 (void);
-// 0x00000061 System.Void PNAd::set_LoadListener(ILoadListener)
+// 0x00000064 System.Void PNAd::set_LoadListener(ILoadListener)
 extern void PNAd_set_LoadListener_m69631D5A73CE5859613E5765A5204EFBE486367D (void);
-// 0x00000062 ITrackListener PNAd::get_TrackListener()
+// 0x00000065 ITrackListener PNAd::get_TrackListener()
 extern void PNAd_get_TrackListener_mEB1BDBFFCB5348A3F7D3C170DED9F373E149A043 (void);
-// 0x00000063 System.Void PNAd::set_TrackListener(ITrackListener)
+// 0x00000066 System.Void PNAd::set_TrackListener(ITrackListener)
 extern void PNAd_set_TrackListener_mAEA3E7D1243501475990F1BC94F19AC435E2CA4E (void);
-// 0x00000064 System.String PNAd::get_AdId()
+// 0x00000067 System.String PNAd::get_AdId()
 extern void PNAd_get_AdId_mE397E3FA352AC457132CE23D7013B839E2999A9A (void);
-// 0x00000065 System.Void PNAd::set_AdId(System.String)
+// 0x00000068 System.Void PNAd::set_AdId(System.String)
 extern void PNAd_set_AdId_mD930EC0F85594C6484460CFCDEDC9128FD5208AC (void);
-// 0x00000066 System.Void PNAd::OnPNLayoutLoadFinish(System.String)
+// 0x00000069 System.Void PNAd::OnPNLayoutLoadFinish(System.String)
 extern void PNAd_OnPNLayoutLoadFinish_m806FC5F2AA4E71ACEC0B3F2EDBE3D2A21DAE9D31 (void);
-// 0x00000067 System.Void PNAd::OnPNLayoutLoadFailed(System.String)
+// 0x0000006A System.Void PNAd::OnPNLayoutLoadFailed(System.String)
 extern void PNAd_OnPNLayoutLoadFailed_m787E83FC12D7E3F5E80A4A2CEDFAB2FD0D3654C6 (void);
-// 0x00000068 System.Void PNAd::OnPNLayoutTrackImpression(System.String)
+// 0x0000006B System.Void PNAd::OnPNLayoutTrackImpression(System.String)
 extern void PNAd_OnPNLayoutTrackImpression_m713BA4C8443CF29D71214609FDAB4E493B4C260F (void);
-// 0x00000069 System.Void PNAd::OnPNLayoutTrackClick(System.String)
+// 0x0000006C System.Void PNAd::OnPNLayoutTrackClick(System.String)
 extern void PNAd_OnPNLayoutTrackClick_m755033C7DEEEA257D8AB7AACB710A22060A91162 (void);
-// 0x0000006A System.Void PNAd::.ctor()
+// 0x0000006D System.Void PNAd::.ctor()
 extern void PNAd__ctor_mD0D6CF434A57AA60DE93BBFF0A94C99EE98F06F3 (void);
-// 0x0000006B System.Void PNAndroidBanner::.ctor()
+// 0x0000006E System.Void PNAndroidBanner::.ctor()
 extern void PNAndroidBanner__ctor_m32C375BF5A7D2D1D4DAF3C17E52A6CDFB37B4BA0 (void);
-// 0x0000006C System.Void PNAndroidBanner::Load()
+// 0x0000006F System.Void PNAndroidBanner::Load()
 extern void PNAndroidBanner_Load_m6F5D7C27BA02F46389433862E26C93A5F30DB609 (void);
-// 0x0000006D System.Void PNAndroidBanner::Show(PNBanner/Position)
+// 0x00000070 System.Void PNAndroidBanner::Show(PNBanner/Position)
 extern void PNAndroidBanner_Show_m543D99D6D55F7E4615ADFD9D05A6CF5B01FC6BBB (void);
-// 0x0000006E System.Void PNAndroidBanner::Hide()
+// 0x00000071 System.Void PNAndroidBanner::Hide()
 extern void PNAndroidBanner_Hide_m0546655B5387803E12666765717725A6A45555F6 (void);
-// 0x0000006F System.Void PNAndroidInterstitial::.ctor()
+// 0x00000072 System.Void PNAndroidInterstitial::.ctor()
 extern void PNAndroidInterstitial__ctor_m607ABD2021D5392CCAF1272975C851797FB54377 (void);
-// 0x00000070 System.Void PNAndroidInterstitial::Load()
+// 0x00000073 System.Void PNAndroidInterstitial::Load()
 extern void PNAndroidInterstitial_Load_m518F550E508F5141FA95FE2FDDE43E581C578241 (void);
-// 0x00000071 System.Void PNAndroidInterstitial::Show()
+// 0x00000074 System.Void PNAndroidInterstitial::Show()
 extern void PNAndroidInterstitial_Show_m777CCE44BF49A5B6A52B13DB0990235F38FBCF8A (void);
-// 0x00000072 System.Void PNAndroidInterstitial::Hide()
+// 0x00000075 System.Void PNAndroidInterstitial::Hide()
 extern void PNAndroidInterstitial_Hide_mA813A208D35BE26DC480FA385237232FAF689C24 (void);
-// 0x00000073 System.Void PNBanner::Load()
-// 0x00000074 System.Void PNBanner::Show(PNBanner/Position)
-// 0x00000075 System.Void PNBanner::Hide()
-// 0x00000076 System.Void PNBanner::.ctor()
+// 0x00000076 System.Void PNBanner::Load()
+// 0x00000077 System.Void PNBanner::Show(PNBanner/Position)
+// 0x00000078 System.Void PNBanner::Hide()
+// 0x00000079 System.Void PNBanner::.ctor()
 extern void PNBanner__ctor_m7C12C1CD3F3DBD2604A31CD443E44D78C44D62B1 (void);
-// 0x00000077 PNBanner PNBannerFactory::createBanner(UnityEngine.MonoBehaviour)
+// 0x0000007A PNBanner PNBannerFactory::createBanner(UnityEngine.MonoBehaviour)
 extern void PNBannerFactory_createBanner_m018DA4477D6D91A2AABF37F0244BD52D311F0D0B (void);
-// 0x00000078 System.Void PNBannerFactory::.ctor()
+// 0x0000007B System.Void PNBannerFactory::.ctor()
 extern void PNBannerFactory__ctor_m81EF54B1A3755CDE700BBAF527460C026EB260F3 (void);
-// 0x00000079 System.Void PNEditorBanner::Load()
+// 0x0000007C System.Void PNEditorBanner::Load()
 extern void PNEditorBanner_Load_mE47FEABC0B2641DFFDC1B34640AAE0779E0438AF (void);
-// 0x0000007A System.Void PNEditorBanner::Show(PNBanner/Position)
+// 0x0000007D System.Void PNEditorBanner::Show(PNBanner/Position)
 extern void PNEditorBanner_Show_m25EBC3AEB4B0F7E0DB07A62231D2ED6CB7CBC445 (void);
-// 0x0000007B System.Void PNEditorBanner::Hide()
+// 0x0000007E System.Void PNEditorBanner::Hide()
 extern void PNEditorBanner_Hide_mB925C3E1D3C967EC9964FA384E40C0814A297D07 (void);
-// 0x0000007C System.Void PNEditorBanner::.ctor()
+// 0x0000007F System.Void PNEditorBanner::.ctor()
 extern void PNEditorBanner__ctor_mBB2702DE45911A4706B6FEFE60900F75B26B1837 (void);
-// 0x0000007D System.Void PNEditorInterstitial::Load()
+// 0x00000080 System.Void PNEditorInterstitial::Load()
 extern void PNEditorInterstitial_Load_m08F1B6AA3E35C9A889B1AEFB282DBF39AF9DB51A (void);
-// 0x0000007E System.Void PNEditorInterstitial::Show()
+// 0x00000081 System.Void PNEditorInterstitial::Show()
 extern void PNEditorInterstitial_Show_m25E3622B88986926449C628D5E2006E1CCD59C7F (void);
-// 0x0000007F System.Void PNEditorInterstitial::Hide()
+// 0x00000082 System.Void PNEditorInterstitial::Hide()
 extern void PNEditorInterstitial_Hide_m267A7E81FD53855C1F8B3A82641FF9581568350E (void);
-// 0x00000080 System.Void PNEditorInterstitial::.ctor()
+// 0x00000083 System.Void PNEditorInterstitial::.ctor()
 extern void PNEditorInterstitial__ctor_mDD5C8FE750FEEC86A7E370286BB4083E2AA0DA83 (void);
-// 0x00000081 System.Void PNIOSInterstitial::removeInterstitial(System.String)
+// 0x00000084 System.Void PNIOSInterstitial::removeInterstitial(System.String)
 extern void PNIOSInterstitial_removeInterstitial_mE4BA09862A3788A43B3AF3DA79616B2017009E2B (void);
-// 0x00000082 System.Void PNIOSInterstitial::onDestroy()
+// 0x00000085 System.Void PNIOSInterstitial::onDestroy()
 extern void PNIOSInterstitial_onDestroy_m62BCC3B927522E9859E2C53522A3F6A6578AC840 (void);
-// 0x00000083 System.Void PNIOSInterstitial::loadInterstitial(System.String,System.String,System.String,System.String)
+// 0x00000086 System.Void PNIOSInterstitial::loadInterstitial(System.String,System.String,System.String,System.String)
 extern void PNIOSInterstitial_loadInterstitial_mE008112784410B150DE9341BF4609203630345D2 (void);
-// 0x00000084 System.Void PNIOSInterstitial::Load()
+// 0x00000087 System.Void PNIOSInterstitial::Load()
 extern void PNIOSInterstitial_Load_mAB392A69E313DC2272040CBEEF04825DE2D7B2ED (void);
-// 0x00000085 System.Void PNIOSInterstitial::showInterstitial(System.String)
+// 0x00000088 System.Void PNIOSInterstitial::showInterstitial(System.String)
 extern void PNIOSInterstitial_showInterstitial_m15F2327CD10A1693F70FAF38361CFB1DE9F44681 (void);
-// 0x00000086 System.Void PNIOSInterstitial::Show()
+// 0x00000089 System.Void PNIOSInterstitial::Show()
 extern void PNIOSInterstitial_Show_mB3F646057D5EDBA22B46C738E3180ECE35873735 (void);
-// 0x00000087 System.Void PNIOSInterstitial::hideInterstitial(System.String)
+// 0x0000008A System.Void PNIOSInterstitial::hideInterstitial(System.String)
 extern void PNIOSInterstitial_hideInterstitial_m928B63530C841F11533DEFF57F9321624994BC78 (void);
-// 0x00000088 System.Void PNIOSInterstitial::Hide()
+// 0x0000008B System.Void PNIOSInterstitial::Hide()
 extern void PNIOSInterstitial_Hide_m48B17CB7B2351123FC5ACE5FBB19977B4F36B0B9 (void);
-// 0x00000089 System.Void PNIOSInterstitial::.ctor()
+// 0x0000008C System.Void PNIOSInterstitial::.ctor()
 extern void PNIOSInterstitial__ctor_m16A11DA206E38BDCB4014D3EE9DF70AF3ACCDADC (void);
-// 0x0000008A IViewListener PNInterstitial::get_ViewListener()
+// 0x0000008D IViewListener PNInterstitial::get_ViewListener()
 extern void PNInterstitial_get_ViewListener_m4FFF5212522073777EB0263AE702FDF44DCCED22 (void);
-// 0x0000008B System.Void PNInterstitial::set_ViewListener(IViewListener)
+// 0x0000008E System.Void PNInterstitial::set_ViewListener(IViewListener)
 extern void PNInterstitial_set_ViewListener_mDDCECAB2AFB506064829DEF7386546F2977FB4E0 (void);
-// 0x0000008C System.Void PNInterstitial::Load()
-// 0x0000008D System.Void PNInterstitial::Show()
-// 0x0000008E System.Void PNInterstitial::Hide()
-// 0x0000008F System.Void PNInterstitial::OnPNLayoutViewShown(System.String)
+// 0x0000008F System.Void PNInterstitial::Load()
+// 0x00000090 System.Void PNInterstitial::Show()
+// 0x00000091 System.Void PNInterstitial::Hide()
+// 0x00000092 System.Void PNInterstitial::OnPNLayoutViewShown(System.String)
 extern void PNInterstitial_OnPNLayoutViewShown_mC3D9458B8C71632B77F0343DBCD08C7A0ADDE3BD (void);
-// 0x00000090 System.Void PNInterstitial::OnPNLayoutViewHidden(System.String)
+// 0x00000093 System.Void PNInterstitial::OnPNLayoutViewHidden(System.String)
 extern void PNInterstitial_OnPNLayoutViewHidden_m86F85F40184ED72B6AF97CE92F55B50E485F8F8E (void);
-// 0x00000091 System.Void PNInterstitial::.ctor()
+// 0x00000094 System.Void PNInterstitial::.ctor()
 extern void PNInterstitial__ctor_m6E43941518F07956F0656907C23753BBD2A54A77 (void);
-// 0x00000092 PNInterstitial PNInterstitialFactory::createInterstitial(UnityEngine.MonoBehaviour)
+// 0x00000095 PNInterstitial PNInterstitialFactory::createInterstitial(UnityEngine.MonoBehaviour)
 extern void PNInterstitialFactory_createInterstitial_m64658D65909D6C0842A1ABBFFA3EB299B95C6C3C (void);
-// 0x00000093 System.Void PNInterstitialFactory::.ctor()
+// 0x00000096 System.Void PNInterstitialFactory::.ctor()
 extern void PNInterstitialFactory__ctor_m21AFE90CE70B75EC85933823E2E312227B951E49 (void);
-// 0x00000094 System.Void PNIOSBanner::removeBanner(System.String)
+// 0x00000097 System.Void PNIOSBanner::removeBanner(System.String)
 extern void PNIOSBanner_removeBanner_m936483119A2DE85BB12635AB2C16555B96B6BBAE (void);
-// 0x00000095 System.Void PNIOSBanner::onDestroy()
+// 0x00000098 System.Void PNIOSBanner::onDestroy()
 extern void PNIOSBanner_onDestroy_mDCB49373E75D50FED956E3C360DEAA9E7EEA1962 (void);
-// 0x00000096 System.Void PNIOSBanner::loadBanner(System.String,System.String,System.String,System.String)
+// 0x00000099 System.Void PNIOSBanner::loadBanner(System.String,System.String,System.String,System.String)
 extern void PNIOSBanner_loadBanner_m84BB5599636B5E6693F37CF45C5FF347A24D85AC (void);
-// 0x00000097 System.Void PNIOSBanner::Load()
+// 0x0000009A System.Void PNIOSBanner::Load()
 extern void PNIOSBanner_Load_m63CFD50F61F19E5270FD79047966D6D4E9B0F96A (void);
-// 0x00000098 System.Void PNIOSBanner::showBanner(System.String,System.Int32)
+// 0x0000009B System.Void PNIOSBanner::showBanner(System.String,System.Int32)
 extern void PNIOSBanner_showBanner_mBC4F458CFCC2BC3BF3B66961B317BB473B25A480 (void);
-// 0x00000099 System.Void PNIOSBanner::Show(PNBanner/Position)
+// 0x0000009C System.Void PNIOSBanner::Show(PNBanner/Position)
 extern void PNIOSBanner_Show_m28445F3554A2CFE3EEA6995D14BE47A6F1D83423 (void);
-// 0x0000009A System.Void PNIOSBanner::hideBanner(System.String)
+// 0x0000009D System.Void PNIOSBanner::hideBanner(System.String)
 extern void PNIOSBanner_hideBanner_m62A90720FDC12095AFF51A7BCCD09C559C66DC48 (void);
-// 0x0000009B System.Void PNIOSBanner::Hide()
+// 0x0000009E System.Void PNIOSBanner::Hide()
 extern void PNIOSBanner_Hide_mA586680924883025B5772F17E660E96E38B6FCC3 (void);
-// 0x0000009C System.Void PNIOSBanner::.ctor()
+// 0x0000009F System.Void PNIOSBanner::.ctor()
 extern void PNIOSBanner__ctor_mA860E137CFA78CD0E0D5E7A794E3E3448C3C7595 (void);
-static Il2CppMethodPointer s_methodPointers[156] = 
+// 0x000000A0 System.Void RewardedNative::Start()
+extern void RewardedNative_Start_m54A42772597B81822B9556E25E4178A837CD8EF5 (void);
+// 0x000000A1 System.Void RewardedNative::RequestRewarded()
+extern void RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781 (void);
+// 0x000000A2 System.Void RewardedNative::OnRewardedLoaded()
+extern void RewardedNative_OnRewardedLoaded_m05149B1614EF5A30234EFDCD457F2D7D2630FCB1 (void);
+// 0x000000A3 System.Void RewardedNative::OnRewardedLoadFailed(System.Exception)
+extern void RewardedNative_OnRewardedLoadFailed_m125643970F835519697DF41EF56CD8AAAADCB77D (void);
+// 0x000000A4 System.Void RewardedNative::OnRewardedOpened()
+extern void RewardedNative_OnRewardedOpened_m9853D57B3DB60838A2FEB3A70C57337260DFFE1E (void);
+// 0x000000A5 System.Void RewardedNative::OnRewardedClick()
+extern void RewardedNative_OnRewardedClick_m0762052928B37B1A613B7C623F767A2116E26A9A (void);
+// 0x000000A6 System.Void RewardedNative::OnRewardedClosed()
+extern void RewardedNative_OnRewardedClosed_m0EE5F92EB64DA19FED9BFF61155E5B89EACC3B04 (void);
+// 0x000000A7 System.Void RewardedNative::onReward()
+extern void RewardedNative_onReward_mDCB2F8D0C1B766598370EB1D74FD9670DE98B424 (void);
+// 0x000000A8 System.Void RewardedNative::.ctor()
+extern void RewardedNative__ctor_mC9C196C11F031597AFB0344048F87F82942EC27A (void);
+static Il2CppMethodPointer s_methodPointers[168] = 
 {
 	BannerNative_Start_m74E9F741F04453A57657CAFA6C4EF92DDB374DCC,
 	BannerNative_RequestBanner_mCEDE824D3B0458ACE0FDF87BDBA87AAB75EACD02,
@@ -324,8 +348,11 @@ static Il2CppMethodPointer s_methodPointers[156] =
 	HyBidIOSInterstitialAd_hideInterstitial_m483E48CD960681C8A25E94ED5AB03112273E72E8,
 	HyBidIOSInterstitialAd_Hide_m33F536304438E79DDF2BD00F5B11A8855482563F,
 	HyBidIOSInterstitialAd__ctor_m76ED610AFB8DFB86CA19A5C1BBC5E7A5C9D1CC78,
+	HyBidIOSRewardedAd_loadRewarded_mE14AB6C4DE6D84A3CC5DD3DE0B22CD71C735A76A,
 	HyBidIOSRewardedAd_Load_m454896199B046BC60D9FA037D31F6DC7D0C84874,
+	HyBidIOSRewardedAd_showRewarded_mD86347CF6B9B005DD7383EBB587AAE388630EEB1,
 	HyBidIOSRewardedAd_Show_mE52E6587714C102AD133502EEC44FC4230DA1331,
+	HyBidIOSRewardedAd_hideRewarded_m3EFCA6ABC6B6FCD3F7D276F7CF797A7D7BE934B1,
 	HyBidIOSRewardedAd_Hide_mE6081490C495DD050CFF68C445C27A23F0E35903,
 	HyBidIOSRewardedAd__ctor_mDCA5F66A7BF07EAB2106706C4BE8FD99B9F97701,
 	HyBidInterstitialAd_get_InterstitialListener_mB1691CEC7FAB121B4CD4C021489AADBBC1F01649,
@@ -449,8 +476,17 @@ static Il2CppMethodPointer s_methodPointers[156] =
 	PNIOSBanner_hideBanner_m62A90720FDC12095AFF51A7BCCD09C559C66DC48,
 	PNIOSBanner_Hide_mA586680924883025B5772F17E660E96E38B6FCC3,
 	PNIOSBanner__ctor_mA860E137CFA78CD0E0D5E7A794E3E3448C3C7595,
+	RewardedNative_Start_m54A42772597B81822B9556E25E4178A837CD8EF5,
+	RewardedNative_RequestRewarded_m019EAAC35DDDCF19E2EF69BC0A8543D785D7E781,
+	RewardedNative_OnRewardedLoaded_m05149B1614EF5A30234EFDCD457F2D7D2630FCB1,
+	RewardedNative_OnRewardedLoadFailed_m125643970F835519697DF41EF56CD8AAAADCB77D,
+	RewardedNative_OnRewardedOpened_m9853D57B3DB60838A2FEB3A70C57337260DFFE1E,
+	RewardedNative_OnRewardedClick_m0762052928B37B1A613B7C623F767A2116E26A9A,
+	RewardedNative_OnRewardedClosed_m0EE5F92EB64DA19FED9BFF61155E5B89EACC3B04,
+	RewardedNative_onReward_mDCB2F8D0C1B766598370EB1D74FD9670DE98B424,
+	RewardedNative__ctor_mC9C196C11F031597AFB0344048F87F82942EC27A,
 };
-static const int32_t s_InvokerIndices[156] = 
+static const int32_t s_InvokerIndices[168] = 
 {
 	1118,
 	1118,
@@ -483,8 +519,11 @@ static const int32_t s_InvokerIndices[156] =
 	1835,
 	1118,
 	1118,
+	1376,
 	1118,
+	1835,
 	1118,
+	1835,
 	1118,
 	1118,
 	1086,
@@ -608,13 +647,22 @@ static const int32_t s_InvokerIndices[156] =
 	1835,
 	1118,
 	1118,
+	1118,
+	1118,
+	1118,
+	957,
+	1118,
+	1118,
+	1118,
+	1118,
+	1118,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	156,
+	168,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
