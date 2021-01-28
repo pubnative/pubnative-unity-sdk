@@ -15,6 +15,9 @@ public class InterstitialNative : MonoBehaviour, IInterstitialListener
 	[SerializeField]
 	private Button _buttonLoadInterstitial;
 
+	[SerializeField]
+	private Button _buttonLoadRewarded;
+
 	// Use this for initialization
 	void Start ()
 	{
