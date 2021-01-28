@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class HyBidAdViewFactory
 {
     public static HyBidBanner createHyBidAdView(MonoBehaviour parent) 
