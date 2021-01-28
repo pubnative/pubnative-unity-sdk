@@ -128,3 +128,26 @@ Received Import Request.
 Start importing Assets/Scripts/InterstitialNative.cs using Guid(de0f928e90ea0439b859ab19f0215e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e12f38312d1c044c21d13bf63b287e') in 0.005614 seconds
   Import took 0.008240 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.439032 ms (FindLiveObjects: 0.187520 ms CreateObjectMapping: 0.034857 ms MarkObjects: 1.202230 ms  DeleteObjects: 0.013537 ms)
+

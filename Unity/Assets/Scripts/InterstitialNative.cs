@@ -4,11 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InterstitialNative : MonoBehaviour, IInterstitialListener
+public class InterstitialNative : MonoBehaviour, IInterstitialListener, IRewardedListener
 {
 	private HyBidInterstitialAd interstitial;
+	private HyBidRewardedAd rewarded;
 
-	private bool isLoading;
+	private bool isInterstitialLoading;
+	private bool isRewardedLoading;
+
 	public string appToken;
 	public string placement;
 
@@ -27,26 +30,35 @@ public class InterstitialNative : MonoBehaviour, IInterstitialListener
 		interstitial.placement = placement;
 		interstitial.InterstitialListener = this;
 		_buttonLoadInterstitial.onClick.AddListener (RequestInterstitial);
+		_buttonLoadRewarded.onClick.AddListener (RequestRewarded);
 	}
 
 	private void RequestInterstitial ()
 	{
-		if (interstitial != null && !isLoading) {
-			isLoading = true;
+		if (interstitial != null && !isInterstitialLoading) {
+			isInterstitialLoading = true;
 			interstitial.Load();
 		}
 	}
 
+	private void RequestRewarded ()
+	{
+		if (rewarded != null && !isRewardedLoading) {
+			isRewardedLoading = true;
+			rewarded.Load();
+		}
+	}
 
+	// Interstitial Listeners
 	public void OnInterstitialLoaded ()
 	{
-		isLoading = false;
+		isInterstitialLoading = false;
 		interstitial.Show ();
 	}
 
 	public void OnInterstitialLoadFailed (Exception error)
 	{
-		isLoading = false;
+		isInterstitialLoading = false;
 		// Handle error
 	}
 
@@ -63,6 +75,39 @@ public class InterstitialNative : MonoBehaviour, IInterstitialListener
 	public void OnInterstitialDismissed ()
 	{
 		// Handle dismissed
+	}
+
+	// Rewarded Listeners
+	public void OnRewardedLoaded ()
+	{
+		isRewardedLoading = false;
+		rewarded.Show ();
+	}
+
+	public void OnRewardedLoadFailed (Exception error)
+	{
+		isInterstitialLoading = false;
+		// Handle error
+	}
+
+	public void OnRewardedOpened ()
+	{
+		// Handle opened
+	}
+
+	public void OnRewardedClick ()
+	{
+		// Handle click
+	}
+
+	public void OnRewardedClosed ()
+	{
+		// Handle closed
+	}
+
+	public void onReward ()
+	{
+		// Handle onReward
 	}
 	
 }
