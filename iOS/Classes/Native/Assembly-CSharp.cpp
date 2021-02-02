@@ -111,8 +111,6 @@ struct HyBidAndroidBanner_tAE8613BD6457F8B1AF004AE59F4660E869627ECB;
 struct HyBidAndroidInterstitialAd_t6C80B847BF550E20ECD70BA3998188A620C8C78B;
 // HyBidAndroidRewardedAd
 struct HyBidAndroidRewardedAd_tC7BEB87886BB7CED2153914C0A7D1729605F16D3;
-// HyBidBanner
-struct HyBidBanner_t06B1E36F09B1C6C1BC1B7CF165B88D039D66B355;
 // HyBidEditorBanner
 struct HyBidEditorBanner_t28371DB8299B82274AF483E1272B66A4D8BFC328;
 // HyBidEditorInterstitialAd
@@ -2026,15 +2024,6 @@ public:
 };
 
 
-// HyBidBanner
-struct  HyBidBanner_t06B1E36F09B1C6C1BC1B7CF165B88D039D66B355  : public HyBidAdView_t0F6517572B30EA610FADA20082340845F4648E94
-{
-public:
-
-public:
-};
-
-
 // HyBidEditorBanner
 struct  HyBidEditorBanner_t28371DB8299B82274AF483E1272B66A4D8BFC328  : public HyBidAdView_t0F6517572B30EA610FADA20082340845F4648E94
 {
@@ -3375,22 +3364,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidAndroidRewardedAd_Hide_mB12FF6B737C
 		NullCheck(L_0);
 		AndroidJavaObject_Call_mBB226DA52CE5A2FCD9A2D42BC7FB4272E094B76D(L_0, _stringLiteral31D307275CC464AFDCC4A193A3D0DADE7D308F81, L_2, /*hidden argument*/NULL);
 		// }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void HyBidBanner::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidBanner__ctor_m6EE05206DB5A4734B8C2D2C578E8CEF5EF85C721 (HyBidBanner_t06B1E36F09B1C6C1BC1B7CF165B88D039D66B355 * __this, const RuntimeMethod* method)
-{
-	{
-		HyBidAdView__ctor_m0B2135E03843EC30394487F16F62CB9C30F22ECF(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
