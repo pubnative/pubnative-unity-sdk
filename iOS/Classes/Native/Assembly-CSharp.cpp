@@ -2485,8 +2485,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mBB226DA52CE5A2FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidInterstitialAd__ctor_mEE176E32CF3493072B39DFA5AD211486378D75BC (HyBidInterstitialAd_t3F463300034217C2D50CAC8019EF7626286DCF2A * __this, const RuntimeMethod* method);
 // System.Void HyBidRewardedAd::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidRewardedAd__ctor_m6BD189CCA5AAB0B25CF5857B8DC314C2671A548B (HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * __this, const RuntimeMethod* method);
-// System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_mE2872D7F28EF1D75EFC8185628D1702F6784B8A1 (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, const RuntimeMethod* method);
+// System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_m6B58EB87C16E3B153AAF60879FAF7EB0973BBE68 (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, int32_t ___position4, const RuntimeMethod* method);
 // System.Void HyBidIOSInterstitialAd::loadInterstitial(System.String,System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSInterstitialAd_loadInterstitial_m3BD868F3035BDCEAB4794BF8131AC26521B6FC3D (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, const RuntimeMethod* method);
 // System.Void HyBidIOSInterstitialAd::showInterstitial(System.String)
@@ -2549,7 +2549,7 @@ inline PNIOSInterstitial_tBDE892947D26479A6067815ACF9436B3CFF51F29 * GameObject_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * HyBidRewardedAdFactory_createRewardedAd_m52A3FCBFADF1A84E9B38DBA403A77B27DB10ED61 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * ___parent0, const RuntimeMethod* method);
 // System.Void HyBidRewardedAd::set_RewardedListener(IRewardedListener)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HyBidRewardedAd_set_RewardedListener_m4873FBF54D19D69C5ABBEBB487DD1B4AACF31065_inline (HyBidRewardedAd_tE104B28CD769EF0A170FF1D91ED28883A0C1FD91 * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
-IL2CPP_EXTERN_C void DEFAULT_CALL loadBanner(char*, char*, char*, char*);
+IL2CPP_EXTERN_C void DEFAULT_CALL loadBanner(char*, char*, char*, char*, int32_t);
 IL2CPP_EXTERN_C void DEFAULT_CALL loadInterstitial(char*, char*, char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL showInterstitial(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL hideInterstitial(char*);
@@ -3448,10 +3448,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidEditorRewardedAd__ctor_mD5D8B866B90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_mE2872D7F28EF1D75EFC8185628D1702F6784B8A1 (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, const RuntimeMethod* method)
+// System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_m6B58EB87C16E3B153AAF60879FAF7EB0973BBE68 (String_t* ___gameObjectName0, String_t* ___appToken1, String_t* ___placement2, String_t* ___adID3, int32_t ___position4, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*);
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, char*, char*, int32_t);
 
 	// Marshaling of parameter '___gameObjectName0' to native representation
 	char* ____gameObjectName0_marshaled = NULL;
@@ -3470,7 +3470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_mE2872D7F28EF1
 	____adID3_marshaled = il2cpp_codegen_marshal_string(___adID3);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(loadBanner)(____gameObjectName0_marshaled, ____appToken1_marshaled, ____placement2_marshaled, ____adID3_marshaled);
+	reinterpret_cast<PInvokeFunc>(loadBanner)(____gameObjectName0_marshaled, ____appToken1_marshaled, ____placement2_marshaled, ____adID3_marshaled, ___position4);
 
 	// Marshaling cleanup of parameter '___gameObjectName0' native representation
 	il2cpp_codegen_marshal_free(____gameObjectName0_marshaled);
@@ -3493,7 +3493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_loadBanner_mE2872D7F28EF1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_Load_m846824DD90DFF0006B2B4FE1B0D4DCCC9F673649 (HyBidIOSBanner_tFDD874971A6E260F739E816F90DA7E986D6C3A31 * __this, int32_t ___position0, const RuntimeMethod* method)
 {
 	{
-		// loadBanner(this.gameObject.name, appToken, placement, adID);
+		// loadBanner(this.gameObject.name, appToken, placement, adID, position);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0;
 		L_0 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
@@ -3502,7 +3502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HyBidIOSBanner_Load_m846824DD90DFF0006B2
 		String_t* L_2 = ((HyBidAdView_t0F6517572B30EA610FADA20082340845F4648E94 *)__this)->get_appToken_4();
 		String_t* L_3 = ((HyBidAdView_t0F6517572B30EA610FADA20082340845F4648E94 *)__this)->get_placement_5();
 		String_t* L_4 = ((HyBidAdView_t0F6517572B30EA610FADA20082340845F4648E94 *)__this)->get_adID_6();
-		HyBidIOSBanner_loadBanner_mE2872D7F28EF1D75EFC8185628D1702F6784B8A1(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = ___position0;
+		HyBidIOSBanner_loadBanner_m6B58EB87C16E3B153AAF60879FAF7EB0973BBE68(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		// }
 		return;
 	}

@@ -91,8 +91,8 @@ extern void HyBidEditorRewardedAd_Show_m861C9263EA9A2CC3453791D63D38878450EF53AE
 extern void HyBidEditorRewardedAd_Hide_m11CC7BE4A38759085E61840E15FF3FF58A067C53 (void);
 // 0x00000028 System.Void HyBidEditorRewardedAd::.ctor()
 extern void HyBidEditorRewardedAd__ctor_mD5D8B866B90A777A0AEE41D1E697085CD86C649C (void);
-// 0x00000029 System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String)
-extern void HyBidIOSBanner_loadBanner_mE2872D7F28EF1D75EFC8185628D1702F6784B8A1 (void);
+// 0x00000029 System.Void HyBidIOSBanner::loadBanner(System.String,System.String,System.String,System.String,System.Int32)
+extern void HyBidIOSBanner_loadBanner_m6B58EB87C16E3B153AAF60879FAF7EB0973BBE68 (void);
 // 0x0000002A System.Void HyBidIOSBanner::Load(System.Int32)
 extern void HyBidIOSBanner_Load_m846824DD90DFF0006B2B4FE1B0D4DCCC9F673649 (void);
 // 0x0000002B System.Void HyBidIOSBanner::.ctor()
@@ -394,7 +394,7 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	HyBidEditorRewardedAd_Show_m861C9263EA9A2CC3453791D63D38878450EF53AE,
 	HyBidEditorRewardedAd_Hide_m11CC7BE4A38759085E61840E15FF3FF58A067C53,
 	HyBidEditorRewardedAd__ctor_mD5D8B866B90A777A0AEE41D1E697085CD86C649C,
-	HyBidIOSBanner_loadBanner_mE2872D7F28EF1D75EFC8185628D1702F6784B8A1,
+	HyBidIOSBanner_loadBanner_m6B58EB87C16E3B153AAF60879FAF7EB0973BBE68,
 	HyBidIOSBanner_Load_m846824DD90DFF0006B2B4FE1B0D4DCCC9F673649,
 	HyBidIOSBanner__ctor_m6032816230E2800AA771A9FA6846F2D3836C9AAD,
 	HyBidIOSInterstitialAd_loadInterstitial_m3BD868F3035BDCEAB4794BF8131AC26521B6FC3D,
@@ -584,7 +584,7 @@ static const int32_t s_InvokerIndices[187] =
 	1118,
 	1118,
 	1118,
-	1376,
+	1262,
 	948,
 	1118,
 	1376,

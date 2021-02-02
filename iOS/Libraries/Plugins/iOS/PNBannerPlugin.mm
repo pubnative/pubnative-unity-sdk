@@ -6,7 +6,8 @@
 + (void)loadBannerWithObject:(NSString*)objectName
                 withAppToken:(NSString*)appToken
                withPlacement:(NSString*)placement
-                withBannerID:(NSString *)bannerID;
+                withBannerID:(NSString *)bannerID
+                atPosition:(NSInteger)position;
 
 + (void)showBannerWithID:(NSString *)bannerID
             withPosition:(NSInteger)position;
@@ -34,8 +35,13 @@ static PNBannerPlugin *_sharedInstance;
                 withAppToken:(NSString *)appToken
                withPlacement:(NSString *)placement
                 withBannerID:(NSString *)bannerID
+                atPosition:(NSInteger)position
 {
-    [[HyBidAdViewWrapper sharedInstance] loadWithObject:objectName withAppToken:appToken withPlacement:placement withAdId:bannerID withPosition: TOP];
+    BannerPosition bannerPosition = TOP;
+    if (position == 2) {
+        bannerPosition = BOTTOM;
+    }
+    [[HyBidAdViewWrapper sharedInstance] loadWithObject:objectName withAppToken:appToken withPlacement:placement withAdId:bannerID withPosition: bannerPosition];
 }
 
 + (void)showBannerWithID:(NSString *)bannerID
@@ -59,12 +65,13 @@ static PNBannerPlugin *_sharedInstance;
 #ifdef __cplusplus
 extern "C"
 {
-    void loadBanner(const char* obj, const char* appToken, const char* placement, const char* bannerID)
+    void loadBanner(const char* obj, const char* appToken, const char* placement, const char* bannerID, const int position)
     {
         [PNBannerPlugin loadBannerWithObject:[NSString stringWithUTF8String:obj]
                                 withAppToken:[NSString stringWithUTF8String:appToken]
                                withPlacement:[NSString stringWithUTF8String:placement]
-                                withBannerID:[NSString stringWithUTF8String:bannerID]];
+                                withBannerID:[NSString stringWithUTF8String:bannerID]
+                                atPosition: position];
     }
     
      void showBanner(const char* bannerID, int positon)
