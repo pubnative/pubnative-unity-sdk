@@ -99,6 +99,8 @@
 		6728434983E473F0C782CB0E /* PNAdPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 86004BAAA3E611F97EAA6D68 /* PNAdPool.m */; };
 		692A402A8EE4BE4AA5D5F0B7 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8594CA7B8F59BF93A3233E9 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6F88409925C2F150007E0AE9 /* HyBid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45154944A3FED40633F1BCCC /* HyBid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F96AA2C25C98227000847E9 /* HyBidAdViewWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F96AA2A25C98227000847E9 /* HyBidAdViewWrapper.h */; };
+		6F96AA2D25C98227000847E9 /* HyBidAdViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F96AA2B25C98227000847E9 /* HyBidAdViewWrapper.m */; };
 		75B04E9798224BB36CB365D2 /* UnityEngine.UI_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A5940CB85B06B40E32F988F /* UnityEngine.UI_Attr.cpp */; };
 		75B44909BBD8AC2D1164C6C7 /* UnityEngine_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EA74AC0953C3D6CA4E7F242 /* UnityEngine_Attr.cpp */; };
 		763044F6A802FEC4E22281DC /* mscorlib10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF464840AD942A6C52B3D7AD /* mscorlib10.cpp */; };
@@ -412,6 +414,8 @@
 		69C148189F31BD8FD5E55FF7 /* UnityEngine.CoreModule1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule1.cpp; path = Classes/Native/UnityEngine.CoreModule1.cpp; sourceTree = SOURCE_ROOT; };
 		6A0E496F93E918ADC22E3C23 /* PNBannerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PNBannerPlugin.h; path = Libraries/Plugins/iOS/PNBannerPlugin.h; sourceTree = SOURCE_ROOT; };
 		6D94425691B71E46F1FF490E /* Il2CppGenericComDefinitions1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions1.cpp; path = Classes/Native/Il2CppGenericComDefinitions1.cpp; sourceTree = SOURCE_ROOT; };
+		6F96AA2A25C98227000847E9 /* HyBidAdViewWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyBidAdViewWrapper.h; sourceTree = "<group>"; };
+		6F96AA2B25C98227000847E9 /* HyBidAdViewWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyBidAdViewWrapper.m; sourceTree = "<group>"; };
 		718747DB81CFF757B03DA90F /* mscorlib5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib5.cpp; path = Classes/Native/mscorlib5.cpp; sourceTree = SOURCE_ROOT; };
 		721A43E8BF4CFEA0E962C4F5 /* UnityEngine.UIModule_Attr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIModule_Attr.cpp; path = Classes/Native/UnityEngine.UIModule_Attr.cpp; sourceTree = SOURCE_ROOT; };
 		7256405983F1961E897941F0 /* HyBidInterstitialWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HyBidInterstitialWrapper.h; path = Libraries/Plugins/iOS/HyBidInterstitialWrapper.h; sourceTree = SOURCE_ROOT; };
@@ -1014,6 +1018,8 @@
 				5B77417EBD3DD974113DAC67 /* PNInterstitialWrapper.m */,
 				86004BAAA3E611F97EAA6D68 /* PNAdPool.m */,
 				5BD249A6A66208F5C907902C /* PNRewardedPlugin.mm */,
+				6F96AA2A25C98227000847E9 /* HyBidAdViewWrapper.h */,
+				6F96AA2B25C98227000847E9 /* HyBidAdViewWrapper.m */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -1087,6 +1093,7 @@
 				459541FC915D28E78BD5EA24 /* PNBannerPlugin.h in Headers */,
 				4E95456289216E7B4D1DBAD8 /* PNInterstitialPlugin.h in Headers */,
 				F7824731BD19F05DB781336F /* PNInterstitialWrapper.h in Headers */,
+				6F96AA2C25C98227000847E9 /* HyBidAdViewWrapper.h in Headers */,
 				B8DD44CBBF886F121D28624E /* PNAdPool.h in Headers */,
 				5DFE4FF7ACB30C4AB8FE8E45 /* HyBidInterstitialWrapper.h in Headers */,
 				1B014E998AD62FCDF88D9C6A /* PNBannerWrapper.h in Headers */,
@@ -1302,6 +1309,7 @@
 				8A215703245064AA00E582EB /* NoGraphicsHelper.mm in Sources */,
 				9D25ABE1213FB76500354C27 /* iPhone_Sensors.mm in Sources */,
 				9D25ABC6213FB6F800354C27 /* Filesystem.mm in Sources */,
+				6F96AA2D25C98227000847E9 /* HyBidAdViewWrapper.m in Sources */,
 				9D25ABB8213FB6E300354C27 /* UnityView.mm in Sources */,
 				9DFA7F9D21410F2E00C2880E /* main.mm in Sources */,
 				9D25ABBE213FB6F800354C27 /* OnDemandResources.mm in Sources */,
