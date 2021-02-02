@@ -50,14 +50,3 @@ public abstract class HyBidAdView : MonoBehaviour
 		}
     }
 }
-
-public interface IHyBidAdLoadListener
-{
-    void OnHyBidAdLoaded();
-
-    void OnHyBidAdImpression();
-
-	void OnHyBidAdClick();
-
-    void OnHyBidAdLoadFailed(Exception error);
-}
