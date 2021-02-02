@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\PNInterstitialFactory.cs" />
      <Compile Include="Assets\Scripts\HyBidAndroidBanner.cs" />
      <Compile Include="Assets\Scripts\HyBidEditorInterstitialAd.cs" />
+     <Compile Include="Assets\Scripts\RewardedNative.cs" />
      <Compile Include="Assets\Scripts\PNIOSInterstitial.cs" />
      <Compile Include="Assets\Scripts\HyBidBanner.cs" />
      <Compile Include="Assets\Scripts\HyBidAdViewFactory.cs" />
