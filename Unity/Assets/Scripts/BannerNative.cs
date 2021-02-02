@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
+public class BannerNative : MonoBehaviour, IAdViewListener
 {
-	private PNBanner banner;
+	private HyBidAdView banner;
 
 	public string appToken;
 	public string placement;
@@ -20,12 +20,13 @@ public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 	// Use this for initialization
 	void Start ()
 	{
-		banner = PNBannerFactory.createBanner (this);
+		Console.WriteLine("START_BANNER");
+		// banner = PNBannerFactory.createBanner (this);
+		banner = HyBidAdViewFactory.createHyBidAdView (this);
 
 		banner.appToken = appToken;
 		banner.placement = placement;
-		banner.LoadListener = this;
-		banner.TrackListener = this;
+		banner.AdViewListener = this;
 		_buttonLoadBanner.onClick.AddListener (RequestBanner);
 		_buttonHideBanner.onClick.AddListener (HideBanner);
 	}
@@ -33,7 +34,7 @@ public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 	private void RequestBanner ()
 	{
 		if (banner != null) {
-			banner.Load ();
+			banner.Load (1);
 		}
 	}
 
@@ -42,23 +43,25 @@ public class BannerNative : MonoBehaviour, ILoadListener, ITrackListener
 		banner.Hide ();
 	}
 
-	public void OnLoadFinished ()
+	public void OnAdLoaded ()
 	{
-		banner.Show (PNBanner.Position.TOP);
+		Console.WriteLine("###BANNER_LOADED_CALL_SHOW");
+		banner.Show (Position.TOP);
 	}
 
-	public void OnLoadFailed (Exception error)
+	public void OnAdLoadFailed (Exception error)
 	{
 		// Handle error
 	}
 
-	public void OnImpressionTracked()
+    public void OnAdImpression ()
 	{
 		// Handle Impression
 	}
 
-	public void OnClickTracked ()
+    public void OnAdClick ()
 	{
 		// Handle Click
 	}
+
 }

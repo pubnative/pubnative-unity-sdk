@@ -4,9 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HyBidEditorBanner : HyBidBanner
+public class HyBidEditorBanner : HyBidAdView
 {
-    public override void load(int position)
+    public override void Load(int position)
+    {
+        
+    }
+
+    public override void Hide()
+    {
+        
+    }
+
+    public override void Show(Position position)
     {
         
     }

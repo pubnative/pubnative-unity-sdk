@@ -11,36 +11,42 @@ public abstract class HyBidAdView : MonoBehaviour
 
 	protected string adID = "";
 
-    public IHyBidAdLoadListener loadListener {
+	protected IAdViewListener adViewListener;
+
+    public IAdViewListener AdViewListener {
 		get {
-			return this.loadListener;
+			return this.adViewListener;
 		}
 		set {
-			this.loadListener = value;
+			this.adViewListener = value;
 		}
 	}
 
+	public abstract void Load (int position);
+	public abstract void Show (Position position);
+	public abstract void Hide ();
+
     public virtual void OnHyBidAdLoaded(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoaded();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.adViewListener.OnAdLoaded();
 		}
     }
 
 	public virtual void OnHyBidAdImpression(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdImpression();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			 this.adViewListener.OnAdImpression();
 		}
     }
 
 	public virtual void OnHyBidAdClicked(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdClick();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			 this.adViewListener.OnAdClick();
 		}
     }
 
 	public virtual void OnHyBidAdError(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoadFailed(new Exception("Failed to load Ad"));
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.adViewListener.OnAdLoadFailed(new Exception("Failed to load Ad"));
 		}
     }
 }
