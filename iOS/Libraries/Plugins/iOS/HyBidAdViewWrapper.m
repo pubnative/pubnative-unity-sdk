@@ -33,7 +33,7 @@
         self.adView = nil;
     }
     
-    self.adView = [[HyBidAdView alloc] initWithSize:[HyBidAdSize SIZE_300x250]];
+    self.adView = [[HyBidAdView alloc] initWithSize:[HyBidAdSize SIZE_320x50]];
     
     if (position == 1) { // TOP
         self.bannerPosition = TOP;
@@ -43,19 +43,9 @@
     
     [HyBid initWithAppToken:appToken completion:^(BOOL isSuccess) {
         if (isSuccess) {
-            [self.adView loadWithZoneID:placement andWithDelegate:self];
+            [self.adView loadWithZoneID:placement withPosition:TOP andWithDelegate:self];
         }
     }];
-}
-
-- (void)show
-{
-    
-}
-
-- (void)hide
-{
-    
 }
 
 #pragma mark - HyBidAdView Delegate Methods

@@ -1,4 +1,4 @@
-#import "PNBannerWrapper.h"
+#import "HyBidAdViewWrapper.h"
 #import "PNAdPool.h"
 
 @interface PNBannerPlugin : NSObject
@@ -35,27 +35,18 @@ static PNBannerPlugin *_sharedInstance;
                withPlacement:(NSString *)placement
                 withBannerID:(NSString *)bannerID
 {
-    PNBannerWrapper* bannerWrapper = [[PNBannerWrapper alloc] init];
-    bannerWrapper.adID = bannerID;
-    [[PNAdPool sharedPool].bannerPool setObject:bannerWrapper forKey:bannerWrapper.adID];
-    [bannerWrapper loadWithObject:objectName withAppToken:appToken withPlacement:placement];
+    [[HyBidAdViewWrapper sharedInstance] loadWithObject:objectName withAppToken:appToken withPlacement:placement withAdId:bannerID withPosition: TOP];
 }
 
 + (void)showBannerWithID:(NSString *)bannerID
             withPosition:(NSInteger)position
 {
-    PNBannerWrapper* bannerWrapper = [[PNAdPool sharedPool].bannerPool objectForKey:bannerID];
-    if (bannerWrapper) {
-        [bannerWrapper showWithPosition:position];
-    }
+    [[HyBidAdViewWrapper sharedInstance] show];
 }
 
 + (void)hideBannerWithID:(NSString *)bannerID
 {
-    PNBannerWrapper* bannerWrapper = [[PNAdPool sharedPool].bannerPool objectForKey:bannerID];
-    if (bannerWrapper) {
-        [bannerWrapper hide];
-    }
+    [[HyBidAdViewWrapper sharedInstance] hide];
 }
 
 + (void)removeBannerFromPoolWithID:(NSString *)bannerID

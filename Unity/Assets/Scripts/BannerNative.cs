@@ -20,8 +20,6 @@ public class BannerNative : MonoBehaviour, IAdViewListener
 	// Use this for initialization
 	void Start ()
 	{
-		Console.WriteLine("START_BANNER");
-		// banner = PNBannerFactory.createBanner (this);
 		banner = HyBidAdViewFactory.createHyBidAdView (this);
 
 		banner.appToken = appToken;
@@ -40,13 +38,10 @@ public class BannerNative : MonoBehaviour, IAdViewListener
 
 	private void HideBanner ()
 	{
-		banner.Hide ();
 	}
 
 	public void OnAdLoaded ()
 	{
-		Console.WriteLine("###BANNER_LOADED_CALL_SHOW");
-		banner.Show (Position.TOP);
 	}
 
 	public void OnAdLoadFailed (Exception error)

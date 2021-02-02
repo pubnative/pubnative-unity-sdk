@@ -21,14 +21,4 @@ public class HyBidAndroidBanner : HyBidAdView {
 	{
 		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement, adID ,position);
 	}
-
-	public override void Show (Position position)
-	{
-
-	}
-
-	public override void Hide ()
-	{
-
-	}
 }

@@ -8,7 +8,6 @@ public abstract class HyBidAdView : MonoBehaviour
 {
     public string appToken;
 	public string placement;
-
 	protected string adID = "";
 
 	protected IAdViewListener adViewListener;
@@ -22,9 +21,16 @@ public abstract class HyBidAdView : MonoBehaviour
 		}
 	}
 
+	public string AdId {
+		get {
+			return this.adID;
+		}
+		set {
+			this.adID = value;
+		}
+	}
+
 	public abstract void Load (int position);
-	public abstract void Show (Position position);
-	public abstract void Hide ();
 
     public virtual void OnHyBidAdLoaded(string message){
         if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {

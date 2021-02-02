@@ -10,14 +10,4 @@ public class HyBidEditorBanner : HyBidAdView
     {
         
     }
-
-    public override void Hide()
-    {
-        
-    }
-
-    public override void Show(Position position)
-    {
-        
-    }
 }
