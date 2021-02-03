@@ -10,4 +10,9 @@ public class HyBidEditorBanner : HyBidAdView
     {
         
     }
+
+    public override void Hide()
+    {
+        
+    }
 }

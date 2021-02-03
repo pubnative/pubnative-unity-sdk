@@ -31,6 +31,7 @@ public abstract class HyBidAdView : MonoBehaviour
 	}
 
 	public abstract void Load (int position);
+	public abstract void Hide ();
 
     public virtual void OnHyBidAdLoaded(string message){
         if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {

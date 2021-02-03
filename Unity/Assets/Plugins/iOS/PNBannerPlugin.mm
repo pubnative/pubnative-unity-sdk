@@ -47,7 +47,6 @@ static PNBannerPlugin *_sharedInstance;
 + (void)showBannerWithID:(NSString *)bannerID
             withPosition:(NSInteger)position
 {
-    [[HyBidAdViewWrapper sharedInstance] show];
 }
 
 + (void)hideBannerWithID:(NSString *)bannerID

@@ -12,4 +12,11 @@ public class HyBidIOSBanner : HyBidAdView
 	{
 		loadBanner(this.gameObject.name, appToken, placement, adID, position);
 	}
+
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public void hideBanner (string adID);
+	public override void Hide ()
+	{
+		hideBanner(adID);
+	}
 }

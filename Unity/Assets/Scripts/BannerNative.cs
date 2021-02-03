@@ -12,7 +12,10 @@ public class BannerNative : MonoBehaviour, IAdViewListener
 	public string placement;
 
 	[SerializeField]
-	private Button _buttonLoadBanner;
+	private Button _buttonLoadTopBanner;
+
+	[SerializeField]
+	private Button _buttonLoadBottomBanner;
 
 	[SerializeField]
 	private Button _buttonHideBanner;
@@ -25,19 +28,23 @@ public class BannerNative : MonoBehaviour, IAdViewListener
 		banner.appToken = appToken;
 		banner.placement = placement;
 		banner.AdViewListener = this;
-		_buttonLoadBanner.onClick.AddListener (RequestBanner);
+		_buttonLoadTopBanner.onClick.AddListener (delegate { RequestBanner(1); });
+		_buttonLoadBottomBanner.onClick.AddListener (delegate { RequestBanner(2); });
 		_buttonHideBanner.onClick.AddListener (HideBanner);
 	}
 
-	private void RequestBanner ()
+	private void RequestBanner (int atPosition)
 	{
 		if (banner != null) {
-			banner.Load (1);
+			banner.Load (atPosition);
 		}
 	}
 
 	private void HideBanner ()
 	{
+		if (banner != null) {
+			banner.Hide ();
+		}
 	}
 
 	public void OnAdLoaded ()

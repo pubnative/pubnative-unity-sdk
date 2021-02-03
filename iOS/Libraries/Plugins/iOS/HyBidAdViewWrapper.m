@@ -7,12 +7,6 @@
 
 #import "HyBidAdViewWrapper.h"
 
-@interface HyBidAdViewWrapper ()
-
-@property (nonatomic) BannerPosition bannerPosition;
-
-@end
-
 @implementation HyBidAdViewWrapper
 
 + (HyBidAdViewWrapper *)sharedInstance {
@@ -34,13 +28,18 @@
     }
     
     self.adView = [[HyBidAdView alloc] initWithSize:[HyBidAdSize SIZE_320x50]];
-    self.bannerPosition = position;
     
     [HyBid initWithAppToken:appToken completion:^(BOOL isSuccess) {
         if (isSuccess) {
-            [self.adView loadWithZoneID:placement withPosition:TOP andWithDelegate:self];
+            [self.adView loadWithZoneID:placement withPosition:position andWithDelegate:self];
         }
     }];
+}
+
+- (void)hide
+{
+    [self.adView removeFromSuperview];
+    self.adView = nil;
 }
 
 #pragma mark - HyBidAdView Delegate Methods
