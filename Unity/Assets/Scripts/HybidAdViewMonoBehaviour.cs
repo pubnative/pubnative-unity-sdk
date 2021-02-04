@@ -14,7 +14,10 @@ public class HybidAdViewMonoBehaviour : MonoBehaviour ,IHyBidAdLoadListener
 	public string placement;
 
 	[SerializeField]
-	private Button _buttonLoadBanner;
+	private Button _buttonLoadBannerTop;
+
+    [SerializeField]
+	private Button _buttonLoadBannerBottom;
 
     void Start()
     {
@@ -22,7 +25,8 @@ public class HybidAdViewMonoBehaviour : MonoBehaviour ,IHyBidAdLoadListener
         banner.appToken = appToken;
 		banner.placement = placement;
         banner.loadListener = this;
-        _buttonLoadBanner.onClick.AddListener (RequestBanner);
+        _buttonLoadBannerTop.onClick.AddListener (showTopBanner);
+        _buttonLoadBannerBottom.onClick.AddListener (showBottomBanner);
     }   
 
     // Update is called once per frame
@@ -31,7 +35,14 @@ public class HybidAdViewMonoBehaviour : MonoBehaviour ,IHyBidAdLoadListener
         
     }
 
-    private void RequestBanner ()
+    private void showTopBanner ()
+	{
+		if (banner != null) {
+			banner.load(1);
+		}
+	}
+
+    private void showBottomBanner ()
 	{
 		if (banner != null) {
 			banner.load(0);
