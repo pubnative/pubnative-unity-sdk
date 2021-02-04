@@ -29,12 +29,6 @@ public class HybidAdViewMonoBehaviour : MonoBehaviour ,IHyBidAdLoadListener
         _buttonLoadBannerBottom.onClick.AddListener (showBottomBanner);
     }   
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void showTopBanner ()
 	{
 		if (banner != null) {
