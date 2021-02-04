@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class HyBidAdViewFactory
 {
-    public static HyBidBanner createHyBidAdView(MonoBehaviour parent) 
+    public static HyBidAdView createHyBidAdView(MonoBehaviour parent) 
 	{
-		HyBidBanner banner;
+		HyBidAdView banner;
 
 		#if UNITY_EDITOR
 

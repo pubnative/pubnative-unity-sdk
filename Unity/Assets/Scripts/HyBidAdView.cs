@@ -8,50 +8,52 @@ public abstract class HyBidAdView : MonoBehaviour
 {
     public string appToken;
 	public string placement;
-
 	protected string adID = "";
 
-    public IHyBidAdLoadListener loadListener {
+	protected IAdViewListener adViewListener;
+
+    public IAdViewListener AdViewListener {
 		get {
-			return this.loadListener;
+			return this.adViewListener;
 		}
 		set {
-			this.loadListener = value;
+			this.adViewListener = value;
 		}
 	}
 
+	public string AdId {
+		get {
+			return this.adID;
+		}
+		set {
+			this.adID = value;
+		}
+	}
+
+	public abstract void Load (int position);
+	public abstract void Hide ();
+
     public virtual void OnHyBidAdLoaded(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoaded();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.adViewListener.OnAdLoaded();
 		}
     }
 
 	public virtual void OnHyBidAdImpression(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdImpression();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			 this.adViewListener.OnAdImpression();
 		}
     }
 
 	public virtual void OnHyBidAdClicked(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdClick();
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			 this.adViewListener.OnAdClick();
 		}
     }
 
 	public virtual void OnHyBidAdError(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoadFailed(new Exception("Failed to load Ad"));
+        if (this.adViewListener != null && adID.Equals(message, StringComparison.Ordinal)) {
+			this.adViewListener.OnAdLoadFailed(new Exception("Failed to load Ad"));
 		}
     }
-}
-
-public interface IHyBidAdLoadListener
-{
-    void OnHyBidAdLoaded();
-
-    void OnHyBidAdImpression();
-
-	void OnHyBidAdClick();
-
-    void OnHyBidAdLoadFailed(Exception error);
 }
