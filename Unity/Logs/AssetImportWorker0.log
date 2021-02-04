@@ -233,3 +233,76 @@ System memory in use after: 118.5 MB.
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1598.
 Total: 2.010808 ms (FindLiveObjects: 0.205387 ms CreateObjectMapping: 0.060231 ms MarkObjects: 1.724157 ms  DeleteObjects: 0.019783 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2674.892043 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a8cde0b5b6bef4109bb8c0b1355de') in 0.011568 seconds
+  Import took 0.014899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006421 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a8cde0b5b6bef4109bb8c0b1355de') in 0.001009 seconds
+  Import took 0.003672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.339140 seconds.
+  path: Assets/MainScene.unity
+  artifactKey: Guid(b96aafcc2ab49412ca2e6db507d07084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene.unity using Guid(b96aafcc2ab49412ca2e6db507d07084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9860163db2647e724398bc1957b6e6f') in 0.002411 seconds
+  Import took 0.005074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.954199 seconds.
+  path: Assets/MainSceneSettings.lighting
+  artifactKey: Guid(6b5eb8bba73df49bfb69c8e52ed2faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainSceneSettings.lighting using Guid(6b5eb8bba73df49bfb69c8e52ed2faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '03f77131ed5c951290d8264e01b84d9c') in 1.103457 seconds
+  Import took 1.105811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1160.792777 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(d9e35be2785054de3ac8d25ebbfb74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(d9e35be2785054de3ac8d25ebbfb74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079031de73ba709a03268a4c57021d61') in 0.003301 seconds
+  Import took 0.006122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(d9e35be2785054de3ac8d25ebbfb74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(d9e35be2785054de3ac8d25ebbfb74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079031de73ba709a03268a4c57021d61') in 0.001872 seconds
+  Import took 0.004478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.569761 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(18e3c3c72bcdb4c3faac61c97b298f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(18e3c3c72bcdb4c3faac61c97b298f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609e47ea1765ec5b850ce4d17f2d8569') in 0.001736 seconds
+  Import took 0.004376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(18e3c3c72bcdb4c3faac61c97b298f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(18e3c3c72bcdb4c3faac61c97b298f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609e47ea1765ec5b850ce4d17f2d8569') in 0.001001 seconds
+  Import took 0.002987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2558.993377 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3ba6dc5be266b426961333da30a708') in 0.006033 seconds
+  Import took 0.019879 seconds .
+
