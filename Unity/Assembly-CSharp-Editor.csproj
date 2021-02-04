@@ -300,7 +300,7 @@
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -654,37 +654,37 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/pubnative-unity-sdk/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
