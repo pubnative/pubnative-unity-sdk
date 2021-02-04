@@ -306,3 +306,59 @@ Received Import Request.
 Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3ba6dc5be266b426961333da30a708') in 0.006033 seconds
   Import took 0.019879 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 764.447185 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a7142456d80feef4c93dff1b9a3ea8') in 0.002082 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.622523 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe8f5bc70820aaed4d5c48740f795c6') in 0.001323 seconds
+  Import took 0.003899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.502726 seconds.
+  path: Assets/Scripts/HyBidAdView.cs
+  artifactKey: Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdView.cs using Guid(4d808e87d19384f4191108eef9951e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175c8e0ef31a0125434ed11510590f9') in 0.007520 seconds
+  Import took 0.009977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.780992 seconds.
+  path: Assets/Scripts/HyBidAdViewFactory.cs
+  artifactKey: Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1575739776ad94402080e3584ff8fb0f') in 0.004839 seconds
+  Import took 0.007365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001688 seconds.
+  path: Assets/Scripts/HyBidAdViewFactory.cs
+  artifactKey: Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HyBidAdViewFactory.cs using Guid(67960db2455f643e48f5933d724fd2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1575739776ad94402080e3584ff8fb0f') in 0.005300 seconds
+  Import took 0.007409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.153478 seconds.
+  path: Assets/Scripts/HybidAdViewMonoBehaviour.cs
+  artifactKey: Guid(a162f594209794975affb96814114df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HybidAdViewMonoBehaviour.cs using Guid(a162f594209794975affb96814114df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7455fc3c888f7972b79e84e06bda90') in 0.004260 seconds
+  Import took 0.006901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.325620 seconds.
+  path: Assets/MainDemoScence.unity
+  artifactKey: Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainDemoScence.unity using Guid(f113064747dda41c3aab2d4dce912efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116f354e92236f36103a1c74b65eed79') in 0.002137 seconds
+  Import took 0.004855 seconds .
+
