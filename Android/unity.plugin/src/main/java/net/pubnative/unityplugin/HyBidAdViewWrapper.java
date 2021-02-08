@@ -6,7 +6,6 @@ import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.lite.sdk.HyBid;
 import net.pubnative.lite.sdk.views.HyBidAdView;
-import net.pubnative.sdk.core.Pubnative;
 
 public class HyBidAdViewWrapper implements HyBidAdView.Listener {
 
