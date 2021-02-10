@@ -19,6 +19,8 @@ public class HyBidAndroidBanner : HyBidBanner {
 
 	public override void load (int position)
 	{
+		appToken = "dde3c298b47648459f8ada4a982fa92d";
+		placement = "8";
 		layoutWrapper.Call (LOAD_METHOD, this.gameObject.name, appToken, placement, adID ,position);
 	}
 }

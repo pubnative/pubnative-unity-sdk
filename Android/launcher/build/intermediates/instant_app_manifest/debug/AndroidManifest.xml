@@ -75,7 +75,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="2d2bcadd-f523-4e81-b449-46f309ab7ea3" />
+            android:value="e9365d51-cfd5-4545-acc9-bfe449c424a1" />
 
         <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity" />
         <activity android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" />

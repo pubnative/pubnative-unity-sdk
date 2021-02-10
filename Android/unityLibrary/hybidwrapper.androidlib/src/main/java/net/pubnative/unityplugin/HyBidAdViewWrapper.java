@@ -5,6 +5,7 @@ import android.util.Log;
 import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.lite.sdk.HyBid;
+import net.pubnative.lite.sdk.models.AdSize;
 import net.pubnative.lite.sdk.views.HyBidAdView;
 
 public class HyBidAdViewWrapper implements HyBidAdView.Listener {
@@ -37,7 +38,7 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId, int position) {
+    public void load(String gameObjectName, String appToken, final String placementId, String adId, int position) {
 
         setGameObject(gameObjectName);
         setAdId(adId);
@@ -46,8 +47,7 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
             hyBidAdView.destroy();
         }
 
-        HyBidAdView.Position bannerPosition;
-        this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+        final HyBidAdView.Position bannerPosition;
 
         if (position == getTopPosition()) {
             bannerPosition = HyBidAdView.Position.TOP;
@@ -56,10 +56,24 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         }
 
         if (UnityPlayer.currentActivity == null) {
-            Log.e(TAG, "No active context found to load the banner");
+            Log.e(TAG, "No active context found to load the interstitial");
         } else {
-            HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication());
-            hyBidAdView.load(placementId, bannerPosition, (HyBidAdView.Listener) UnityPlayer.currentActivity);
+            if (!HyBid.isInitialized()) {
+                HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
+                    @Override
+                    public void onInitialisationFinished(boolean b) {
+                        if (b) {
+                            hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+                            hyBidAdView.setAdSize(AdSize.SIZE_320x50);
+                            hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
+                        }
+                    }
+                });
+            } else {
+                hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+                hyBidAdView.setAdSize(AdSize.SIZE_320x50);
+                hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
+            }
         }
     }
 

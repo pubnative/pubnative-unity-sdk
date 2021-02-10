@@ -101,7 +101,7 @@
 56-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/src/main/AndroidManifest.xml:17:5-101
 57            android:name="unity.build-id"
 57-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/src/main/AndroidManifest.xml:17:16-45
-58            android:value="2d2bcadd-f523-4e81-b449-46f309ab7ea3" />
+58            android:value="e9365d51-cfd5-4545-acc9-bfe449c424a1" />
 58-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/src/main/AndroidManifest.xml:17:46-98
 59    </application>
 60

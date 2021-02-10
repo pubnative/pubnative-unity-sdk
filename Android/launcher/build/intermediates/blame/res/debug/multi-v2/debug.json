@@ -2763,6 +2763,23 @@
                     }
                 },
                 {
+                    "source": "/Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,102,148,196",
+                        "endColumns": "46,45,47,45",
+                        "endOffsets": "97,143,191,237"
+                    },
+                    "to": {
+                        "startLines": "151,168,184,185",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "10242,11561,12585,12633",
+                        "endColumns": "46,45,47,45",
+                        "endOffsets": "10284,11602,12628,12674"
+                    }
+                },
+                {
                     "source": "/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "5,2,7",
@@ -2779,23 +2796,6 @@
                         "endLines": "1368,1700,1704",
                         "endColumns": "8,8,8",
                         "endOffsets": "88584,114394,114621"
-                    }
-                },
-                {
-                    "source": "/Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/0c88203768e397fd26e3265eb225dae0/hybid.sdk-2.3.4-development.4268/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,102,148,196",
-                        "endColumns": "46,45,47,45",
-                        "endOffsets": "97,143,191,237"
-                    },
-                    "to": {
-                        "startLines": "151,168,184,185",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "10242,11561,12585,12633",
-                        "endColumns": "46,45,47,45",
-                        "endOffsets": "10284,11602,12628,12674"
                     }
                 }
             ]

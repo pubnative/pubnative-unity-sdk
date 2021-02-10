@@ -69,7 +69,6 @@
      <Compile Include="Assets\Scripts\PNEditorInterstitial.cs" />
      <Compile Include="Assets\Scripts\PNAd.cs" />
      <Compile Include="Assets\Scripts\PNInterstitialFactory.cs" />
-     <Compile Include="Assets\Scripts\HybidAdViewMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\HyBidAndroidBanner.cs" />
      <Compile Include="Assets\Scripts\HyBidEditorInterstitialAd.cs" />
      <Compile Include="Assets\Scripts\RewardedNative.cs" />
@@ -81,6 +80,7 @@
      <Compile Include="Assets\Scripts\PNAndroidBanner.cs" />
      <Compile Include="Assets\Scripts\PNEditorBanner.cs" />
      <Compile Include="Assets\Scripts\IViewListener.cs" />
+     <Compile Include="Assets\Scripts\HybidNative.cs" />
      <Compile Include="Assets\Scripts\BannerNative.cs" />
      <Compile Include="Assets\Scripts\HyBidIOSInterstitialAd.cs" />
      <Compile Include="Assets\Scripts\ITrackListener.cs" />
