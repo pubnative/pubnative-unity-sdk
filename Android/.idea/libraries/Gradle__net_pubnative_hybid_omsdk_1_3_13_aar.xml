@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.pubnative:hybid.omsdk:1.3.13@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5669866281c2bfae39945854c14c3134/hybid.omsdk-1.3.13/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

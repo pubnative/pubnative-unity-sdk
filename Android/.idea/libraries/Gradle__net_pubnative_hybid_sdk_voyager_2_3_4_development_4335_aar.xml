@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: net.pubnative:hybid.sdk.voyager:2.3.4-development.4335@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a42855cf95587628233325bac8f53df3/hybid.sdk.voyager-2.3.4-development.4268/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.pubnative/hybid.sdk.voyager/2.3.4-development.4335/9dbc221e9b65bc4d60171be4bb69a96b6883cedf/hybid.sdk.voyager-2.3.4-development.4335-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: net.pubnative:hybid.sdk.viewability:2.3.4-development.4335@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c18557b387c3cb012bdfbca19b6758d7/hybid.sdk.viewability-2.3.4-development.4335/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.pubnative/hybid.sdk.viewability/2.3.4-development.4335/8d9a46a47197f13f91b7d84ba7ac9a2a2d3324fb/hybid.sdk.viewability-2.3.4-development.4335-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

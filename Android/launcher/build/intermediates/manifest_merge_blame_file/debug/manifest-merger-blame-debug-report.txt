@@ -48,19 +48,19 @@
 29-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
 30
 31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:5-79
-31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:22-76
+31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:5-79
+31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:22-76
 32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/5669866281c2bfae39945854c14c3134/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
-32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/5669866281c2bfae39945854c14c3134/hybid.omsdk-1.3.13/AndroidManifest.xml:11:22-64
+32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
+32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:22-64
 33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/5669866281c2bfae39945854c14c3134/hybid.omsdk-1.3.13/AndroidManifest.xml:12:5-76
-33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/5669866281c2bfae39945854c14c3134/hybid.omsdk-1.3.13/AndroidManifest.xml:12:22-73
+33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:5-76
+33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:22-73
 34
 35    <application
 35-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:3-154
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/af44605a599fbbe7aa1fa88272cf4609/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+36-->[androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
 37        android:banner="@drawable/app_banner"
 37-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:114-151
 38        android:debuggable="true"
@@ -141,17 +141,17 @@
 77-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-65
 78
 79        <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity" />
-79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:9-87
-79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:19-84
+79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:9-87
+79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:19-84
 80        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" />
-80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:9-107
-80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:19-104
+80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:9-107
+80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:19-104
 81        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.VastInterstitialActivity" />
-81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:9-106
-81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:19-103
+81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:9-106
+81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:19-103
 82        <activity android:name="net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity" />
-82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:9-98
-82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/bb359e6e5d93fba2e209dae04f641f62/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:19-95
+82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:9-98
+82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:19-95
 83    </application>
 84
 85</manifest>

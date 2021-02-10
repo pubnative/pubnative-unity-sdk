@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: net.pubnative:hybid.sdk.logger:2.3.4-development.4335@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69a829c154c3fc82e94425cb8bd40d29/hybid.sdk.logger-2.3.4-development.4268/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.pubnative/hybid.sdk.logger/2.3.4-development.4335/55b51fb0e9cfbfea5fcbd228f8e7466197dd2579/hybid.sdk.logger-2.3.4-development.4335-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
