@@ -30,14 +30,12 @@ public class HyBidInterstitialWrapper implements HyBidInterstitialAd.Listener {
         this.mAdId = adId;
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId) {
+    public void load(String gameObjectName, String appToken, final String placementId, String adId) {
         setGameObject(gameObjectName);
         setAdId(adId);
         if (mInterstitial != null) {
             mInterstitial.destroy();
         }
-
-        mInterstitial = new HyBidInterstitialAd(UnityPlayer.currentActivity, placementId, this);
 
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the interstitial");
@@ -46,10 +44,12 @@ public class HyBidInterstitialWrapper implements HyBidInterstitialAd.Listener {
                 HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
                     @Override
                     public void onInitialisationFinished(boolean b) {
+                        mInterstitial = new HyBidInterstitialAd(UnityPlayer.currentActivity, placementId, HyBidInterstitialWrapper.this);
                         mInterstitial.load();
                     }
                 });
             } else {
+                mInterstitial = new HyBidInterstitialAd(UnityPlayer.currentActivity, placementId, this);
                 mInterstitial.load();
             }
         }

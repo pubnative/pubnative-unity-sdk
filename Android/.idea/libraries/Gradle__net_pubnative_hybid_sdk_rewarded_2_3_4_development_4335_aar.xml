@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: net.pubnative:hybid.sdk.rewarded:2.3.4-development.4335@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1563cd8d4d9f94cd50b0991539ff7b1e/hybid.sdk.rewarded-2.3.4-development.4268/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe5104d45c780f87343e5b3a51c511a/jetified-hybid.sdk.rewarded-2.3.4-development.4268/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe5104d45c780f87343e5b3a51c511a/jetified-hybid.sdk.rewarded-2.3.4-development.4268/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe5104d45c780f87343e5b3a51c511a/jetified-hybid.sdk.rewarded-2.3.4-development.4268/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe5104d45c780f87343e5b3a51c511a/jetified-hybid.sdk.rewarded-2.3.4-development.4268/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.pubnative/hybid.sdk.rewarded/2.3.4-development.4335/3e54f6350e4799a4f87e3ae8d849a861b1ba442f/hybid.sdk.rewarded-2.3.4-development.4335-javadoc.jar!/" />

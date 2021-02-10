@@ -30,14 +30,13 @@ public class HyBidRewardedWrapper implements HyBidRewardedAd.Listener {
         this.mAdId = adId;
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId) {
+    public void load(String gameObjectName, String appToken, final String placementId, String adId) {
         setGameObject(gameObjectName);
         setAdId(adId);
         if (mRewarded != null) {
             mRewarded.destroy();
         }
 
-        mRewarded = new HyBidRewardedAd(UnityPlayer.currentActivity, placementId, this);
 
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the rewarded ad");
@@ -46,10 +45,12 @@ public class HyBidRewardedWrapper implements HyBidRewardedAd.Listener {
                 HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
                     @Override
                     public void onInitialisationFinished(boolean b) {
+                        mRewarded = new HyBidRewardedAd(UnityPlayer.currentActivity, placementId, HyBidRewardedWrapper.this);
                         mRewarded.load();
                     }
                 });
             } else {
+                mRewarded = new HyBidRewardedAd(UnityPlayer.currentActivity, placementId, this);
                 mRewarded.load();
             }
         }

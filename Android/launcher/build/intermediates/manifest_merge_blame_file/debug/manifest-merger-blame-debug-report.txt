@@ -28,130 +28,132 @@
 20    <uses-feature android:glEsVersion="0x00020000" />
 20-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-54
 20-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-51
-21    <uses-feature
-21-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:36
-22        android:name="android.hardware.touchscreen"
-22-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-52
-23        android:required="false" />
-23-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+21
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+22-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-64
+23
 24    <uses-feature
 24-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
-25        android:name="android.hardware.touchscreen.multitouch"
-25-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-63
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-52
 26        android:required="false" />
 26-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
 27    <uses-feature
 27-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:36
-28        android:name="android.hardware.touchscreen.multitouch.distinct"
-28-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-72
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-63
 29        android:required="false" />
 29-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
-30
-31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:5-79
-31-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:22-76
-32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
-32-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:22-64
-33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:5-76
-33-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:22-73
-34
-35    <application
-35-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:3-154
-36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
-37        android:banner="@drawable/app_banner"
-37-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:114-151
-38        android:debuggable="true"
-39        android:extractNativeLibs="true"
-39-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:16-48
-40        android:icon="@mipmap/app_icon"
-40-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:82-113
-41        android:isGame="true"
-41-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:18-39
-42        android:label="@string/app_name"
-42-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:49-81
-43        android:testOnly="true" >
-44        <activity
-44-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-45:20
-45            android:name="com.unity3d.player.UnityPlayerActivity"
-45-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-66
-46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-46-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-194
-47            android:hardwareAccelerated="false"
-47-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-48
-48            android:launchMode="singleTask"
-48-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-44
-49            android:screenOrientation="fullSensor"
-49-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-51
-50            android:theme="@style/UnityThemeSelector" >
-50-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-54
-51            <intent-filter>
-51-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-37:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-69
-52-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-77
-54-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:27-74
-55                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-55-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-86
-55-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:27-83
-56            </intent-filter>
-57
-58            <meta-data
-58-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-41:40
-59                android:name="unityplayer.UnityActivity"
-59-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:17-57
-60                android:value="true" />
-60-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-37
-61            <meta-data
-61-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44:40
-62                android:name="android.notch_support"
-62-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-53
-63                android:value="true" />
-63-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-37
-64        </activity>
-65
-66        <meta-data
-66-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-49:33
-67            android:name="unity.splash-mode"
-67-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-45
-68            android:value="0" />
-68-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-30
-69        <meta-data
-69-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-52:36
-70            android:name="unity.splash-enable"
-70-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-47
-71            android:value="True" />
-71-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-33
-72        <meta-data
-72-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:50
-73            android:name="notch.config"
-73-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-40
-74            android:value="portrait|landscape" />
-74-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-47
-75        <meta-data
-75-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:68
-76            android:name="unity.build-id"
-76-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-42
-77            android:value="e9365d51-cfd5-4545-acc9-bfe449c424a1" />
-77-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-65
-78
-79        <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity" />
-79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:9-87
-79-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:19-84
-80        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" />
-80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:9-107
-80-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:19-104
-81        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.VastInterstitialActivity" />
-81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:9-106
-81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:19-103
-82        <activity android:name="net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity" />
-82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:9-98
-82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:19-95
-83    </application>
-84
-85</manifest>
+30    <uses-feature
+30-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-72
+32        android:required="false" />
+32-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
+33
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:5-79
+34-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:22-76
+35    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+35-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:5-76
+35-->[net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:22-73
+36
+37    <application
+37-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:3-154
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+39        android:banner="@drawable/app_banner"
+39-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:114-151
+40        android:debuggable="true"
+41        android:extractNativeLibs="true"
+41-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:16-48
+42        android:icon="@mipmap/app_icon"
+42-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:82-113
+43        android:isGame="true"
+43-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:18-39
+44        android:label="@string/app_name"
+44-->/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:49-81
+45        android:testOnly="true" >
+46        <activity
+46-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-48:20
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-66
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+48-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-194
+49            android:hardwareAccelerated="false"
+49-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-48
+50            android:launchMode="singleTask"
+50-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-44
+51            android:screenOrientation="fullSensor"
+51-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-51
+52            android:theme="@style/UnityThemeSelector" >
+52-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-54
+53            <intent-filter>
+53-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-40:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-69
+54-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-77
+56-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:27-74
+57                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+57-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:17-86
+57-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:27-83
+58            </intent-filter>
+59
+60            <meta-data
+60-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44:40
+61                android:name="unityplayer.UnityActivity"
+61-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-57
+62                android:value="true" />
+62-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-37
+63            <meta-data
+63-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-47:40
+64                android:name="android.notch_support"
+64-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-53
+65                android:value="true" />
+65-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-37
+66        </activity>
+67
+68        <meta-data
+68-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-52:33
+69            android:name="unity.splash-mode"
+69-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-45
+70            android:value="0" />
+70-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-30
+71        <meta-data
+71-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:36
+72            android:name="unity.splash-enable"
+72-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-47
+73            android:value="True" />
+73-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-33
+74        <meta-data
+74-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:50
+75            android:name="notch.config"
+75-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-40
+76            android:value="portrait|landscape" />
+76-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-47
+77        <meta-data
+77-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:9-61:68
+78            android:name="unity.build-id"
+78-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-42
+79            android:value="1ccd6788-2282-481b-ad0c-a2b80946b96c" />
+79-->[:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-65
+80
+81        <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity" />
+81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:9-87
+81-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:14:19-84
+82        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" />
+82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:9-107
+82-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:15:19-104
+83        <activity android:name="net.pubnative.lite.sdk.interstitial.activity.VastInterstitialActivity" />
+83-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:9-106
+83-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:16:19-103
+84        <activity android:name="net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity" />
+84-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:9-98
+84-->[net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:19-95
+85    </application>
+86
+87</manifest>

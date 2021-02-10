@@ -18,6 +18,9 @@
         android:xlargeScreens="true" />
 
     <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -29,7 +32,6 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
@@ -74,7 +76,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="e9365d51-cfd5-4545-acc9-bfe449c424a1" />
+            android:value="1ccd6788-2282-481b-ad0c-a2b80946b96c" />
 
         <activity android:name="net.pubnative.lite.sdk.consent.UserConsentActivity" />
         <activity android:name="net.pubnative.lite.sdk.interstitial.activity.MraidInterstitialActivity" />

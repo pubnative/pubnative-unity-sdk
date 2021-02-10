@@ -1,4 +1,4 @@
-#Wed Feb 10 20:36:26 EET 2021
+#Wed Feb 10 21:04:28 EET 2021
 base.0=/Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
