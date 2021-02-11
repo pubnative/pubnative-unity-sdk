@@ -9,6 +9,7 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
 {
 
     private HyBidBanner banner;
+    private bool isBannerLoading;
 
 	public string appToken;
 	public string placement;
@@ -21,20 +22,11 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
 
     void Start()
     {
-        if (!Permission.HasUserAuthorizedPermission(Permission.CoarseLocation))
-        {
-            Permission.RequestUserPermission(Permission.CoarseLocation);
-        }
-    }
-
-    void OnGUI ()
-    {
-        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
-        {
-            banner = HyBidAdViewFactory.createHyBidAdView(this);
-            _buttonLoadTop.onClick.AddListener (LoadTopAd);
-            _buttonLoadBottom.onClick.AddListener (LoadBottomAd);
-        }
+        banner = HyBidAdViewFactory.createHyBidAdView(this);
+        banner.appToken = appToken;
+		banner.placement = placement;
+        _buttonLoadTop.onClick.AddListener (LoadTopAd);
+        _buttonLoadBottom.onClick.AddListener (LoadBottomAd);
     }
 
     private void LoadTopAd ()
@@ -70,16 +62,5 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
     public void OnHyBidAdLoadFailed(Exception error)
     {
 
-    }
-
-    public void onInitialisationFinished(string message)
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
