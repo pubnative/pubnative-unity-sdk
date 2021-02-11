@@ -38,11 +38,6 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         this.mAdId = adId;
     }
 
-    public HyBidAdViewWrapper() {
-        super();
-        this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
-    }
-
     public void load(String gameObjectName, String appToken, final String placementId, String adId, int position) {
         doHybidStuff(gameObjectName, appToken, placementId, adId, position);
     }
