@@ -1,178 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d73ba81-8eff-432a-a826-b211d86b728a" name="Default Changelist" comment="">
+    <list default="true" id="74122818-c5d6-415e-a938-5f034aadb24e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/res/xml/network_security_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_beta01_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_5_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_5_0_beta01_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0_beta01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_5_0_beta01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_omsdk_1_3_13_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_omsdk_1_3_13_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_banner_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_banner_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_consent_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_consent_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_core_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_core_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_fullscreen_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_fullscreen_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_logger_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_logger_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_native_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_native_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_reporting_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_reporting_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_rewarded_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_rewarded_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_pnapi_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_pnapi_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_prebid_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_prebid_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_viewability_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_viewability_2_3_4_development_4335_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_voyager_2_3_4_development_4335_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_voyager_2_3_4_development_4335_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_omsdk_1_3_13_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_banner_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_consent_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_core_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_fullscreen_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_logger_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_native_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_reporting_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_rewarded_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_pnapi_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_source_prebid_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_viewability_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_pubnative_hybid_sdk_voyager_2_3_4_development_4335_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_4_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_4_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/launcher/Android.launcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/launcher/Android.launcher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/unityLibrary/Android.unityLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/unityLibrary/Android.unityLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/unityLibrary/hybidwrapper.androidlib/Android.unityLibrary.hybidwrapper.androidlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/unityLibrary/hybidwrapper.androidlib/Android.unityLibrary.hybidwrapper.androidlib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/apk_list/debug/apk-list.gson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-as.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-az.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-bn.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-bs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-et.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-eu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-gl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-gu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-hy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-is.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ka.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-kk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-km.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-kn.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ky.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-land.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-lo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-mk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ml.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-mn.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-mr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-my.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-or.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-pa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-port.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-si.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sq.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ta.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-te.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-ur.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-uz.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v16.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v23.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v26.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-v28.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/bundle_manifest/debug/bundle-manifest/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Assembly-CSharp.dll.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Assembly-CSharp.dll.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Assembly-CSharp.pdb.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.TextMeshPro.dll.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.TextMeshPro.dll.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.TextMeshPro.pdb.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.Timeline.dll.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.Timeline.dll.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/Unity.Timeline.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AIModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ARModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AccessibilityModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AnimationModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.AudioModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ClothModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.CoreModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.CrashReportingModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.DSPGraphModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.DirectorModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.GIModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.GameCenterModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.GridModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.HotReloadModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.IMGUIModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.InputModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.LocalizationModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.Physics2DModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.PhysicsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ProfilerModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.StreamingModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.SubstanceModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TLSModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TerrainModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TextCoreModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.TilemapModule.pdb.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UI.dll.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UI.dll.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UI.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UIElementsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UIElementsNativeModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UIModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UNETModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UmbraModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityCurlModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityTestProtocolModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.VFXModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.VRModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.VehiclesModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.VideoModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.WindModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.XRModule.pdb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/Managed/UnityEngine.pdb.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/boot.config.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/boot.config.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/data.unity3d.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/compressed_assets/debug/out/assets/bin/Data/data.unity3d.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/dex/debug/out/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/external_file_lib_dex_archives/debug/0_unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/external_file_lib_dex_archives/debug/0_unity-classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/external_libs_dex/debug/out/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IwIvkxhPzYNbN1rLFvuZXhi0Vuw=" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IwIvkxhPzYNbN1rLFvuZXhi0Vuw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/IwIvkxhPzYNbN1rLFvuZXhi0Vuw=" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/IwIvkxhPzYNbN1rLFvuZXhi0Vuw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
@@ -180,25 +155,39 @@
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/Managed/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/boot.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_assets/debug/out/bin/Data/data.unity3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libunity.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/metadata_feature_manifest/debug/metadata-feature/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/project_dex_archive/debug/out/292c51a124ef5e69793cf380d53a0da184d96cb9d9c8a0688d66d1d0bf041ae4_7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libunity.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/.transforms/fabdd8ef25ea07aae0173e7ba708a7e6.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/.transforms/fabdd8ef25ea07aae0173e7ba708a7e6/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values-v28/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values-v28/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/.transforms/1ca4bac4a63c5390b4e9b0a8dee77e98.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/.transforms/1ca4bac4a63c5390b4e9b0a8dee77e98/classes/classes.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
@@ -217,42 +206,37 @@
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libunity.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libunity.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libMonoPosixHelper.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libunity.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/5d3ad3d0e90de255d828c23960e2d024.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/5d3ad3d0e90de255d828c23960e2d024/classes/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aar_libs_directory/debug/libs/unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aar_libs_directory/debug/libs/unity-classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/outputs/aar/hybidwrapper.androidlib-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/outputs/aar/hybidwrapper.androidlib-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/libs/unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/libs/unity-classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidRewardedWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidRewardedWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/libs/unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/libs/unity-classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
@@ -264,45 +248,28 @@
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/.transforms/5d3ad3d0e90de255d828c23960e2d024.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/.transforms/5d3ad3d0e90de255d828c23960e2d024/classes/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/generated/source/buildConfig/debug/net/pubnative/unityplugin/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/generated/source/buildConfig/debug/net/pubnative/unityplugin/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aar_libs_directory/debug/libs/unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aar_libs_directory/debug/libs/unity-classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v28/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v28/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/.transforms/c2891f9dff74b14ba7c201baa1b1144c/classes/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes/debug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes/debug/classes.jar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_only_not_namespaced_r_class_jar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WeKU23J_JqLQwYNCmMP90bm9OOE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeNativeLibs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/BuildConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidAdViewWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/library_java_res.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/library_java_res/debug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/library_java_res/debug/res.jar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/merged_manifests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/merged_manifests/debug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/merged_manifests/debug/output.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes/debug.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes/debug/classes.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidInterstitialWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/javac/debug/classes/net/pubnative/unityplugin/HyBidRewardedWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/outputs/aar/hybidwrapper.androidlib-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/build/outputs/aar/hybidwrapper.androidlib-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/libs/unity-classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/libs/unity-classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidRewardedWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidRewardedWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HybidNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HybidNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +286,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1oIp6ULJxwAwhvXqfZDhzdWFf1q" />
+  <component name="ProjectId" id="1oKnWvcXv2HvzcydnyedfwJHbyI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -328,16 +295,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/unityLibrary/libs" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/unityLibrary/libs" />
-      <recent name="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/libs" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -410,61 +372,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d73ba81-8eff-432a-a826-b211d86b728a" name="Default Changelist" comment="" />
-      <created>1612983783329</created>
+      <changelist id="74122818-c5d6-415e-a938-5f034aadb24e" name="Default Changelist" comment="" />
+      <created>1613044184617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612983783329</updated>
+      <updated>1613044184617</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1612984040517">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.25.1680.969@0.25.1680.969" timestamp="1612984040517" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1612984040517">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.center/0.25.1680.969@0.25.1680.969" timestamp="1612984040517" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1612984040517">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.left/0.25.1680.969@0.25.1680.969" timestamp="1612984040517" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1612984040517">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.0.right/0.25.1680.969@0.25.1680.969" timestamp="1612984040517" />
-    <state width="1638" height="259" key="GridCell.Tab.1.bottom" timestamp="1612984040518">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.1.bottom/0.25.1680.969@0.25.1680.969" timestamp="1612984040518" />
-    <state width="1638" height="259" key="GridCell.Tab.1.center" timestamp="1612984040518">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.1.center/0.25.1680.969@0.25.1680.969" timestamp="1612984040518" />
-    <state width="1638" height="259" key="GridCell.Tab.1.left" timestamp="1612984040518">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.1.left/0.25.1680.969@0.25.1680.969" timestamp="1612984040518" />
-    <state width="1638" height="259" key="GridCell.Tab.1.right" timestamp="1612984040518">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state width="1638" height="259" key="GridCell.Tab.1.right/0.25.1680.969@0.25.1680.969" timestamp="1612984040518" />
-    <state x="172" y="216" key="RollbackChangesDialog" timestamp="1612983818883">
-      <screen x="0" y="25" width="1680" height="969" />
-    </state>
-    <state x="172" y="216" key="RollbackChangesDialog/0.25.1680.969@0.25.1680.969" timestamp="1612983818883" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

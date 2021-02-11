@@ -11,9 +11,6 @@
         android:targetSdkVersion="30" />
 
     <uses-feature android:glEsVersion="0x00020000" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -58,7 +55,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="1ccd6788-2282-481b-ad0c-a2b80946b96c" />
+            android:value="c0a09c5d-19d5-4f6c-b20c-d4c1dd1e483d" />
     </application>
 
 </manifest>

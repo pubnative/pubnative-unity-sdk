@@ -4,8 +4,8 @@ ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-u
 INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:3:1-6:12
-MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:3:1-64:12
-MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:3:1-61:12
+MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:2:1-20:12
 MERGED from [net.pubnative:hybid.sdk.banner:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6c1e81e6f8be9c3adbc8b5fc82850468/jetified-hybid.sdk.banner-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
 MERGED from [net.pubnative:hybid.sdk.fullscreen:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/3396b9a8759aefb22cad7b774ea3556b/jetified-hybid.sdk.fullscreen-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
@@ -13,13 +13,6 @@ MERGED from [net.pubnative:hybid.sdk.native:2.3.4-development.4335] /Users/abano
 MERGED from [net.pubnative:hybid.sdk.rewarded:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfe5104d45c780f87343e5b3a51c511a/jetified-hybid.sdk.rewarded-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
 MERGED from [net.pubnative:hybid.sdk.core:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d6aa54463f759c643c309a8341498a44/hybid.sdk.core-2.3.4-development.4335/AndroidManifest.xml:2:1-11:12
 MERGED from [net.pubnative:hybid.sdk.voyager:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:2:1-13:12
-MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
-MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.core:core-ktx:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/02db84e3d9cb0bf6144d3ec3a922d8f1/jetified-core-ktx-1.5.0-beta01/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f7e7a548ad00e2e3c3268a409525997/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/2caca0665cfc150845d481add640d717/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -32,6 +25,13 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/abano
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/a5f1739a336003917307af1b7a40c6ec/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4d3225ea5d57f620bf5356e2a6f066d6/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:17:1-26:12
+MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
+MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:2:1-11:12
+MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
+MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:2:1-13:12
+MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
+MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:2:1-11:12
+MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/082141e7a08ecc0568dc277abb6b2eb2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/a5508913c832bc0c65ebd72baf7fb6d8/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
@@ -76,10 +76,10 @@ ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-u
 		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:4:135-160
 application
 ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:3-154
-MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-62:19
-MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-62:19
-MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
-MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-59:19
+MERGED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-59:19
+MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:47
+MERGED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:47
 MERGED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:13:5-18:19
 MERGED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:13:5-18:19
 MERGED from [androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
@@ -96,8 +96,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aban
 		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:82-113
 	android:banner
 		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml:5:114-151
+	android:networkSecurityConfig
+		ADDED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-69
 	android:isGame
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:18-39
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:18-39
+	android:usesCleartextTraffic
+		ADDED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-44
 uses-sdk
 INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/launcher/src/main/AndroidManifest.xml
@@ -120,20 +124,6 @@ MERGED from [net.pubnative:hybid.sdk.core:2.3.4-development.4335] /Users/abanoub
 MERGED from [net.pubnative:hybid.sdk.core:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d6aa54463f759c643c309a8341498a44/hybid.sdk.core-2.3.4-development.4335/AndroidManifest.xml:7:5-9:41
 MERGED from [net.pubnative:hybid.sdk.voyager:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
 MERGED from [net.pubnative:hybid.sdk.voyager:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/0bf047d48d651b0c8cdd4c9649f33d18/jetified-hybid.sdk.voyager-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:7:5-9:41
-MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.core:core-ktx:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/02db84e3d9cb0bf6144d3ec3a922d8f1/jetified-core-ktx-1.5.0-beta01/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/02db84e3d9cb0bf6144d3ec3a922d8f1/jetified-core-ktx-1.5.0-beta01/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f7e7a548ad00e2e3c3268a409525997/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -158,6 +148,20 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/abanoubwagdy/.gradle/c
 MERGED from [androidx.customview:customview:1.0.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4d3225ea5d57f620bf5356e2a6f066d6/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.5.0-beta01] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/7408d50c26d59f4be857df1cc0daa0e9/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.consent:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/97bcec8242a02685e12303c66359c583/jetified-hybid.sdk.consent-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.viewability:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/ddb5fd22e4787de288da860a844b673e/hybid.sdk.viewability-2.3.4-development.4335/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.reporting:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/9f63b6c9967a9ab4c5372d13944e2df9/jetified-hybid.sdk.reporting-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.source.prebid:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/d4ace8ec4cacbdeabb7fe4c00e0a306f/jetified-hybid.sdk.source.prebid-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.sdk.logger:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/cfb72693904727f0da3e15fc046f5473/jetified-hybid.sdk.logger-2.3.4-development.4268/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:7:5-9:41
+MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/082141e7a08ecc0568dc277abb6b2eb2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -190,94 +194,92 @@ uses-feature#0x00020000
 ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-54
 	android:glEsVersion
 		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-51
-uses-permission#android.permission.INTERNET
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
-MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
-MERGED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
-	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-64
 uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-52
+uses-feature#android.hardware.touchscreen.multitouch
 ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
 	android:required
 		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-52
-uses-feature#android.hardware.touchscreen.multitouch
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
 ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:36
 	android:required
 		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-63
-uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
-	android:required
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
-	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-72
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-72
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-48:20
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-45:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-51
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-51
 	android:launchMode
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-44
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-48
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-48
 	android:configChanges
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-194
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-194
 	android:theme
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-54
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-54
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-66
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-40:29
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-37:29
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-69
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:25-66
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-77
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:27-74
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:27-74
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:17-86
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-86
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:27-83
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:27-83
 meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-41:40
+	android:value
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-37
+	android:name
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:17-57
+meta-data#android.notch_support
 ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44:40
 	android:value
 		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-37
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-57
-meta-data#android.notch_support
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-47:40
-	android:value
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-37
-	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-53
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-53
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-52:33
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-49:33
 	android:value
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-30
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-30
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-45
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:36
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-52:36
 	android:value
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-33
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-33
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-47
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-47
 meta-data#notch.config
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:50
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:50
 	android:value
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-47
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-47
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-40
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-40
 meta-data#unity.build-id
-ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:9-61:68
+ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:68
 	android:value
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-65
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-65
 	android:name
-		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-42
+		ADDED from [:unityLibrary] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-42
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:unityLibrary:hybidwrapper.androidlib] /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:11:5-79
 MERGED from [net.pubnative:hybid.sdk.source.pnapi:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/637a077b72a9b95d168290fd29e847fb/jetified-hybid.sdk.source.pnapi-2.3.4-development.4268/AndroidManifest.xml:11:5-79
@@ -302,6 +304,10 @@ activity#net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity
 ADDED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:9-98
 	android:name
 		ADDED from [net.pubnative:hybid.sdk:2.3.4-development.4335] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/6730d9f3b492fce07e6ecc32bac1395d/hybid.sdk-2.3.4-development.4335/AndroidManifest.xml:17:19-95
+uses-permission#android.permission.INTERNET
+ADDED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [net.pubnative:hybid.omsdk:1.3.13] /Users/abanoubwagdy/.gradle/caches/transforms-2/files-2.1/4f5f1e02ba859428a30ccea9b492d90d/hybid.omsdk-1.3.13/AndroidManifest.xml:12:5-76
 	android:name

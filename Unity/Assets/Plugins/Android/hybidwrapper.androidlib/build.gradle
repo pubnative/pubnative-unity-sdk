@@ -20,4 +20,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'net.pubnative:hybid.sdk:2.3.4-development.4335'
+    implementation 'androidx.core:core:1.3.2'
 }

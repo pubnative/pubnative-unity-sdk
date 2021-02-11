@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Android;
 
 public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
 {
@@ -20,12 +21,20 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
 
     void Start()
     {
-        banner = HyBidAdViewFactory.createHyBidAdView(this);
-        // banner.appToken = appToken;
-		// banner.placement = placement;
-        // banner.loadListener = this;
-        _buttonLoadTop.onClick.AddListener (LoadTopAd);
-        _buttonLoadBottom.onClick.AddListener (LoadBottomAd);
+        if (!Permission.HasUserAuthorizedPermission(Permission.CoarseLocation))
+        {
+            Permission.RequestUserPermission(Permission.CoarseLocation);
+        }
+    }
+
+    void OnGUI ()
+    {
+        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
+        {
+            banner = HyBidAdViewFactory.createHyBidAdView(this);
+            _buttonLoadTop.onClick.AddListener (LoadTopAd);
+            _buttonLoadBottom.onClick.AddListener (LoadBottomAd);
+        }
     }
 
     private void LoadTopAd ()
@@ -33,7 +42,6 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
         if (banner != null) {
 			banner.load(1);
 		}
-
 	}
 
     private void LoadBottomAd ()

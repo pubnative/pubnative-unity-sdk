@@ -1,6 +1,11 @@
 package net.pubnative.unityplugin;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.util.Log;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.unity3d.player.UnityPlayer;
 
@@ -39,6 +44,17 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
     }
 
     public void load(String gameObjectName, String appToken, final String placementId, String adId, int position) {
+        if (ContextCompat.checkSelfPermission(UnityPlayer.currentActivity.getApplicationContext(),
+                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            doHybidStuff(gameObjectName, appToken, placementId, adId, position);
+        } else {
+            ActivityCompat.requestPermissions(UnityPlayer.currentActivity,
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                    10);
+        }
+    }
+
+    private void doHybidStuff(String gameObjectName, String appToken, final String placementId, String adId, int position) {
 
         setGameObject(gameObjectName);
         setAdId(adId);
@@ -62,11 +78,9 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
                 HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
                     @Override
                     public void onInitialisationFinished(boolean b) {
-                        if (b) {
-                            hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
-                            hyBidAdView.setAdSize(AdSize.SIZE_320x50);
-                            hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
-                        }
+                        hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+                        hyBidAdView.setAdSize(AdSize.SIZE_320x50);
+                        hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
                     }
                 });
             } else {
