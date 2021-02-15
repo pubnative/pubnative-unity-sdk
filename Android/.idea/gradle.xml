@@ -7,11 +7,13 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/demo" />
-            <option value="$PROJECT_DIR$/unity.plugin" />
+            <option value="$PROJECT_DIR$/launcher" />
+            <option value="$PROJECT_DIR$/unityLibrary" />
+            <option value="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

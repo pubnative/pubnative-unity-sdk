@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:7:5-9:47
+	android:networkSecurityConfig
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:8:9-69
+	android:usesCleartextTraffic
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml:9:9-44
+uses-sdk
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Abanoub/Work/Pubnative/Unity/pubnative-unity-sdk/pubnative-unity-sdk/Android/unityLibrary/hybidwrapper.androidlib/src/main/AndroidManifest.xml

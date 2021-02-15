@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:temp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:temp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8d98c33-3ded-4713-959c-4163ea737f14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/generated/source/buildConfig/debug/com/DefaultCompany/PNUnity5Plugin/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/generated/source/buildConfig/debug/com/DefaultCompany/PNUnity5Plugin/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/apk_list/debug/apk-list.gson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compatible_screen_manifest/debug/out/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/generated/source/buildConfig/debug/com/unity3d/player/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/generated/source/buildConfig/debug/com/unity3d/player/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBid.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/HyBid" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/HyBid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerInterstitialViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerInterstitialViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/PNBannerPlugin.mm" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/PNBannerPlugin.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/BannerNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/BannerNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdViewFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdViewFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAndroidBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAndroidBanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidEditorBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidEditorBanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidIOSBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidIOSBanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCFieldValuesTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCFieldValuesTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCTypeValuesTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCTypeValuesTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCalculateFieldValues.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCalculateFieldValues.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCalculateTypeValues.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppCCalculateTypeValues.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericInstDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericInstDefinitions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericMethodDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericMethodDefinitions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericMethodTable.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppGenericMethodTable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppMetadataRegistration.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppMetadataRegistration.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppMetadataUsage.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppMetadataUsage.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppTypeDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Il2CppTypeDefinitions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/System.Core_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/System.Core_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/System_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/System_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.AndroidJNIModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.AndroidJNIModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.CoreModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.CoreModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.UI_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/UnityEngine.UI_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/mscorlib_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/mscorlib_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Data/Managed/Metadata/global-metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Data/Managed/Metadata/global-metadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBid.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/HyBid" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/HyBid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerInterstitialViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerInterstitialViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/PNBannerPlugin.mm" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/PNBannerPlugin.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/orkhanalizada.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/orkhanalizada.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1oWFQXB1QM7R6npzM4S4hqd5pUs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.29822335" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unityLibrary/libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="launcher" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Android.launcher" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8d98c33-3ded-4713-959c-4163ea737f14" name="Default Changelist" comment="" />
+      <created>1613394423095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613394423095</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="244" key="#PSD" timestamp="1613394457028">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="365" y="244" key="#PSD/0.25.1680.969@0.25.1680.969" timestamp="1613394457028" />
+    <state x="180" y="215" key="RollbackChangesDialog" timestamp="1613394492837">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="180" y="215" key="RollbackChangesDialog/0.25.1680.969@0.25.1680.969" timestamp="1613394492837" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1613407454974">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.25.1680.969@0.25.1680.969" timestamp="1613407454974" />
+  </component>
+</project>

@@ -69,7 +69,4 @@
 + (NSString *)skAdNetworkAppID;
 + (NSString *)skAdNetworkAdNetworkIDs;
 
-#pragma mark - OpenRTB API
-+ (NSString *)ip;
-
 @end

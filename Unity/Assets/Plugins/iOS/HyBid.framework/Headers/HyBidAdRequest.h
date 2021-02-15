@@ -27,12 +27,6 @@
 
 @class HyBidAdRequest;
 
-typedef enum {
-     NATIVE,
-     BANNER,
-     VIDEO
- } AdType;
-
 @protocol HyBidAdRequestDelegate <NSObject>
 
 - (void)requestDidStart:(HyBidAdRequest *)request;
@@ -46,7 +40,6 @@ typedef enum {
 @property (nonatomic, strong) HyBidAdSize *adSize;
 @property (nonatomic, assign) BOOL isRewarded;
 @property (nonatomic, readonly) NSArray<NSString *> *supportedAPIFrameworks;
-@property (nonatomic) AdType openRTBAdType;
 
 - (void)setIntegrationType:(IntegrationType)integrationType withZoneID:(NSString *)zoneID;
 - (void)requestAdWithDelegate:(NSObject<HyBidAdRequestDelegate> *)delegate withZoneID:(NSString *)zoneID;
