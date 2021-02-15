@@ -29,3 +29,5 @@ unityLibrary/build/intermediates/incremental/debug-mergeNativeLibs/
 unityLibrary/build/intermediates/incremental/packageDebugResources/
 unityLibrary/build/intermediates/merged_shaders/
 unityLibrary/build/intermediates/public_res/
+/.gradle/
+/gradle/
