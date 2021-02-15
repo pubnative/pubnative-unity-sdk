@@ -1,1 +1,3 @@
-include ':unity.plugin', ':demo'
+include ':launcher'
+include ':unityLibrary'
+include 'unityLibrary:hybidwrapper.androidlib'
