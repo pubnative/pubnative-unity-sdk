@@ -4,10 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HyBidIOSBanner : HyBidBanner
+public class HyBidIOSBanner : HyBidAdView
 {
-    public override void load (int position)
-    {
-        
-    }
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public void loadBanner(string gameObjectName, string appToken, string placement, string adID, int position);
+	public override void Load (int position)
+	{
+		loadBanner(this.gameObject.name, appToken, placement, adID, position);
+	}
+
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public void hideBanner (string adID);
+	public override void Hide ()
+	{
+		hideBanner(adID);
+	}
 }
