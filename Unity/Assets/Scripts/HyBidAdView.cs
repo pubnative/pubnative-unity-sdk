@@ -11,47 +11,27 @@ public abstract class HyBidAdView : MonoBehaviour
 
 	protected string adID = "";
 
-    public IHyBidAdLoadListener loadListener {
-		get {
-			return this.loadListener;
-		}
-		set {
-			this.loadListener = value;
-		}
-	}
-
     public virtual void OnHyBidAdLoaded(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoaded();
+        if (String.Equals(adID, message, StringComparison.OrdinalIgnoreCase)) {
+			//Do HyBidAdView load stuff
 		}
     }
 
 	public virtual void OnHyBidAdImpression(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdImpression();
+        if (String.Equals(adID, message, StringComparison.OrdinalIgnoreCase)) {
+			//Do HyBidAdView Impression stuff
 		}
     }
 
 	public virtual void OnHyBidAdClicked(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			 this.loadListener.OnHyBidAdClick();
+        if (String.Equals(adID, message, StringComparison.OrdinalIgnoreCase)) {
+			//Do HyBidAdView click stuff
 		}
     }
 
 	public virtual void OnHyBidAdError(string message){
-        if (this.loadListener != null && adID.Equals(message, StringComparison.Ordinal)) {
-			this.loadListener.OnHyBidAdLoadFailed(new Exception("Failed to load Ad"));
+        if (String.Equals(adID, message, StringComparison.OrdinalIgnoreCase)) {
+			//Do HyBidAdView Error stuff
 		}
     }
-}
-
-public interface IHyBidAdLoadListener
-{
-    void OnHyBidAdLoaded();
-
-    void OnHyBidAdImpression();
-
-	void OnHyBidAdClick();
-
-    void OnHyBidAdLoadFailed(Exception error);
 }

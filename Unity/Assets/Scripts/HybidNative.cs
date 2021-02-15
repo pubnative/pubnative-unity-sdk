@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Android;
 
-public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
+public class HybidNative : MonoBehaviour
 {
 
     private HyBidBanner banner;
@@ -42,25 +42,4 @@ public class HybidNative : MonoBehaviour ,IHyBidAdLoadListener
 			banner.load(2);
 		}
 	}
-
-    public void OnHyBidAdLoaded()
-    {
-        
-    }
-
-    public void OnHyBidAdImpression()
-    {
-
-    }
-
-    
-	public void OnHyBidAdClick()
-    {
-
-    }
-
-    public void OnHyBidAdLoadFailed(Exception error)
-    {
-
-    }
 }

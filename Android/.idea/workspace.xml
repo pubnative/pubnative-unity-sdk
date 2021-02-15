@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="74122818-c5d6-415e-a938-5f034aadb24e" name="Default Changelist" comment="">
+    <list default="true" id="f8d98c33-3ded-4713-959c-4163ea737f14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values-v28/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values-v28/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/data.unity3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v28/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values-v28/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/Android/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HybidNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HybidNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CTLGAP1890800899]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[03245bfd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -21,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1oKnWvcXv2HvzcydnyedfwJHbyI" />
+  <component name="ProjectId" id="1oWFQXB1QM7R6npzM4S4hqd5pUs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,16 +50,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/launcher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unityLibrary/libs" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.29822335" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/launcher" />
-      <recent name="$PROJECT_DIR$/unityLibrary" />
+      <recent name="$PROJECT_DIR$/unityLibrary/libs" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,108 +134,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74122818-c5d6-415e-a938-5f034aadb24e" name="Default Changelist" comment="" />
-      <created>1613044184617</created>
+      <changelist id="f8d98c33-3ded-4713-959c-4163ea737f14" name="Default Changelist" comment="" />
+      <created>1613394423095</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613044184617</updated>
+      <updated>1613394423095</updated>
     </task>
-    <task id="LOCAL-00001" summary="Remove HyBidAdView initialisation from wrapper constructor">
-      <created>1613056462897</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1613056462897</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove HyBidAdView initialisation from wrapper constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove HyBidAdView initialisation from wrapper constructor" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-26" y="-954" key="CommitChangelistDialog2" timestamp="1613056457801">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
+    <state x="365" y="244" key="#PSD" timestamp="1613394457028">
+      <screen x="0" y="25" width="1680" height="969" />
     </state>
-    <state x="-26" y="-954" key="CommitChangelistDialog2/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056457801" />
-    <state width="2518" height="280" key="GridCell.Tab.0.bottom" timestamp="1613056390066">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
+    <state x="365" y="244" key="#PSD/0.25.1680.969@0.25.1680.969" timestamp="1613394457028" />
+    <state x="180" y="215" key="RollbackChangesDialog" timestamp="1613394492837">
+      <screen x="0" y="25" width="1680" height="969" />
     </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.bottom/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390066" />
-    <state width="2518" height="280" key="GridCell.Tab.0.center" timestamp="1613056390064">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.center/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390064" />
-    <state width="2518" height="280" key="GridCell.Tab.0.left" timestamp="1613056390064">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.left/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390064" />
-    <state width="2518" height="280" key="GridCell.Tab.0.right" timestamp="1613056390065">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.right/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390065" />
-    <state width="2518" height="280" key="GridCell.Tab.1.bottom" timestamp="1613056390067">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.1.bottom/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390067" />
-    <state width="2518" height="280" key="GridCell.Tab.1.center" timestamp="1613056390066">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.1.center/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390066" />
-    <state width="2518" height="280" key="GridCell.Tab.1.left" timestamp="1613056390066">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.1.left/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390066" />
-    <state width="2518" height="280" key="GridCell.Tab.1.right" timestamp="1613056390067">
-      <screen x="-662" y="-1055" width="2560" height="1055" />
-    </state>
-    <state width="2518" height="280" key="GridCell.Tab.1.right/0.25.1440.812/-662.-1055.2560.1055@-662.-1055.2560.1055" timestamp="1613056390067" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidInterstitialWrapper.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/src/main/java/net/pubnative/unityplugin/HyBidAdViewWrapper.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="180" y="215" key="RollbackChangesDialog/0.25.1680.969@0.25.1680.969" timestamp="1613394492837" />
   </component>
 </project>

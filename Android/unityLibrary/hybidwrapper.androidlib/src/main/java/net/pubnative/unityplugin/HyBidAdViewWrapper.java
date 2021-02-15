@@ -39,18 +39,39 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
     }
 
     public void load(String gameObjectName, String appToken, final String placementId, String adId, int position) {
-        doHybidStuff(gameObjectName, appToken, placementId, adId, position);
+        if (ContextCompat.checkSelfPermission(UnityPlayer.currentActivity.getApplicationContext(),
+                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            doHyBidStuff(gameObjectName, appToken, placementId, adId, position);
+        } else {
+            ActivityCompat.requestPermissions(UnityPlayer.currentActivity,
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                    10);
+        }
     }
 
-    private void doHybidStuff(String gameObjectName, String appToken, final String placementId, String adId, int position) {
+    private void doHyBidStuff(String gameObjectName, final String appToken, final String placementId, String adId, final int position) {
 
-        setGameObject(gameObjectName);
-        setAdId(adId);
+        try {
+            setGameObject(gameObjectName);
+            setAdId(adId);
 
-        if (hyBidAdView != null) {
-            hyBidAdView.destroy();
+            if (hyBidAdView != null) {
+                UnityPlayer.currentActivity.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        hyBidAdView.destroy();
+                        loadBanner(appToken, placementId, position);
+                    }
+                });
+            } else {
+                loadBanner(appToken, placementId, position);
+            }
+        } catch (Exception e) {
+            Log.d("Exception", e.toString());
         }
+    }
 
+    private void loadBanner(String appToken, final String placementId, int position) {
         final HyBidAdView.Position bannerPosition;
 
         if (position == getTopPosition()) {

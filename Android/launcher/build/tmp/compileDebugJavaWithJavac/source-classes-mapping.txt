@@ -1,0 +1,2 @@
+com/DefaultCompany/PNUnity5Plugin/BuildConfig.java
+ com.DefaultCompany.PNUnity5Plugin.BuildConfig

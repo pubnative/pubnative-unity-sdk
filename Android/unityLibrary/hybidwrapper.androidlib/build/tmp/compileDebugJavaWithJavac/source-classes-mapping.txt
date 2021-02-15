@@ -1,0 +1,16 @@
+net/pubnative/unityplugin/HyBidRewardedWrapper.java
+ net.pubnative.unityplugin.HyBidRewardedWrapper
+ net.pubnative.unityplugin.HyBidRewardedWrapper$1
+ net.pubnative.unityplugin.HyBidRewardedWrapper$2
+ net.pubnative.unityplugin.HyBidRewardedWrapper$3
+net/pubnative/unityplugin/HyBidAdViewWrapper.java
+ net.pubnative.unityplugin.HyBidAdViewWrapper
+ net.pubnative.unityplugin.HyBidAdViewWrapper$1
+ net.pubnative.unityplugin.HyBidAdViewWrapper$2
+net/pubnative/unityplugin/BuildConfig.java
+ net.pubnative.unityplugin.BuildConfig
+net/pubnative/unityplugin/HyBidInterstitialWrapper.java
+ net.pubnative.unityplugin.HyBidInterstitialWrapper
+ net.pubnative.unityplugin.HyBidInterstitialWrapper$1
+ net.pubnative.unityplugin.HyBidInterstitialWrapper$2
+ net.pubnative.unityplugin.HyBidInterstitialWrapper$3
