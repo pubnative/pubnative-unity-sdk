@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:temp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:temp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d98c33-3ded-4713-959c-4163ea737f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/launcher/build/intermediates/apk_list/debug/apk-list.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launcher/build/intermediates/compatible_screen_manifest/debug/out/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/generated/source/buildConfig/debug/com/DefaultCompany/PNUnity5Plugin/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/generated/source/buildConfig/debug/com/DefaultCompany/PNUnity5Plugin/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/apk_list/debug/apk-list.gson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/compatible_screen_manifest/debug/out/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/generated/source/buildConfig/debug/com/unity3d/player/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/generated/source/buildConfig/debug/com/unity3d/player/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/Managed/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/boot.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/data.unity3d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/hybidwrapper.androidlib/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBid.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBid.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAd.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" afterDir="false" />
@@ -64,374 +76,19 @@
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBidAdViewWrapper.m.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/PNBannerPlugin.mm" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/PNBannerPlugin.mm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/CloseButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/CloseButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIAdModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIAdModel.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIContentView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIContentView.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPILayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPILayout.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPILayoutViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPILayoutViewController.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIRequest.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIRequestParameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIRequestParameter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3AdModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3AdModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3BaseModel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3BaseModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3DataModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAPIV3DataModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModel+Native.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModel+Native.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModelRenderer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdModelRenderer.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdTargetingModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNAdTargetingModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBanner.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBanner.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBrowser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBrowser.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBrowserControlsView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNBrowserControlsView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNConfigManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNConfigManager.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNConfigModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNConfigModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightApiResponseModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightApiResponseModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightCrashModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightCrashModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightDataModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightDataModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightNetworkModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightNetworkModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightsManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNInsightsManager.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNJSONModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNJSONModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLargeLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLargeLayout.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayout+Internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayout+Internal.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayout.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutAdapterFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutAdapterFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNLayoutViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDServiceDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDServiceDelegate.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDServiceProvider.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDServiceProvider.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMRAIDView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMediumLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMediumLayout.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMediumLayoutViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNMediumLayoutViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNNetworkModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNNetworkModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNPlacementModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNPlacementModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNPriorityRuleModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNPriorityRuleModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNRequest.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNSmallLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNSmallLayout.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNSmallLayoutViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNSmallLayoutViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNStarRatingView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/PNStarRatingView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/Pubnative.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Headers/Pubnative.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Modules/module.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Modules/module.modulemap.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup1.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup1.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup10.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup10.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup11.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup11.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup12.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup12.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup13.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup13.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup14.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup14.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup14Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup14Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup15.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup15.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup16.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup16.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup16Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup16Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup17.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup17.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup17Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup17Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup18.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup18.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup19.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup19.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup19Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup19Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup2.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup2.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup20.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup20.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup20Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup20Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup21.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup21.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup21Landscape.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup21Landscape.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup3.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup3.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup4.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup4.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup5.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup5.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup6.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup6.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup7.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup7.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup8.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup8.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup9.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNAPIAssetGroup9.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNCloseIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNCloseIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNCloseIcon@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNCloseIcon@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNExternalLink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNExternalLink.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNExternalLink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNExternalLink@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNLargeLayoutContainerViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNLargeLayoutContainerViewController.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNMediumLayoutContainerViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNMediumLayoutContainerViewController.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNPlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNPlay.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNPlay@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNPlay@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNSmallLayoutContainerViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNSmallLayoutContainerViewController.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNVASTPlayerViewController.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PNVASTPlayerViewController.nib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnFullScreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnFullScreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnFullScreen@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnFullScreen@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnMute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnMute.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnMute@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnMute@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnUnMute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnUnMute.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnUnMute@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PnUnMute@2x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/BackButton.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/BackButton.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/CloseButton.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/CloseButton.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/ForwardButton.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/ForwardButton.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/LargePubnativeLibraryNetworkAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/LargePubnativeLibraryNetworkAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/MRAIDSettings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/MRAIDSettings.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/MediumPubnativeLibraryNetworkAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/MediumPubnativeLibraryNetworkAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAsset.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAsset.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroup.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroup.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroupFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroupFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroupOriented.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIAssetGroupOriented.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIClickCacher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIClickCacher.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPICryptoUtils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPICryptoUtils.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIDriller.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIDriller.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIHttpRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIHttpRequest.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIImpressionTracker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIImpressionTracker.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIImpressionTrackerItem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIImpressionTrackerItem.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIMeta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIMeta.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPITrackingManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPITrackingManager.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPITrackingManagerItem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPITrackingManagerItem.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIV3ResponseModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIV3ResponseModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIVisibilityTracker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIVisibilityTracker.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIVisibilityTrackerItem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAPIVisibilityTrackerItem.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAdModel+Fetching.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNAdModel+Fetching.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNConfigAPIResponseModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNConfigAPIResponseModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNConfigRequestModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNConfigRequestModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNError.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNError.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNHttpRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNHttpRequest.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNInsightRequestModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNInsightRequestModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutAdapterFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutAdapterFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutContainerViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutContainerViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutRequestView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLargeLayoutRequestView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLogger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNLogger.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDModalViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDModalViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDOrientationProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDOrientationProperties.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDParser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDParser.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDResizeProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDResizeProperties.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDUtil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMRAIDUtil.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutAdapterFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutAdapterFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutContainerViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutContainerViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutRequestView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLayoutRequestView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLibraryAdapterViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNMediumLibraryAdapterViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNNetworkAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNNetworkAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNNetworkAdapterFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNNetworkAdapterFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNProgressLabel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNProgressLabel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNPropertyAnimation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNPropertyAnimation.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNReachability.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNReachability.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSettings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSettings.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutAdapterFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutAdapterFactory.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutContainerViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutContainerViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutRequestView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLayoutRequestView.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLibraryAdapterViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNSmallLibraryAdapterViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTEventProcessor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTEventProcessor.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTMediaFile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTMediaFile.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTMediaFilePicker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTMediaFilePicker.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTParser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTParser.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTPlayerViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTPlayerViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTReachability.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTReachability.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTSchema.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTSchema.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTXMLUtil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PNVASTXMLUtil.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryAdModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryAdModel.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryCPICache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryCPICache.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryCPICacheItem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryCPICacheItem.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryNetworkAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/PubnativeLibraryNetworkAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/SmallPubnativeLibraryNetworkAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/SmallPubnativeLibraryNetworkAdapter.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/UIApplication+TopViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/UIApplication+TopViewController.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/mraidjs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/PrivateHeaders/mraidjs.h.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Pubnative" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/Pubnative.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/_CodeSignature.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/Pubnative.framework/_CodeSignature/CodeResources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/BannerNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/BannerNative.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdViewFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAdViewFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAndroidBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidAndroidBanner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidBanner.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidEditorBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidEditorBanner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidIOSBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Assets/Scripts/HyBidIOSBanner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/ILoadListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/ILoadListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/ITrackListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/ITrackListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/IViewListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/IViewListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAd.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAd.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAndroidBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAndroidBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAndroidInterstitial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNAndroidInterstitial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNBannerFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNBannerFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNEditorBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNEditorBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNEditorInterstitial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNEditorInterstitial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNIOSBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNIOSInterstitial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNIOSInterstitial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNInterstitial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNInterstitial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNInterstitialFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNInterstitialFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Assets/Scripts/PNiOSBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Unity/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_Attr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Classes/Native/Assembly-CSharp_CodeGen.c" afterDir="false" />
@@ -462,6 +119,16 @@
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdRequest.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidAdView.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidNativeAd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBBaseModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidOpenRTBDataModel.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReporting.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingEvent.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidReportingManager.h.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidRequestParameter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidSettings.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/Headers/HyBidViewabilityManager.h" afterDir="false" />
@@ -474,6 +141,11 @@
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib/runtime.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/objects-11.0+.nib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/PNLiteVASTPlayerViewController.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Frameworks/Plugins/iOS/HyBid.framework/_CodeSignature/CodeResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/HyBidAdViewWrapper.m" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/PNBannerPlugin.mm" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Libraries/Plugins/iOS/PNBannerPlugin.mm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/orkhanalizada.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../iOS/Unity-iPhone.xcodeproj/project.xcworkspace/xcuserdata/orkhanalizada.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
@@ -483,7 +155,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[03245bfd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -491,6 +163,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1oWFQXB1QM7R6npzM4S4hqd5pUs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -593,6 +266,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="365" y="244" key="#PSD" timestamp="1613394457028">
       <screen x="0" y="25" width="1680" height="969" />
@@ -602,5 +286,9 @@
       <screen x="0" y="25" width="1680" height="969" />
     </state>
     <state x="180" y="215" key="RollbackChangesDialog/0.25.1680.969@0.25.1680.969" timestamp="1613394492837" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1613407454974">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.25.1680.969@0.25.1680.969" timestamp="1613407454974" />
   </component>
 </project>

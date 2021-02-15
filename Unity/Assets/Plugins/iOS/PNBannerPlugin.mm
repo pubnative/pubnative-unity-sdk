@@ -1,4 +1,4 @@
-#import "HyBidAdViewWrapper.h"
+#import "PNBannerWrapper.h"
 #import "PNAdPool.h"
 
 @interface PNBannerPlugin : NSObject
@@ -6,8 +6,7 @@
 + (void)loadBannerWithObject:(NSString*)objectName
                 withAppToken:(NSString*)appToken
                withPlacement:(NSString*)placement
-                withBannerID:(NSString *)bannerID
-                atPosition:(NSInteger)position;
+                withBannerID:(NSString *)bannerID;
 
 + (void)showBannerWithID:(NSString *)bannerID
             withPosition:(NSInteger)position;
@@ -35,23 +34,28 @@ static PNBannerPlugin *_sharedInstance;
                 withAppToken:(NSString *)appToken
                withPlacement:(NSString *)placement
                 withBannerID:(NSString *)bannerID
-                atPosition:(NSInteger)position
 {
-    BannerPosition bannerPosition = TOP;
-    if (position == 2) {
-        bannerPosition = BOTTOM;
-    }
-    [[HyBidAdViewWrapper sharedInstance] loadWithObject:objectName withAppToken:appToken withPlacement:placement withAdId:bannerID withPosition: bannerPosition];
+    PNBannerWrapper* bannerWrapper = [[PNBannerWrapper alloc] init];
+    bannerWrapper.adID = bannerID;
+    [[PNAdPool sharedPool].bannerPool setObject:bannerWrapper forKey:bannerWrapper.adID];
+    [bannerWrapper loadWithObject:objectName withAppToken:appToken withPlacement:placement];
 }
 
 + (void)showBannerWithID:(NSString *)bannerID
             withPosition:(NSInteger)position
 {
+    PNBannerWrapper* bannerWrapper = [[PNAdPool sharedPool].bannerPool objectForKey:bannerID];
+    if (bannerWrapper) {
+        [bannerWrapper showWithPosition:position];
+    }
 }
 
 + (void)hideBannerWithID:(NSString *)bannerID
 {
-    [[HyBidAdViewWrapper sharedInstance] hide];
+    PNBannerWrapper* bannerWrapper = [[PNAdPool sharedPool].bannerPool objectForKey:bannerID];
+    if (bannerWrapper) {
+        [bannerWrapper hide];
+    }
 }
 
 + (void)removeBannerFromPoolWithID:(NSString *)bannerID
@@ -64,13 +68,12 @@ static PNBannerPlugin *_sharedInstance;
 #ifdef __cplusplus
 extern "C"
 {
-    void loadBanner(const char* obj, const char* appToken, const char* placement, const char* bannerID, const int position)
+    void loadBanner(const char* obj, const char* appToken, const char* placement, const char* bannerID)
     {
         [PNBannerPlugin loadBannerWithObject:[NSString stringWithUTF8String:obj]
                                 withAppToken:[NSString stringWithUTF8String:appToken]
                                withPlacement:[NSString stringWithUTF8String:placement]
-                                withBannerID:[NSString stringWithUTF8String:bannerID]
-                                atPosition: position];
+                                withBannerID:[NSString stringWithUTF8String:bannerID]];
     }
     
      void showBanner(const char* bannerID, int positon)
