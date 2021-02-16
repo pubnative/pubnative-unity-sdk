@@ -25,16 +25,3 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'net.pubnative:hybid.sdk:2.3.4-development.4335'
 }
-
-task exportJar(type: Copy) {
-    from('build/intermediates/bundles/debug/classes.jar')
-    include('classes.jar')
-    into('release/')
-    rename('classes.jar', 'UnityHyBidPlugin.jar')
-}
-
-task deleteOldJar(type: Delete) {
-    delete 'release/UnityHyBidPlugin.jar'
-}
-
-exportJar.dependsOn(deleteOldJar, build)

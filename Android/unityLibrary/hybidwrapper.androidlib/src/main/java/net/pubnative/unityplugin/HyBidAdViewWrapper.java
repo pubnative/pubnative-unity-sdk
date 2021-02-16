@@ -59,13 +59,7 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
             hyBidAdView.destroy();
         }
 
-        final HyBidAdView.Position bannerPosition;
-
-        if (position == getTopPosition()) {
-            bannerPosition = HyBidAdView.Position.TOP;
-        } else {
-            bannerPosition = HyBidAdView.Position.BOTTOM;
-        }
+        final HyBidAdView.Position bannerPosition = position == getTopPosition() ? HyBidAdView.Position.TOP : HyBidAdView.Position.BOTTOM;
 
         if (UnityPlayer.currentActivity == null) {
             Log.e(TAG, "No active context found to load the interstitial");

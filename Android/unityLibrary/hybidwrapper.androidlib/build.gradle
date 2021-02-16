@@ -23,5 +23,5 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'net.pubnative:hybid.sdk:2.3.4-development.4268'
+    implementation 'net.pubnative:hybid.sdk:2.3.4-development.4335'
 }
