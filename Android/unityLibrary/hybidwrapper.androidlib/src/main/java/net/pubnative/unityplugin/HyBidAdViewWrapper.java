@@ -5,8 +5,8 @@ import android.util.Log;
 import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.lite.sdk.HyBid;
+import net.pubnative.lite.sdk.models.AdSize;
 import net.pubnative.lite.sdk.views.HyBidAdView;
-import net.pubnative.sdk.core.Pubnative;
 
 public class HyBidAdViewWrapper implements HyBidAdView.Listener {
 
@@ -33,7 +33,7 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         this.mAdId = adId;
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId, int position) {
+    public void load(String gameObjectName, final String appToken, final String placementId, String adId, final int position) {
         try {
             setGameObject(gameObjectName);
             setAdId(adId);
@@ -43,18 +43,22 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
                     @Override
                     public void run() {
                         hyBidAdView.destroy();
-                        loadBanner(appToken, placementId, position);
+                        startBanner(appToken, placementId, position);
                     }
                 });
             } else {
-                loadBanner(appToken, placementId, position);
+                startBanner(appToken, placementId, position);
             }
         } catch (Exception e) {
             Log.d("Exception", e.toString());
         }
     }
 
-    private void loadBanner(String appToken, final String placementId, int position) {
+    private void startBanner(String appToken, final String placementId, int position) {
+        if (hyBidAdView != null) {
+            hyBidAdView.destroy();
+        }
+
         final HyBidAdView.Position bannerPosition;
 
         if (position == getTopPosition()) {
@@ -70,17 +74,19 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
                 HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
                     @Override
                     public void onInitialisationFinished(boolean b) {
-                        hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
-                        hyBidAdView.setAdSize(AdSize.SIZE_320x50);
-                        hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
+                        loadBanner(placementId, bannerPosition);
                     }
                 });
             } else {
-                hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
-                hyBidAdView.setAdSize(AdSize.SIZE_320x50);
-                hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
+                loadBanner(placementId, bannerPosition);
             }
         }
+    }
+
+    private void loadBanner(final String placementId, final HyBidAdView.Position bannerPosition) {
+        hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+        hyBidAdView.setAdSize(AdSize.SIZE_320x50);
+        hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
     }
 
     private int getTopPosition() {

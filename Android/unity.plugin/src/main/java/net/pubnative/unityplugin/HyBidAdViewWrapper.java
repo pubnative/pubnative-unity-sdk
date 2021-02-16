@@ -5,6 +5,7 @@ import android.util.Log;
 import com.unity3d.player.UnityPlayer;
 
 import net.pubnative.lite.sdk.HyBid;
+import net.pubnative.lite.sdk.models.AdSize;
 import net.pubnative.lite.sdk.views.HyBidAdView;
 
 public class HyBidAdViewWrapper implements HyBidAdView.Listener {
@@ -32,22 +33,33 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         this.mAdId = adId;
     }
 
-    public HyBidAdViewWrapper() {
-        super();
-        this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+    public void load(String gameObjectName, final String appToken, final String placementId, String adId, final int position) {
+        try {
+            setGameObject(gameObjectName);
+            setAdId(adId);
+
+            if (hyBidAdView != null) {
+                UnityPlayer.currentActivity.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        hyBidAdView.destroy();
+                        startBanner(appToken, placementId, position);
+                    }
+                });
+            } else {
+                startBanner(appToken, placementId, position);
+            }
+        } catch (Exception e) {
+            Log.d("Exception", e.toString());
+        }
     }
 
-    public void load(String gameObjectName, String appToken, String placementId, String adId, int position) {
-
-        setGameObject(gameObjectName);
-        setAdId(adId);
-
+    private void startBanner(String appToken, final String placementId, int position) {
         if (hyBidAdView != null) {
             hyBidAdView.destroy();
         }
 
-        HyBidAdView.Position bannerPosition;
-        this.hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+        final HyBidAdView.Position bannerPosition;
 
         if (position == getTopPosition()) {
             bannerPosition = HyBidAdView.Position.TOP;
@@ -56,11 +68,25 @@ public class HyBidAdViewWrapper implements HyBidAdView.Listener {
         }
 
         if (UnityPlayer.currentActivity == null) {
-            Log.e(TAG, "No active context found to load the banner");
+            Log.e(TAG, "No active context found to load the interstitial");
         } else {
-            HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication());
-            hyBidAdView.load(placementId, bannerPosition, (HyBidAdView.Listener) UnityPlayer.currentActivity);
+            if (!HyBid.isInitialized()) {
+                HyBid.initialize(appToken, UnityPlayer.currentActivity.getApplication(), new HyBid.InitialisationListener() {
+                    @Override
+                    public void onInitialisationFinished(boolean b) {
+                        loadBanner(placementId, bannerPosition);
+                    }
+                });
+            } else {
+                loadBanner(placementId, bannerPosition);
+            }
         }
+    }
+
+    private void loadBanner(final String placementId, final HyBidAdView.Position bannerPosition) {
+        hyBidAdView = new HyBidAdView(UnityPlayer.currentActivity);
+        hyBidAdView.setAdSize(AdSize.SIZE_320x50);
+        hyBidAdView.load(placementId, bannerPosition, HyBidAdViewWrapper.this);
     }
 
     private int getTopPosition() {
