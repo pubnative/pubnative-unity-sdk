@@ -1,0 +1,90 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/erosgarciaponte/UnityProjects/pubnative-unity-sdk/Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55461
+Successfully changed project path to: /Users/erosgarciaponte/UnityProjects/pubnative-unity-sdk/Unity
+/Users/erosgarciaponte/UnityProjects/pubnative-unity-sdk/Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/erosgarciaponte/UnityProjects/pubnative-unity-sdk/Unity/Assets
+GfxDevice: creating device client; threaded=0
+2021-02-15 16:27:34.071 Unity[9183:220589] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-02-15 16:27:34.071 Unity[9183:220589] Metal devices available: 1
+2021-02-15 16:27:34.071 Unity[9183:220589] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2021-02-15 16:27:34.071 Unity[9183:220589] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56183
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001508 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.127 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1156 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 3.847880 ms (FindLiveObjects: 0.576068 ms CreateObjectMapping: 0.150457 ms MarkObjects: 3.039145 ms  DeleteObjects: 0.079143 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Plugins/Android/hybidwrapper.androidlib
+  artifactKey: Guid(b0ff79075e0b04c82ad5d3a3ff66d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/hybidwrapper.androidlib using Guid(b0ff79075e0b04c82ad5d3a3ff66d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b53078b68abe696b5b5f476f65057f') in 0.005416 seconds
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 2.082590 ms (FindLiveObjects: 0.230265 ms CreateObjectMapping: 0.065342 ms MarkObjects: 1.765460 ms  DeleteObjects: 0.020351 ms)
+
